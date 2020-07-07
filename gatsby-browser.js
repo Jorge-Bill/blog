@@ -1,4 +1,5 @@
 import "lazysizes"
+require("prismjs/themes/prism-tomorrow.css")
 /**
  * Implement Gatsby's Browser APIs in this file.
  *
