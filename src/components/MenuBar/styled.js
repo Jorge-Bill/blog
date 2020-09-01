@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 export const MenuBarWrapper = styled.aside`
   align-items: center;
-  background: #00c2cb;
-  border-left: 1px solid #044953;
+  background: var(--mediumBackground);
+  border-left: 1px solid var(--borders);
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -25,14 +25,23 @@ export const MenuBarLink = styled(Link)`
 `
 
 export const MenuBarItem = styled.span`
-  color: #090909;
+  color: var(--texts);
   cursor: pointer;
   display: block;
   height: 3.75rem;
   padding: 1.1rem;
   position: relative;
   width: 3.75rem;
+
+  &.light {
+    color: var(--highlight);
+
+    &:hover {
+      color: var(--texts);
+    }
+  }
+
   &:hover {
-    color: #f9f8eb;
+    color: var(--highlight);
   }
 `
