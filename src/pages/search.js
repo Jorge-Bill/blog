@@ -1,13 +1,13 @@
 import React from "react"
-import Layout from "../components/Layout"
+import LayoutCustom from "../components/LayoutCustom"
 import SEO from "../components/seo"
 import Search from "../components/Search"
 
 const SearchPage = () => (
-  <Layout>
+  <LayoutCustom>
     <SEO title="Search" />
     <Search />
-  </Layout>
+  </LayoutCustom>
 )
 
 export default SearchPage

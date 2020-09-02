@@ -1,12 +1,12 @@
 import React from "react"
-import Layout from "../components/Layout/"
+import LayoutCustom from "../components/LayoutCustom/"
 import SEO from "../components/seo"
 
 const AboutPage = () => (
-  <Layout>
+  <LayoutCustom>
     <SEO title="About" />
     <h1>About Page</h1>
-  </Layout>
+  </LayoutCustom>
 )
 
 export default AboutPage

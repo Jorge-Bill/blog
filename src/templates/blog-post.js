@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/Layout"
+import LayoutCustom from "../components/LayoutCustom"
 import SEO from "../components/seo"
 import RecomendedPosts from "../components/RecomendedPosts"
 import Comments from "../components/Comments"
@@ -14,7 +14,7 @@ const BlogPost = ({ data, pageContext }) => {
   const previous = pageContext.previousPost
 
   return (
-    <Layout>
+    <LayoutCustom>
       <SEO title={post.frontmatter.title} />
       <S.PostHeader>
         <S.PostDate>
@@ -28,7 +28,7 @@ const BlogPost = ({ data, pageContext }) => {
       </S.MainContent>
       <RecomendedPosts next={next} previous={previous} />
       <Comments url={post.fields.slug} title={post.frontmatter.title} />
-    </Layout>
+    </LayoutCustom>
   )
 }
 

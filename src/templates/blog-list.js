@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/Layout"
+import LayoutCustom from "../components/LayoutCustom"
 import SEO from "../components/seo"
 import PostItem from "../components/PostItem"
 import Pagination from "../components/Pagination"
@@ -17,7 +17,7 @@ const BlogList = props => {
   const nextPage = `/page/${currentPage + 1}`
 
   return (
-    <Layout>
+    <LayoutCustom>
       <SEO title="Home" />
       <S.ListWrapper>
         {postList.map(
@@ -50,7 +50,7 @@ const BlogList = props => {
         prevPage={prevPage}
         nextPage={nextPage}
       />
-    </Layout>
+    </LayoutCustom>
   )
 }
 

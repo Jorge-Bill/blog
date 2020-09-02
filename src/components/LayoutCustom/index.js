@@ -6,7 +6,7 @@ import MenuBar from "../MenuBar"
 import * as S from "./styled"
 import GlobalStyles from "../../styles/global"
 
-const Layout = ({ children }) => {
+const LayoutCustom = ({ children }) => {
   return (
     <S.LayoutWrapper>
       <GlobalStyles />
@@ -17,8 +17,8 @@ const Layout = ({ children }) => {
   )
 }
 
-Layout.propTypes = {
+LayoutCustom.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default LayoutCustom
