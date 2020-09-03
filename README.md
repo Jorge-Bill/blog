@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://jorge-mendes-blog.netlify.app/">
-    <img src="https://raw.githubusercontent.com/Jorge-Bill/blog/master/assets/jorge_banner.png">
+    <img src="https://raw.githubusercontent.com/Jorge-Bill/blog/master/src/images/jorge_banner.png">
   </a>
 </p>
 <h1 align="center">
