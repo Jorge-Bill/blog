@@ -2,8 +2,13 @@ const github = "Jorge-Bill"
 const linkedin = "jorge-mendes-83a572a7"
 const instagram = "jorgebillsilva"
 const facebook = "jorgebill.silva"
+const gmail = "jorge.mendesx@gmail.com"
 
 const links = [
+  {
+    label: "Gmail",
+    url: `mailto:${gmail}`,
+  },
   {
     label: "Github",
     url: `https://github.com/${github}`,
@@ -13,12 +18,12 @@ const links = [
     url: `https://www.linkedin.com/in/${linkedin}`,
   },
   {
-    label: "Instagram",
-    url: `https://www.instagram.com/${instagram}`,
-  },
-  {
     label: "Facebook",
     url: `https://www.facebook.com/${facebook}`,
+  },
+  {
+    label: "Instagram",
+    url: `https://www.instagram.com/${instagram}`,
   },
 ]
 

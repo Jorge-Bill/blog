@@ -7,6 +7,7 @@ import { Lightbulb as LightOff } from "@styled-icons/remix-line/Lightbulb"
 import { LightbulbFlash as LightOn } from "@styled-icons/remix-fill/LightbulbFlash"
 import { Grid } from "@styled-icons/boxicons-solid/Grid"
 import { List } from "@styled-icons/evaicons-solid/List"
+import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
 
@@ -28,12 +29,26 @@ const MenuBar = () => {
   return (
     <S.MenuBarWrapper>
       <S.MenuBarGroup>
-        <S.MenuBarLink to="/" title="Back to Home">
+        <S.MenuBarLink
+          to="/"
+          title="Back to Home"
+          cover
+          direction="right"
+          bg={getThemeColor()}
+          duration={0.6}
+        >
           <S.MenuBarItem>
             <Home />
           </S.MenuBarItem>
         </S.MenuBarLink>
-        <S.MenuBarLink to="/search/" title="Search">
+        <S.MenuBarLink
+          to="/search/"
+          title="Search"
+          cover
+          direction="right"
+          bg={getThemeColor()}
+          duration={0.6}
+        >
           <S.MenuBarItem>
             <Search />
           </S.MenuBarItem>

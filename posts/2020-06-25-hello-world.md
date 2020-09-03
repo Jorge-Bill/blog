@@ -3,7 +3,7 @@ date: 2020-06-25 01:45:30
 title: Hello World
 description: This is my first time writing about anything.
 category: Misc
-background: "#7AAB13"
+background: "Aqua"
 ---
 
 # Lorem ipsum
