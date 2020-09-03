@@ -23,12 +23,16 @@
 Stack used to create the blog.
 
     .
-    ├── React
     ├── Gatsby
+    ├── React Hooks
+    ├── prop-types
     ├── Styled-components
+    ├── Styled-icons
     ├── PWA
     ├── Netlify
-    ├── .env
+    ├── Dotenv
+    ├── Algolia
+    ├── Disqus
 
 ## 💫 Deploy
 
