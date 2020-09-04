@@ -46,6 +46,7 @@ exports.createPages = ({ graphql, actions }) => {
           next {
             frontmatter {
               title
+              image
             }
             fields {
               slug

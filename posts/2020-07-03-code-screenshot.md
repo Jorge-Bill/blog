@@ -4,6 +4,7 @@ title: Code Screenshot
 description: Dicas de ferramentas
 category: Code
 background: "red"
+image: "/assets/img/polacode.png"
 ---
 
 ## Screenshot do código
