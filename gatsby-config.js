@@ -74,8 +74,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Jorge Mendes`,
+        short_name: `Jorge Mendes`,
         start_url: `/`,
         background_color: `#00c2cb`,
         theme_color: `#00c2cb`,
@@ -83,8 +83,9 @@ module.exports = {
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
