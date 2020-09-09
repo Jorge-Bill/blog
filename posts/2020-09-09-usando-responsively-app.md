@@ -6,8 +6,6 @@ thumbnail: assets/img/screenshot.png
 category: DEV
 background: Lightslategray
 ---
-# Usando Responsively App
-
 Antigamente eu usava o Google Chrome dev tools para testar o responsivo como qualquer DEV que se preze, mas como sabemos, o dev tools nem sempre é tão especifico, ou realista, sempre busquei outras ferramentas, para otimizar meu trabalho.
 
 Assim encontrei o Responsively App [Responsively App](https://responsively.app/), que nada mais é que um projeto open source.
