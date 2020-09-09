@@ -1,5 +1,5 @@
 ---
-title: Usando Responsively App
+title: Responsively App
 description: Usando Responsively App
 date: 2020-09-09 11:23:53
 thumbnail: assets/img/screenshot.png
