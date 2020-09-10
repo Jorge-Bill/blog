@@ -30,6 +30,7 @@ Stack used to create the blog.
     ├── Styled-icons
     ├── PWA
     ├── Netlify
+    ├── Netlify CMS
     ├── Dotenv
     ├── Algolia
     ├── Disqus
@@ -37,3 +38,7 @@ Stack used to create the blog.
 ## 💫 Deploy
 
 [![Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+
+---
+
+ ## <a href="https://jorge-mendes-blog.netlify.app/"> 🌐 &nbsp; Acess the Blog </a>
