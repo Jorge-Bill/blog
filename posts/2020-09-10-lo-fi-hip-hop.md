@@ -28,7 +28,7 @@ Muito legal não é, mas ai surge mais uma pergunta:
 
 ## Onde consigo ouvir esse gênero?
 
-A internet está cheia de playlists sobre lo-fi, mas muito pode ser encontrado em plataformas de streaming pago como Spotify ou simplesmente Youtube, mas uma outra coisa, se você está achando que só existem músicas estrangeiras nesse estilo está muito enganado, e um dos links abaixo ira te provar isso:
+A internet está cheia de playlists sobre lo-fi, mas muito pode ser encontrado em plataformas de streaming pago como Spotify ou simplesmente Youtube, mas uma outra coisa, se você está achando que só existem músicas estrangeiras nesse estilo está muito enganado, e alguns dos links abaixo irão te provar isso:
 
 * [Lo-fi hip hop radio - beats to relax/study to](https://www.youtube.com/watch?v=5qap5aO4i9A)
 * [Você Me Vira A Cabeça - Alcione](<* https://www.youtube.com/watch?v=pYPzqHwU5n4>)
