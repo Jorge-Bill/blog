@@ -12,7 +12,7 @@ Primeiramente, quando conheço alguma coisa, eu sempre me faço 2 perguntas:
 
 ![girl studing](assets/img/lo-fi.jpg "girl studing")
 
-Lo-fi Hip Hop começou como uma série de músicas com um beat nostálgico e sons de ambiente, como pessoas conversando e se tornou um gênero.
+Lo-fi Hip Hop começou como uma série de músicas com um beat nostálgico e sons de ambiente, como pessoas conversando, pokebola abrindo, crianças rindo etc..., e se tornou um gênero.
 
 ## Para o que serve?
 
@@ -32,4 +32,5 @@ A internet está cheia de playlists sobre lo-fi, mas muito pode ser encontrado e
 
 * [Lo-fi hip hop radio - beats to relax/study to](https://www.youtube.com/watch?v=5qap5aO4i9A)
 * [Você Me Vira A Cabeça - Alcione](<* https://www.youtube.com/watch?v=pYPzqHwU5n4>)
+* [ＴＩＭ ＭＡＩＡ － ＧＯＳＴＡＶＡ ＴＡＮＴＯ ＤＥ ＶＯＣＥ](https://www.youtube.com/watch?v=qqfMAf3IFE0)
 * [Lo-fi Hiphop | E o Estrangeiro de Albert Camus](https://www.youtube.com/watch?v=M3Zv48B0hLs)
