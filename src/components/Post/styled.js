@@ -48,6 +48,20 @@ export const PostDate = styled.p`
   `}
 `
 
+export const imgWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .img-about {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5%;
+    border: 1px solid;
+    box-shadow: 5px 10px var(--highlight);
+  }
+`
+
 export const MainContent = styled.section`
   margin: auto;
   max-width: 70rem;
