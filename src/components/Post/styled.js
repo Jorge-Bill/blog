@@ -60,6 +60,13 @@ export const imgWrapper = styled.div`
     border: 1px solid;
     box-shadow: 5px 10px var(--highlight);
   }
+
+  .img-404 {
+    width: 10rem;
+    height: 6rem;
+    box-shadow: 0px -1px 14px -5px rgba(0, 0, 0, 0.75);
+    margin-bottom: 1rem;
+  }
 `
 
 export const MainContent = styled.section`
