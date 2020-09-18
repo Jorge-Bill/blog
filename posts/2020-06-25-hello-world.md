@@ -22,7 +22,7 @@ As vezes sem nem entender como algo funcionou e porque funcionou.
 
 > Você nunca saberá tudo, vai sempre precisar aprender algo, então é melhor aprender sem muito sofrimento.
 
-
+Porque eu digo isso,  
 
 ```javascript
 a=3
