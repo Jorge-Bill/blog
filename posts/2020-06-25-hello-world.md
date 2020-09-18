@@ -48,4 +48,4 @@ console.log("Hello World!_ ")
 
 É sempre melhor começar a aprender uma linguagem nova, fazendo pequenos projetos simples, se focando nos conceitos da linguagem, e evitando perder tempo criando estruturas complexas para desenvolver algo.
 
-Na maioria das vezes, você pode só refazer algo que ja aprender na linguagem nova, ou usando uma tecnologia nova, assim vai aprendendo,
+Na maioria das vezes, você pode só refazer algo que já aprendeu usando uma nova linguagem ou tecnologia, assim vai aprendendo, e aos poucos reduzindo a frustração.
