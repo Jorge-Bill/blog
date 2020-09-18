@@ -1,16 +1,20 @@
 ---
-title: Hello World
-description: This is my first time writing about anything.
-date: 2020-06-25 01:45:30
-category: Misc
-background: Aqua
+title: Hello World - como aprender a programar mais facil
+description: Esse post foi criado para dar uma luz a quem está começando a programar agora
+date: 2020-09-18 11:59:46
+thumbnail: assets/img/carbon.png
+category: DEV
+background: Lightslategray
 ---
+# Esse é um post sobre carreira
 
-# Lorem ipsum
+![hello world](assets/img/carbon.png "hello world")
 
-![Lake](/assets/img/lake.jpg)
+Muitas vezes na minha vida de desenvolvedor web me deparei com o desafio de aprender algo novo, claro isso acontece sempre.
 
-Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:
+Então tenha em mente o seguinte:
+
+>
 
 ```javascript
 a=3
@@ -34,11 +38,11 @@ Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus ege
 
 Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
 
-- Lorem
-- Ipsum
-- Dolor
-- Sit
-- amet
+* Lorem
+* Ipsum
+* Dolor
+* Sit
+* amet
 
 #### Sed enim mi
 
