@@ -24,6 +24,10 @@ As vezes sem nem entender como algo funcionou e porque funcionou.
 
 Porque eu digo isso, o profissional de T.I nunca para de estudar, e o programador é algo mais, caso você pare, irá estar cometendo um suicídio de sua carreira.
 
+
+
+### Dicas
+
 Existe um dito entre programadores que para-se começar a programar em alguma linguagem sempre comece pelo **Hello World:** 
 
 * Comece sempre olhando os conceitos básicos
@@ -33,6 +37,8 @@ Existe um dito entre programadores que para-se começar a programar em alguma li
 * Use um editor de código que você já domina
 * Comece com exemplos simples e vá complicando aos poucos, assim a curva é menor.
 * Não perca tempo configurando um projeto complexo para começar a aprender, isso irá aumentar o sofrimento no momento de aprender.
+* Crie o habito de programar em inglês, assim seu código pode ser entendido pelo mundo todo
+* Escolha nomes concisos para variáveis, esqueça nomes absurdos e evite palavras de baixo calão 
 
 ```javascript
 console.log("Hello World!_ ")
@@ -40,4 +46,6 @@ console.log("Hello World!_ ")
 
 ## Resumindo
 
-É
+É sempre melhor começar a aprender uma linguagem nova, fazendo pequenos projetos simples, se focando nos conceitos da linguagem, e evitando perder tempo criando estruturas complexas para desenvolver algo.
+
+Na maioria das vezes, você pode só refazer algo que ja aprender na linguagem nova, ou usando uma tecnologia nova, assim vai aprendendo,
