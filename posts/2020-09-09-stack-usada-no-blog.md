@@ -1,7 +1,7 @@
 ---
 title: Stack usada no blog
 description: Gatsby + Netlify
-date: 2020-09-09 12:00:06
+date: 2020-09-18 12:00:06
 thumbnail: assets/img/1_bwdjmlaiol6h3apvqsegew.png
 category: code
 background: Red
