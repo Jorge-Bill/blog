@@ -8,6 +8,8 @@ background: Lightslategray
 ---
 A criação do [www.jorgemendes.com.br](https://jorgemendes.com.br/) foi minha primeira experiência, usando **Gatsby + Netlify + Netlify CMS**, e adorei. 
 
+![Gatsby JS logo](assets/img/gatsby.svg "Gatsby JS")
+
 Muito flexível de se programar, o resultado foi super prático. Eu gosto muito de criar listas de pontos positivos e negativos para saber se alguma tecnologia é o que eu preciso ou não.
 
 Pois como diria um DEV experiente:
@@ -34,4 +36,4 @@ Pois como diria um DEV experiente:
 
 
 
-Como pode-se observar existem
+Como pode-se observar existem muitos pontos positivos e quase nenhum negativo, claro estes são pontos listados por mim, e isso pode mudar dependendo de quem for utilizar a tecnologia.
