@@ -37,3 +37,7 @@ Pois como diria um DEV experiente:
 
 
 Como pode-se observar existem muitos pontos positivos e quase nenhum negativo, claro estes são pontos listados por mim, e isso pode mudar dependendo de quem for utilizar a tecnologia.
+
+
+
+**Obs**: Este artigo está em criação e irá sofrer modificacões.
