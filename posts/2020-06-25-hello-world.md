@@ -22,7 +22,20 @@ As vezes sem nem entender como algo funcionou e porque funcionou.
 
 > Você nunca saberá tudo, vai sempre precisar aprender algo, então é melhor aprender sem muito sofrimento.
 
-Porque eu digo isso,  
+Porque eu digo isso, o profissional de T.I nunca para de estudar, e o programador é algo mais, caso você pare, irá estar cometendo um suicídio de sua carreira.
+
+Existe um dito entre programadores que para-se começar a programar em alguma linguagem sempre comece pelo **Hello World:** 
+
+* Comece sempre olhando os conceitos básicos
+* Associe a linguagem que estiver aprendendo com uma que ja conhece
+* Faça um projeto prático para treinar, apenas ver video aulas não te ajuda 
+* A documentação da linguagem é sua amiga consulte sempre para tirar dúvidas
+* Use um editor de código que você já domina
+* Comece com exemplos simples e vá complicando aos poucos, assim a curva é menor.
+
+
+
+
 
 ```javascript
 a=3
