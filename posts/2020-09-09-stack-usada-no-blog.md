@@ -8,7 +8,11 @@ background: Lightslategray
 ---
 A criação do [www.jorgemendes.com.br](https://jorgemendes.com.br/) foi minha primeira experiência, usando **Gatsby + Netlify + Netlify CMS**, e adorei. 
 
-Muito flexível de se programar, o resultado foi super prático.
+Muito flexível de se programar, o resultado foi super prático. Eu gosto muito de criar listas de pontos positivos e negativos para saber se alguma tecnologia é o que eu preciso ou não.
+
+Pois como diria um DEV experiente:
+
+> Não existe tecnologia ruim, existe a escolha errada de tecnologia para resolver um problema. 
 
 
 
@@ -27,3 +31,7 @@ Muito flexível de se programar, o resultado foi super prático.
 
 * Build quebra ao encontrar erros
 * Problemas de cache
+
+
+
+Como pode-se observar existem
