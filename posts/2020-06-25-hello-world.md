@@ -14,7 +14,7 @@ Muitas vezes na minha vida de desenvolvedor web me deparei com o desafio de apre
 
 Então tenha em mente o seguinte:
 
-> Programar é "sofrer"
+> Programar é aprender algo novo sempre
 
 O processo de aprendizado é basicamente tentativa e erro, e enquanto aprende, você irá se frustrar, porque as coisas não irão rodar de primeira quase nunca, então você irá passar 50% do tempo se achando um "Deus" e as outros 50%  se achando um "lixo". 
 
@@ -23,8 +23,6 @@ As vezes sem nem entender como algo funcionou e porque funcionou.
 > Você nunca saberá tudo, vai sempre precisar aprender algo, então é melhor aprender sem muito sofrimento.
 
 Porque eu digo isso, o profissional de T.I nunca para de estudar, e o programador é algo mais, caso você pare, irá estar cometendo um suicídio de sua carreira.
-
-
 
 ### Dicas
 
