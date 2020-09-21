@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://jorge-mendes-blog.netlify.app/">
+  <a href="https://jorgemendes.com.br/">
     <img src="https://raw.githubusercontent.com/Jorge-Bill/blog/master/src/images/jorge_banner.png">
   </a>
 </p>
@@ -41,4 +41,4 @@ Stack used to create the blog.
 
 ---
 
- ## <a href="https://jorge-mendes-blog.netlify.app/"> 🌐 &nbsp; Acess the Blog </a>
+## <a href="https://jorge-mendes-blog.netlify.app/"> 🌐 &nbsp; Acess the Blog </a>

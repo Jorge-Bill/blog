@@ -9,7 +9,7 @@ const Comments = ({ url, title }) => {
 
   return (
     <S.CommentsWrapper>
-      <S.CommentsTitle>Comentários</S.CommentsTitle>
+      <S.CommentsTitle>Coments</S.CommentsTitle>
       <ReactDisqusComments
         shortname="disqus_Ufvo4y3GcT"
         identifier={completeURL}
