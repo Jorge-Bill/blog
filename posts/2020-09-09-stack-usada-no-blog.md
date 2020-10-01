@@ -1,7 +1,7 @@
 ---
 title: Stack usada no blog
 description: Gatsby + Netlify + Algolia + Netlify CMS
-date: 2020-10-01 04:12:22
+date: 2020-10-01 04:40:21
 thumbnail: assets/img/1_bwdjmlaiol6h3apvqsegew.png
 category: code
 background: Red
@@ -33,6 +33,8 @@ Pois como diria um DEV experiente:
 * Problemas de cache
 
 Como pode-se observar existem muitos pontos positivos e quase nenhum negativo, claro estes são pontos listados por mim, e isso pode mudar dependendo de quem for utilizar a tecnologia e para o que ela for usada.
+
+![Gatsby](assets/img/screen-shot-2020-10-01-at-16.39.20.png "Gatsby")
 
 [Conheça o Gatsby](https://www.gatsbyjs.com/)
 
