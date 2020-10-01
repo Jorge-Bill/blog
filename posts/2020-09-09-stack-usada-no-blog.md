@@ -48,14 +48,12 @@ Algolia é uma plataforma focada buscas, ele é extremamente performático e lev
 
 Netlify é uma solução maravilhosa quando se fala em uma plataforma all-in-one, que possibilita deploys continous via pipeline.
 
-Nele é possível hospedar aplicações **frontend** completas, apenas conectando um repositório de código nele, e a cada commit é dado start a um deploy subindo uma nova versão de sua aplicação, ele ainda te possibilita instalar plugins e configurar até DNS privado, para usar seu próprio domínio. O Netlify ainda te disponibiliza gratuitamente um certificado SSL, o clássico **https**.
+Nele é possível hospedar aplicações completas, apenas conectando um repositório de código nele, e a cada commit é dado start a um deploy subindo uma nova versão de sua aplicação, ele ainda te possibilita instalar plugins e configurar até DNS privado, para usar seu próprio domínio. O Netlify ainda te disponibiliza gratuitamente um certificado SSL, o clássico **https**.
 
 ![Netlify](assets/img/screen-shot-2020-10-01-at-16.27.27.png "Netlify")
 
 Também é uma solução que pode ser usada de maneira gratuita e possui excelente documentação.
 
 [Conheça o Netlify](https://www.netlify.com/)
-
-
 
 **Obs.**: Este artigo está em criação e irá sofrer modificações.
