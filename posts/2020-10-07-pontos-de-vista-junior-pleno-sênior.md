@@ -11,7 +11,7 @@ Sempre me perguntam, qual a diferença entre um(a) programador(a) de nível Juni
 
 Existem muitas, ma uma que sempre me vêm a mente é o **ponto de vista.** 
 
-Este artigo, foi escrito para conversar sobre decisões e a importância de respeitar a o pensamento de um profissional independente do nível e caminho que ele levou para chegar a essa solução. 
+Este artigo, foi escrito para conversar sobre decisões e a importância de respeitar o pensamento de um profissional independente do seu nível, e caminho tomado para chegar a essa solução. 
 
 ## **Mas o que isso significa?**
 
