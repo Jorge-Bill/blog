@@ -30,18 +30,18 @@ Todo profissional quando se depara com uma situação problema e tem de desenvol
 
 Um problema recorrente em todo escritório, startup e etc... que se programam no mundo é que os cargos superiores tendem a querer criticar e desqualificar uma solução dada por alguém no inicio de carreira. 
 
-Legal, **cada solução é única e portanto cada uma tem seu valor, mas o que isso significa na prática?,** significa que quando um profissional Junior chega a uma solução, seus colegas de nível Pleno e Sênior, não podem apontar dedos e desqualificar o que foi dito, até porque o programador nesse estado está aprendendo e o processo de aprender pode ser frustrante por si só, e todo reforço negativo é desnecessário, pois isso desmotiva o Junior tornando o processo mais difícil e pode até gerar traumas e fazer as pessoas desistirem da profissão.
+Legal, **cada solução é única e portanto cada uma tem seu valor, mas o que isso significa na prática?,** significa que quando um profissional Junior chega a uma solução, seus colegas de nível Pleno e Sênior, não podem apontar dedos e desqualificar o que foi dito, até porque o programador nesse estado está aprendendo  o processo de aprender pode ser frustrante por si só, e todo reforço negativo é desnecessário, pois isso desmotiva o Junior tornando o processo mais difícil e pode até gerar traumas e fazer as pessoas desistirem da profissão.
 
 ## Mas o que fazer nesse caso?
 
-Nesse caso eu acredito que falta um pouco de empatia, porque acima de profissionais, somos pessoas e como pessoas temos sentimentos, dias bons e ruins e assim, e uma crítica feita de maneira maldosa pode ter consequências negativas para quem recebe.
+Nesse caso eu acredito que falta um pouco de **empatia**, porque acima de profissionais, somos pessoas e como pessoas temos **sentimentos**, dias bons e ruins e assim, e uma crítica feita de maneira maldosa pode ter consequências negativas para quem recebe.
 
 ## A importância do Feedback
 
-Todo feedback é bem vindo, sendo positivo ou negativo, pois isso te ajuda a crescer. Mas é diferente receber um feedback negativo conciso e pertinente, que tem em vista ajudar alguém a melhorar. De receber um feedback que desqualifica alguém por causa de uma solução equivocada.
+Ou seja, todo feedback é bem vindo, sendo positivo ou negativo, pois isso te ajuda a crescer. Mas receber um feedback negativo conciso e pertinente, que tem em vista ajudar alguém a melhorar. É diferente de receber um feedback que desqualifica alguém por causa de uma solução equivocada.
 
 E na minha opinião, o papel de um profissional experiente é aconselhar o menos experiente, pois é sempre válido lembrar:
 
 > Todo sênior hoje, já foi Junior um dia
 
-Então é importante explicar ao Junior, o porque a solução não é válida, o que ele poderia ter feito para chegar em uma solução aceitável e parabenizar pelo esforço, explicando os pontos de melhora.
+Então é importante explicar ao Junior, o porque a solução não é válida, o que ele poderia ter feito para chegar em uma solução aceitável e parabenizar pelo esforço, explicando os pontos de melhora e as consequências de cada solução sejam elas do ponto de vista técnico ou de negócio.
