@@ -39,4 +39,4 @@ Todo feedback é bem vindo, sendo positivo ou negativo, pois isso te ajuda a cre
 
 E na minha opinião, o papel de um profissional experiente é aconselhar o menos experiente, pois é sempre válido lembrar:
 
-> Todo sênior hoje já foi Junior um dia
+> Todo sênior hoje, já foi Junior um dia
