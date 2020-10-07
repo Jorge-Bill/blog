@@ -30,7 +30,7 @@ Todo profissional quando se depara com uma situação problema e tem de desenvol
 
 Um problema recorrente em todo escritório, startup e etc... que se programam no mundo é que os cargos superiores tendem a querer criticar e desqualificar uma solução dada por alguém no inicio de carreira. 
 
-Legal, cada solução é única e portanto cada uma tem seu valor, mas o que isso significa na prática, significa que quando um profissional Junior chega a uma solução, seus colegas de nível Pleno e Sênior, não podem apontar dedos e desqualificar o que foi dito, até porque o programador nesse estado está aprendendo e o processo de aprender pode ser frustrante por si só, e todo reforço negativo é desnecessário, pois isso desmotiva o Junior tornando o processo mais difícil e pode até gerar traumas e fazer as pessoas desistirem da profissão.
+Legal, **cada solução é única e portanto cada uma tem seu valor, mas o que isso significa na prática?,** significa que quando um profissional Junior chega a uma solução, seus colegas de nível Pleno e Sênior, não podem apontar dedos e desqualificar o que foi dito, até porque o programador nesse estado está aprendendo e o processo de aprender pode ser frustrante por si só, e todo reforço negativo é desnecessário, pois isso desmotiva o Junior tornando o processo mais difícil e pode até gerar traumas e fazer as pessoas desistirem da profissão.
 
 ## Mas o que fazer nesse caso?
 
