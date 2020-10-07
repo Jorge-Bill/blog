@@ -40,3 +40,5 @@ Todo feedback é bem vindo, sendo positivo ou negativo, pois isso te ajuda a cre
 E na minha opinião, o papel de um profissional experiente é aconselhar o menos experiente, pois é sempre válido lembrar:
 
 > Todo sênior hoje, já foi Junior um dia
+
+Então é importante explicar ao Junior, o porque a solução não é válida, o que ele poderia ter feito para chegar em uma solução aceitável e parabenizar pelo esforço, explicando os pontos de melhora.
