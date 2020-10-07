@@ -19,9 +19,12 @@ Este artigo, foi escrito para conversar sobre decisões e a importância de resp
 
 Todo profissional quando se depara com uma situação problema e tem de desenvolver uma solução lógica para programar algo, ele internaliza o problema e desenvolve sua própria lógica, essa lógica é tão individual que pode ser explicada pela frase:
 
-> Ninguém programa igual a ninguém e cada solução é única independente de estar certa ou errada.
+> Ninguém programa igual a ninguém, cada solução é única independente de estar certa ou errada e tem seu valor.
 
-Ou seja, todo mundo vai pegar um "**caminho**" para chegar ao fim do problema, o profissional **Junior**, irá tomar um caminho mais longo, possivelmente mais trabalhoso, o profissional **Pleno**, irá tomar um caminho mais curto, possivelmente menos complicado e o profissional **Sênior**, irá chegar a solução mais rapidamente e mais simples. 
+* Ou seja, todo mundo vai pegar um "**caminho**" para chegar ao fim do problema, 
+* O profissional **Junior**, irá tomar um caminho mais longo, possivelmente mais trabalhoso, 
+* O profissional **Pleno**, irá tomar um caminho mais curto, possivelmente menos complicado e 
+* O profissional **Sênior**, irá chegar a solução mais rapidamente e mais simples. 
 
 ## E daí?
 
@@ -33,7 +36,7 @@ Legal, cada solução é única e portanto cada uma tem seu valor, mas o que iss
 
 Nesse caso eu acredito que falta um pouco de empatia, porque acima de profissionais, somos pessoas e como pessoas temos sentimentos, dias bons e ruins e assim, e uma crítica feita de maneira maldosa pode ter consequências negativas para quem recebe.
 
-## A importância do Feedback 
+## A importância do Feedback
 
 Todo feedback é bem vindo, sendo positivo ou negativo, pois isso te ajuda a crescer. Mas é diferente receber um feedback negativo conciso e pertinente, que tem em vista ajudar alguém a melhorar. De receber um feedback que desqualifica alguém por causa de uma solução equivocada.
 
