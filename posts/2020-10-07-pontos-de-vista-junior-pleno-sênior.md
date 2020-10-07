@@ -9,7 +9,7 @@ background: Lightslategray
 ---
 Sempre me perguntam, qual a diferença entre um(a) programador(a) de nível Junior, Pleno e Sênior, e minha resposta é sempre a mesma.
 
-Existem muitas, ma uma que sempre me vêm a mente é o **poder de decisão.** 
+Existem muitas, ma uma que sempre me vêm a mente é o **ponto de vista.** 
 
 Este artigo, foi escrito para conversar sobre decisões e a importância de respeitar a o pensamento de um profissional independente do nível e caminho que ele levou para chegar a essa solução. 
 
