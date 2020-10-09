@@ -41,4 +41,4 @@ Stack used to create the blog.
 
 ---
 
-## <a href="https://jorge-mendes-blog.netlify.app/"> 🌐 &nbsp; Acess the Blog </a>
+## <a href="https://jorgemendes.com.br/"> 🌐 &nbsp; Acess the Blog </a>
