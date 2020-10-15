@@ -1,7 +1,7 @@
 ---
 title: Nem só de Hard skills vive o DEV
 description: Um artigo sobre a importância das soft skills sem detrimento das hard skills.
-date: 2020-10-15 06:30:43
+date: 2020-10-15 06:31:24
 thumbnail: assets/img/hard-and-soft-skills.jpg
 category: DEV
 background: Lightslategray
