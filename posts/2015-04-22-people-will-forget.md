@@ -1,8 +1,8 @@
 ---
 title: Nem só de Hard skills vive o DEV
-description: But people will never forget how you made them feel.
-date: 2015-04-22 05:54:23
-thumbnail: assets/img/cientista-de-dados-junior-pleno-e-senior.png
+description: Um artigo sobre a importância das soft skills sem detrimento das hard skills.
+date: 2020-10-15 06:30:43
+thumbnail: assets/img/hard-and-soft-skills.jpg
 category: DEV
 background: Lightslategray
 ---
