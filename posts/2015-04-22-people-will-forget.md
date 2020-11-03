@@ -1,7 +1,7 @@
 ---
 title: Nem só de Hard skills vive o DEV
 description: Um artigo sobre a importância das soft skills sem detrimento das hard skills.
-date: 2020-11-03 05:52:25
+date: 2020-11-03 06:50:10
 thumbnail: assets/img/hard-and-soft-skills.jpg
 category: DEV
 background: Lightslategray
@@ -46,3 +46,11 @@ Então termos tempo para aprender a ler e escrever no processo, a escrever um re
 Na internet podemos aprender sobre qualquer coisa, ou até fora dela, porque adivinhem? é possível aprender fora dela.
 
 Eu por exemplo, sempre fui um ser humano tímido, mas aprendi a me expressar bem e ser mais extrovertido fazendo teatro, aprendi a ser uma pessoa mais paciente praticando artes marciais, e aprendi inglês lendo HQ's / mangás nas horas vagas.
+
+## Em resumo desse longo post
+
+Este é meu exemplo, ninguém precisa interpretar Romeu e Julieta na Broadway para aprender a se expressar existem canais no YouTube ou mil e uma plataformas por ai, **basta querer aprender.** Você pode aprender hard skills e soft skills e só tem a ganhar com isso, isso irá te tornar um profissional e ser humano melhor. 
+
+###  **Mas Jorge, que soft skills devo tentar aprender?**
+
+Simples, é só se conhecer, pensar, eu sei trabalhar em equipe? escrever? etc... Cada ser humano é de um jeito, e como ninguém é perfeito, **você e só você** consegue saber o que pode melhorar.
