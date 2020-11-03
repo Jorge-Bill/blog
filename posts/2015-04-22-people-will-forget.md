@@ -1,27 +1,48 @@
 ---
 title: Nem só de Hard skills vive o DEV
 description: Um artigo sobre a importância das soft skills sem detrimento das hard skills.
-date: 2020-10-15 06:41:35
+date: 2020-11-03 05:52:25
 thumbnail: assets/img/hard-and-soft-skills.jpg
 category: DEV
 background: Lightslategray
 ---
+Muito se fala sobre **soft skills** ou **hard skills**, estas **buzz words** estão para todos os lados, quando se procura aprender sobre programação, mas de fato o que são? onde vivem? e para que servem?...hoje no G....nesse post.
 
-Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. **Pellentesque** habitant morbi [tristique](http://google.com) senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. _Integer gravida_ nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.
+# O que são estas tal soft e hard skills?
 
-## On deer horse aboard tritely yikes and much
+Basicamente, estas nomenclaturas são jeitos claros de nos referirmos e catalogarmos habilidades (skills) que você pode ja possuir ou buscar desenvolver. Ou seja, **Hard skills são habilidades técnicas**, como linguagens de programação ou o manuseio de alguma ferramenta. E **soft Skills** **são habilidades não técnicas**, como saber se expressar, saber ouvir um feedback, ter empatia por colegas de equipe, aprender um novo idioma, etc...
 
-The Big Oxmox advised her not to do so, because there were thousands of
-bad Commas, wild Question Marks and devious Semikoli, but the Little
-Blind Text didn’t listen. She packed her seven versalia, put her initial
-into the belt and made herself on the way.
+## Legal mas para que servem estas tal soft skills?
 
-Praesent accumsan odio in ante ullamcorper id pellentesque mauris rhoncus. Duis vitae neque dolor. Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo.
+Muitos programadores buscam sempre se aperfeiçoar, mas a maioria deles só se foca em nas hard skills e esquece que somos seres humanos, e trabalhamos com outros seres humanos, ou seja, sabe mandar um e-mail explicando para o(a) seu ou sua chefe o que você desenvolveu e o processo que te levou até ai. Ou explicar para aquele companheiro de equipe não técnico o que a sua modificação irá melhorar no produto. Isso é fundamental no dia a dia de alguém que trabalhe com código por isso eu sempre digo:
 
-Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+>  Nunca se esqueça das soft skills jovem padawan...
 
-Nam porttitor, erat sit amet venenatis luctus, augue libero ultrices quam, ut congue nisi risus eu purus. Cras semper consectetur elementum. Nulla vel aliquet libero. Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
+No mundo real sempre nos deparamos com os seguintes profissionais:
 
-Proin suscipit luctus orci placerat fringilla. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+1. O profissional que é excelente em codificar, mas horrível para ensinar algo a alguém mais junior ou até explicar ou documentar o código para outra pessoa. 
+2. Ou o contrário, aquele profissional que é ótimo na coordenação do projeto e em designar os trabalhos para equipe, mas que não programa tão bem assim.
 
-Proin bibendum ullamcorper rutrum.
+## Adivinhem quem irá subir para aquela posição de liderança?
+
+Se seu palpite foi a opção número 2, você acertou, mas Jorge, se o profissional 2 não programa bem, porque ele foi promovido ao invés do profissional 1?
+
+Simplesmente, porque as soft skills que ele possuí o tornaram um perfil mais desejado para a vaga, pois esse profissional, irá se comunicar diretamente tanto com os outros programadores, como os profissionais de produto, a gerência, pessoas de suporte, e as vezes até participar de reuniões com os donos da empresa.
+
+## Mas e o profissional que só tem Hard Skills? 
+
+Esse profissional é ótimo também, mas como sabemos, na maioria das vezes nunca vamos desenvolver algo sozinhos, e de que adianta ele saber mandar um foguete para lua e não saber trabalhar em equipe? ele nunca vai poder trabalhar sozinho mesmo. Ele pode na maioria das vezes conseguir uma posição de senior técnico, mas ainda sim, terá que aprender a se expressar direito na escrita, e a falar com pessoas técnicas e não técnicas, sendo assim não tem como fugir.
+
+![icerberg do conhecimento](assets/img/hard-and-soft-skills.jpg "Iceberg do conhecimento")
+
+## Mas então o que fazer?
+
+Simplesmente, ja que soft/hard skills são faces da mesma moeda que compõe um profissional, podemos aprender as duas. Iremos sempre nos focar em aprender hard skills mas aprender algumas soft skills no caminho, sejamos realistas:
+
+> Profissionais da área de tecnologia precisam estudar a vida inteira
+
+Então termos tempo para aprender a ler e escrever no processo, a escrever um relatório, ou dar um feedback sem parecer que estamos ofendendo alguém enquanto estudamos algo técnico.
+
+Na internet podemos aprender sobre qualquer coisa, ou até fora dela, porque adivinhem? é possível aprender fora dela.
+
+Eu por exemplo, sempre fui um ser humano tímido, mas aprendi a me expressar bem e ser mais extrovertido fazendo teatro, aprendi a ser uma pessoa mais paciente praticando artes marciais, e aprendi inglês lendo HQ's / mangás nas horas vagas.
