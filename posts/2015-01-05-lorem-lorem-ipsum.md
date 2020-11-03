@@ -1,9 +1,11 @@
 ---
-title: Lorem lorem ipsum
-description: And I'm lorem sure lorem
-date: 2015-01-05 05:54:23
-category: JS
-background: LightGreen
+title: Você não precisa produzir tanto assim
+description: Não somos maquinas e não podemos viver para trabalhar, pois a vida
+  termina, o trabalho não.
+date: 2020-11-03 06:54:29
+thumbnail: assets/img/rick-and-morty-wallpaper.png
+category: Misc
+background: Aqua
 ---
 
 # Lorem ipsum
