@@ -42,10 +42,6 @@ export const SearchWrapper = styled.section`
 
   .ais-SearchBox {
     padding-top: 6rem;
-
-    ${media.lessThan("large")`
-      padding-top: 1rem;
-    `}
   }
   .ais-Stats {
     color: white;
@@ -53,7 +49,8 @@ export const SearchWrapper = styled.section`
 
   .ais-SearchBox-input {
     background: none;
-    border: none;
+    border: 1px solid var(--borders);
+    border-radius: 3px;
     border-bottom: 1px solid var(--borders);
     color: var(--texts);
     display: flex;

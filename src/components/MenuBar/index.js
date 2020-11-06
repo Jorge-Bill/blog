@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 
 import { Home } from "@styled-icons/boxicons-solid/Home"
 import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2"
+import { User } from "@styled-icons/boxicons-regular/User"
 import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
 import { Lightbulb as LightOff } from "@styled-icons/remix-line/Lightbulb"
 import { LightbulbFlash as LightOn } from "@styled-icons/remix-fill/LightbulbFlash"
@@ -39,6 +40,18 @@ const MenuBar = () => {
         >
           <S.MenuBarItem>
             <Home />
+          </S.MenuBarItem>
+        </S.MenuBarLink>
+        <S.MenuBarLink
+          to="/about/"
+          title="About"
+          cover
+          direction="right"
+          bg={getThemeColor()}
+          duration={0.6}
+        >
+          <S.MenuBarItem>
+            <User />
           </S.MenuBarItem>
         </S.MenuBarLink>
         <S.MenuBarLink

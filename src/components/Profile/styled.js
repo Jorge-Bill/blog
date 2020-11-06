@@ -40,6 +40,7 @@ export const ProfilePosition = styled.small`
   ${media.lessThan("large")`
     font-size: 0.8rem;
     margin-top: 0.2rem;
+    text-align: center;
   `}
 `
 

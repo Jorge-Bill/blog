@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const ListWrapper = styled.section`
   body#grid & {
@@ -9,4 +10,8 @@ export const ListWrapper = styled.section`
     grid-gap: 1px;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   }
+
+  ${media.lessThan("large")`
+    padding-top: 3rem;
+  `}
 `
