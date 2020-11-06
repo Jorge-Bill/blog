@@ -1,5 +1,8 @@
 import "lazysizes"
 require("prismjs/themes/prism-tomorrow.css")
+export function onServiceWorkerUpdateReady(){
+  window.location.reload(true)
+}
 /**
  * Implement Gatsby's Browser APIs in this file.
  *
