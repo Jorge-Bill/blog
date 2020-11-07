@@ -2,10 +2,10 @@
 title: Você não precisa produzir tanto assim
 description: Não somos maquinas e não podemos viver para trabalhar, pois a vida
   termina, o trabalho não.
-date: 2020-11-03 06:54:29
+date: 2020-11-07 12:57:27
 thumbnail: assets/img/rick-and-morty-wallpaper.png
-category: Misc
-background: Aqua
+category: DEV
+background: Lightslategray
 ---
 
 # Lorem ipsum
