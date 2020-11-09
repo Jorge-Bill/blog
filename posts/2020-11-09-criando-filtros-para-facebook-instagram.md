@@ -1,12 +1,12 @@
 ---
-title: Criando Filtros para Facebook / Instagram
-description: Um pouco da minha experiência criando filtro para o Instagram e Facebook
-date: 2020-11-09 06:42:27
+title: Criando Filtros para o Instagram e ou Facebook
+description: Um pouco da minha experiência criando filtro para o Instagram e Facebook.
+date: 2020-11-09 08:16:43
 thumbnail: assets/img/spark.jpg
 category: Misc
 background: Aqua
 ---
-## Ja se perguntou como é criado um filtro para o instagram ou facebook?
+## Ja se perguntou como é criado um filtro para o instagram e ou facebook?
 
 ![SPARK AR STUDIO](assets/img/spark.jpg "SPARK AR STUDIO")
 
