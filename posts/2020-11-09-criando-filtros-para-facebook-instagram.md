@@ -10,7 +10,23 @@ background: Aqua
 
 ![SPARK AR STUDIO](assets/img/spark.jpg "SPARK AR STUDIO")
 
-Então eu descobri como é feito
+Então, eu descobri como é desenvolvido são desenvolvidos filtros, e inclusive criei um 2 exemplos muito comuns.
+
+## Como é criado?
+
+Primeiro você irá precisar instalar um software para criar os filtros, este software é o [Spark AR Studio](https://sparkar.facebook.com/ar-studio/), ele está disponível para **Windows e Mac.**
+
+Ao instalar e abrir o software nos deparamos com a necessidade de logar em uma conta do facebook e depois a seguinte interface:
+
+![Interface Spark AR Studio](assets/img/screen-shot-2020-11-09-at-19.02.59.png "Interface Spark AR Studio")
+
+
+
+## Minha experiência usando o Spark AR Studio
+
+
+
+## Exemplos desenvolvidos
 
 
 
