@@ -36,8 +36,6 @@ Para facilitar o desenvolvimento, é possível conectar seu próprio dispositivo
 
 Para isso, basta habilitar o modo desenvolvedor no **Android**, e no **IOS** eu não sei os passos. Conectar seu dispositivo via USB clicar em **Test on device**, e usar no filtro. Isso facilita muito para ver o produto final. Caso essa opção não seja viável para você, sempre é possível usar o emulador do próprio **Spark AR Studio.**
 
-
-
 ## Publicar no Facebook e ou Instagram
 
 Quando seu projeto estiver pronto, é possível publicar no Instagram e ou Facebook o filtro por ele mesmo, ou exportar e enviar um arquivo **\*.arexport** para entregar a quem for de fato publicar.
@@ -60,9 +58,7 @@ No **SPARK AR Hub** é possível ver métricas e outros dados dos filtros criado
 
 ## Resumo
 
-No fim um dado muito interessante é que, **criei 2 filtros**, e **publiquei os mesmos no Instagram e Facebook** e levou **menos de 1 dia**, para desenvolver, serem aprovados e publicados, então não é tão complicado assim.
-
-
+No fim um dado muito interessante é que, **criei 2 filtros**, e **publiquei os mesmos no Instagram e Facebook**, não demorou muito para desenvolver, serem aprovados e publicados, então não é tão complicado assim.
 
 ## Exemplos desenvolvidos
 
@@ -70,12 +66,6 @@ No fim um dado muito interessante é que, **criei 2 filtros**, e **publiquei os 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G-2IhpBUeGg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* [Link do filtro para o Facebook](https://www.facebook.com/fbcameraeffects/tryit/363961014821427/)
-* [Link do filtro para o Instagram](https://www.instagram.com/ar/363961014821427/)
-
 ### Filtro Chuva de estrelas
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F3kTaS4SHts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-* [Link do filtro para o Facebook](https://www.facebook.com/fbcameraeffects/tryit/386881662457254/)
-* [Link do filtro para o Instagram](https://www.instagram.com/ar/386881662457254/)
