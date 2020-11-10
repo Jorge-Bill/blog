@@ -2,7 +2,7 @@
 title: Code Screenshot
 description: Dicas de ferramentas
 date: 2020-07-03 03:20:30
-thumbnail: assets/img/carbon.png
+thumbnail: assets/img/polacode.png
 category: code
 background: Red
 image: /assets/img/polacode.png
