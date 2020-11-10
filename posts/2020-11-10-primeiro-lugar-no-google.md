@@ -10,7 +10,7 @@ background: Aqua
 
 Estou escrevendo esse post, apenas para comemorar que ao pesquisar:
 
-> jorge mendes desenvolvimento web
+> jorge mendes desenvolvedor web
 
 ![primeiro lugar no Google](assets/img/screen-shot-2020-11-10-at-19.10.50.png "primeiro lugar no Google")
 
