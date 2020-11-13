@@ -48,7 +48,7 @@ export const SearchWrapper = styled.section`
   }
 
   .ais-SearchBox-input {
-    background: none;
+    background: var(--mediumBackground);
     border: 1px solid var(--borders);
     border-radius: 3px;
     border-bottom: 1px solid var(--borders);

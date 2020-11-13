@@ -58,7 +58,7 @@ const AboutPage = () => {
         </p>
         <p>
           Thinking about getting to a higher level, I sought a degree, I chose
-          the course on Internet Systems at the
+          the course on Internet Systems at the{" "}
           <strong>Faculty of Technology of São Roque - Fatec</strong>, a
           reference in the region that has high-level professionals and
           know-how, contributing to a better understanding of the market.
