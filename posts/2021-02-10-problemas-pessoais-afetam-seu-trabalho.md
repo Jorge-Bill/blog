@@ -27,9 +27,9 @@ No mesmo dia dessa conversa um amigo, me perguntou porque eu não escrevia mais 
 
 > Então eu percebi, que apesar de na minha cabeça eu acreditar que meus problemas pessoais não tinham gerado impacto no meu trabalho e em outras partes da minha vida, **eu estava extremamente errado**.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NlHAW1YTWiM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Sinceramente admitir para mim mesmo isso foi o primeiro passo para eu perceber, que como uma parede de dominós, uma coisa acaba influenciando na outra em nossa vida.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NlHAW1YTWiM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### E o que eu quero dizer, após isso tudo?
 
