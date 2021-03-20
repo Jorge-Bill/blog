@@ -76,6 +76,12 @@ const AboutPage = () => {
         <p>
           This way I keep my skills improving and becoming a better developer.
         </p>
+        <p>
+        <a href="/static/assets/docs/JORGE_MENDES_resume.pdf" download> See my Resume</a>
+        </p>
+        <p>
+        <a href="/static/assets/docs/JORGE_MENDES_cover_letter.pdf" download>See my Cover Letter </a>
+        </p>
       </S.MainContent>
     </LayoutCustom>
   )
