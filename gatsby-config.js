@@ -1,5 +1,6 @@
 require("dotenv").config()
 
+const languages = require('./src/utils/languages');
 const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
@@ -91,9 +92,10 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-i18n',
       options: {        
-        langKeyDefault: 'en',
+        langKeyForNull: 'any',
+        langKeyDefault: languages.defaultLangKey,
         useLangKeyLayout: false,
-        langKeyForNull: 'any'
+        prefixDefault: false,
       }
     }
   ],
