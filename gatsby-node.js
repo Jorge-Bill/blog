@@ -49,7 +49,8 @@ exports.createPages = ({ graphql, actions }) => {
               image
             }
             fields {
-              slug
+              slug,
+              langKey
             }
           }
           previous {

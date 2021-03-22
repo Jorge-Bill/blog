@@ -1,7 +1,7 @@
 import React from "react"
 
 import SEO from "../components/seo"
-import LayoutCustom from "../components/LayoutCustom/"
+import LayoutCustom from "../components/LayoutCustom"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink"

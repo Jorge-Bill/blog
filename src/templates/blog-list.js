@@ -64,7 +64,8 @@ export const query = graphql`
       edges {
         node {
           fields {
-            slug
+            slug,
+            langKey
           }
           frontmatter {
             background
