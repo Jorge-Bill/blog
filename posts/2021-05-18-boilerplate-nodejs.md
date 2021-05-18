@@ -29,7 +29,9 @@ Adicionei  um gerador que cria os arquivos para desenvolvimento do projeto nos d
 
 Adicionei a combinação de commitizen + husky para criar commits com mensagens concisas e com escopo definido.
 
-só com o commitizen ao digitar **git cz** ele abre essa interface no terminal e ajuda no commit, mas ai vêm o pulo do gato. Com o husky você pode criar um hook para sobrescrever o comando git commit e assim usar o commitizen por default, inclusive, isso também alimenta o changelog da aplicação.
+só com o commitizen ao digitar **git cz** ele abre essa interface no terminal e ajuda no commit, mas ai vêm o pulo do gato. 
+
+Com o husky você pode criar um hook para sobrescrever o comando **git commit** e assim usar o commitizen por default, inclusive, isso também alimenta o changelog da aplicação.
 
 ![commitizen](assets/img/add-commit.png "commitizen")
 
