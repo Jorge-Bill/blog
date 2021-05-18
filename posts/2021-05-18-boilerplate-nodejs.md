@@ -6,8 +6,6 @@ thumbnail: assets/img/1_mp91a9rzagntggjbnwu4yw.png
 category: JS
 background: Lightgreen
 ---
-
-
 Recentemente no meu trabalho me vi cuidando de uma aplicação em **nodejs**, então optei por justar o projeto de acordo com as melhores práticas de desenvolvimento de software que conheço.
 
 Ali montei a seguinte estrutura de diretórios
@@ -23,7 +21,7 @@ Adicionei  um gerador que cria os arquivos para desenvolvimento do projeto nos d
 
 ### plop
 
-![plop ](assets/img/plop.gif "plop")
+![plop ](assets/img/plop.png "plop")
 
 [Link plop no github](https://github.com/plopjs/plop)
 
