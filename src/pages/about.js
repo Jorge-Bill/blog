@@ -1,5 +1,6 @@
 import React from "react"
 import LayoutCustom from "../components/LayoutCustom/"
+import Timeline from '../components/Timeline/index';
 import SEO from "../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
@@ -20,6 +21,23 @@ const AboutPage = () => {
       }
     `
   )
+
+  const story = [
+    { 
+      date: '2020-07-08', 
+      title: 'Feature', 
+      description: 'Fully responsive timeline you can add to your UIkit 3 project',
+      icon: 'Work',
+      
+    },
+    { 
+      date: '2020-07-08', 
+      title: 'Feature', 
+      description: 'Fully responsive timeline you can add to your UIkit 3 project',
+      icon: 'Education',
+
+    }
+  ]
 
   return (
     <LayoutCustom>
@@ -76,6 +94,9 @@ const AboutPage = () => {
         <p>
           This way I keep my skills improving and becoming a better developer.
         </p>
+        <hr />
+        <Timeline data={story} />
+        <hr />
       </S.MainContent>
     </LayoutCustom>
   )
