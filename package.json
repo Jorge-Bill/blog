@@ -38,7 +38,7 @@
     "react-instantsearch-dom": "^6.7.0",
     "react-vertical-timeline-component": "^3.3.3",
     "styled-components": "^5.1.1",
-    "styled-icons": "^10.4.2",
+    "styled-icons": "^10.34.0",
     "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
