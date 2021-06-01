@@ -1,10 +1,12 @@
 import React from "react"
 import LayoutCustom from "../components/LayoutCustom/"
+import Timeline from '../components/Timeline/index';
 import SEO from "../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import * as S from "../components/Post/styled"
+import { story } from '../utils/story';
 
 const AboutPage = () => {
   const { aboutImage } = useStaticQuery(
@@ -76,6 +78,9 @@ const AboutPage = () => {
         <p>
           This way I keep my skills improving and becoming a better developer.
         </p>
+        <hr />
+        <Timeline data={story} />
+        <hr />
       </S.MainContent>
     </LayoutCustom>
   )
