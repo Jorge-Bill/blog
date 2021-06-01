@@ -1,4 +1,4 @@
-export const storyBR = [
+export const story = [
   { 
     period: '2009 – 2010', 
     institution: 'Centro Paula Souza - Etec São Roque', 
@@ -6,7 +6,6 @@ export const storyBR = [
     description: 'Técnico em Informática',
     location: 'São Roque-SP, Brasil',
     icon: 'Education',
-
   },
   { 
     period: '2014 – 2016', 
@@ -15,7 +14,6 @@ export const storyBR = [
     description: 'Sistema para Internet',
     location: 'São Roque-SP, Brasil',
     icon: 'Education',
-
   },
   { 
     period: '2012 – 05/2016', 
@@ -58,6 +56,3 @@ export const storyBR = [
     icon: 'Work',
   }
 ]
-
-
-
