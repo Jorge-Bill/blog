@@ -6,6 +6,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import * as S from "../components/Post/styled"
+import { storyBR } from '../utils/story';
 
 const AboutPage = () => {
   const { aboutImage } = useStaticQuery(
@@ -21,23 +22,6 @@ const AboutPage = () => {
       }
     `
   )
-
-  const story = [
-    { 
-      date: '2020-07-08', 
-      title: 'Feature', 
-      description: 'Fully responsive timeline you can add to your UIkit 3 project',
-      icon: 'Work',
-      
-    },
-    { 
-      date: '2020-07-08', 
-      title: 'Feature', 
-      description: 'Fully responsive timeline you can add to your UIkit 3 project',
-      icon: 'Education',
-
-    }
-  ]
 
   return (
     <LayoutCustom>
@@ -95,7 +79,7 @@ const AboutPage = () => {
           This way I keep my skills improving and becoming a better developer.
         </p>
         <hr />
-        <Timeline data={story} />
+        <Timeline data={storyBR} />
         <hr />
       </S.MainContent>
     </LayoutCustom>

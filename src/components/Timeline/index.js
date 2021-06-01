@@ -13,22 +13,21 @@ const Timeline = ({ data }) => (
         return (
           <S.TimelineElement key={i}
             className={`vertical-timeline-element--${item.icon.toLowerCase()}`}
-            contentStyle={{ background: '#07b0b8', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid #fff' }}
-            date={item.date}
-            iconStyle={{ background: "#07b0b8", color: '#fff' }}
+            contentStyle={{ background: 'var(--timelineColor)', color: 'var(--borders)' }}
+            contentArrowStyle={{ borderRight: '8px solid var(--borders)' }}
+            date={item.period}
+            iconStyle={{ background: "var(--timelineColor)", color: 'var(--borders)' }}
             icon={<Icon />}
           >
-            <h3 className="vertical-timeline-element-title">{item.title}</h3>
-            <h4 className="vertical-timeline-element-subtitle">{item.date}</h4>
-            <p>
-             {item.description}
-            </p>
+            <h3 className="vertical-timeline-element-title">{item.institution}</h3>
+            <h4 className="vertical-timeline-element-subtitle">{item.position}</h4>
+            <p>{item.description}</p>
+            <p>{item.location}</p>
           </S.TimelineElement>
           )
       })}
        <S.TimelineElement
-        iconStyle={{ background: '#07b0b8', color: '#fff' }}
+        iconStyle={{ background: 'var(--timelineColor)', color: 'var(--borders)' }}
         icon={<Github />}
       />
   </S.TimelineWrapper>
