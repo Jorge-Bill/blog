@@ -4,11 +4,11 @@ import 'react-vertical-timeline-component/style.min.css';
 
 export const TimelineWrapper = styled(VerticalTimeline)`
   ::before {
-    background: var(--black);
+    background: var(--timelineLine);
   }
 
   .vertical-timeline-element-date {
-    color: var(--texts);
+    color: var(--timelineDate);
   }
 `
 export const TimelineElement = styled(VerticalTimelineElement)`
