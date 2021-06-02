@@ -71,6 +71,8 @@ const GlobalStyles = createGlobalStyle`
     --mediumBackground: #222831;
     --background: #393e46;
     --timelineColor: #07b0b8;
+    --timelineLine: #00fff5;
+    --timelineDate: #f9f8eb;
     --white: #fff;
     --black: #222;
   }
@@ -82,6 +84,8 @@ const GlobalStyles = createGlobalStyle`
     --mediumBackground: #f0f0f3;
     --background: #fff;
     --timelineColor: #f0f0f3;
+    --timelineLine: #00fff5;
+    --timelineDate: #090909;
     --white: #fff;
     --black: #222;
   }
