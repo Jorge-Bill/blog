@@ -48,7 +48,7 @@ export const story = [
     icon: 'Work',
   },
   { 
-    period: '2019 – Atualmente', 
+    period: `2019 – ${new Date().getFullYear()}`, 
     institution: 'FDTE - Fundação para o Desenvolvimento Tecnológico da Engenharia', 
     position: 'Desenvolvedor Web Pleno',
     description: 'Trabalho como consultor, em projetos, sendo desenvolvedor Full-Stack, assim fazendo parte da força de trabalho destes clientes, assim nos projetos, construindo features, bugfixes, refatorando e reconstruindo quando necessário.',
