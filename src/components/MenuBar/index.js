@@ -37,6 +37,7 @@ const MenuBar = () => {
           direction="right"
           bg={getThemeColor()}
           duration={0.6}
+          activeClassName="active"
         >
           <S.MenuBarItem>
             <Home />
@@ -49,6 +50,7 @@ const MenuBar = () => {
           direction="right"
           bg={getThemeColor()}
           duration={0.6}
+          activeClassName="active"
         >
           <S.MenuBarItem>
             <User />
@@ -61,6 +63,7 @@ const MenuBar = () => {
           direction="right"
           bg={getThemeColor()}
           duration={0.6}
+          activeClassName="active"
         >
           <S.MenuBarItem>
             <Search />
