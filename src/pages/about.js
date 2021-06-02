@@ -6,7 +6,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import * as S from "../components/Post/styled"
-import { story } from '../utils/story';
+import { storyEng } from '../utils/story';
 
 const AboutPage = () => {
   const { aboutImage } = useStaticQuery(
@@ -79,7 +79,7 @@ const AboutPage = () => {
           This way I keep my skills improving and becoming a better developer.
         </p>
         <hr />
-        <Timeline data={story} />
+        <Timeline data={storyEng} />
         <hr />
       </S.MainContent>
     </LayoutCustom>

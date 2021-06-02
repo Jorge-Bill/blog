@@ -20,7 +20,7 @@ const Search = () => (
       <Stats
         translations={{
           stats(nbHits, timeSpentMs) {
-            return `${nbHits} resultados encontrados em ${timeSpentMs}ms`
+            return <S.resultsMsg>{nbHits} results found in {timeSpentMs}ms</S.resultsMsg>
           },
         }}
       />

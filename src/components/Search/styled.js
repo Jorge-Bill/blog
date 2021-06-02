@@ -67,3 +67,7 @@ export const SearchWrapper = styled.section`
     display: none;
   }
 `
+
+export const resultsMsg = styled.p`
+  color: var(--texts);
+`

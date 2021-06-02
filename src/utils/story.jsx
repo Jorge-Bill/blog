@@ -1,4 +1,4 @@
-export const story = [
+export const storyPt = [
   { 
     period: '2009 – 2010', 
     institution: 'Centro Paula Souza - Etec São Roque', 
@@ -53,6 +53,65 @@ export const story = [
     position: 'Desenvolvedor Web Pleno',
     description: 'Trabalho como consultor, em projetos, sendo desenvolvedor Full-Stack, assim fazendo parte da força de trabalho destes clientes, assim nos projetos, construindo features, bugfixes, refatorando e reconstruindo quando necessário.',
     location: 'São Paulo, Brasil',
+    icon: 'Work',
+  }
+]
+
+export const storyEng = [
+  { 
+    period: '2009 – 2010', 
+    institution: 'Centro Paula Souza - Etec São Roque', 
+    position: 'Information Technology',
+    description: 'Computer Technician',
+    location: 'São Roque-SP, Brazil',
+    icon: 'Education',
+  },
+  { 
+    period: '2014 – 2016', 
+    institution: 'Fatec São Roque', 
+    position: 'Information Technology',
+    description: 'Internet System',
+    location: 'São Roque-SP, Brazil',
+    icon: 'Education',
+  },
+  { 
+    period: '2012 – 05/2016', 
+    institution: 'São Paulo State Department of Education', 
+    position: 'School Organization Agent',
+    description: 'My responsibilities have always been to take care of public property, establish contact between students and school management, resolve conflicts between teachers and students.',
+    location: 'Ibíuna-SP, Brazil',
+    icon: 'Work',
+  },
+  { 
+    period: '11/2015 – 05/2016', 
+    institution: 'SRTI - São Roque technology of information', 
+    position: 'Internship',
+    description: 'I worked in the development of web applications, responsive websites, mainly with front-end development.',
+    location: 'São Roque-SP, Brazil',
+    icon: 'Work',
+  },
+  { 
+    period: '2016 – 09/2017', 
+    institution: 'Novacia', 
+    position: 'Web Assistant',
+    description: 'I worked Assisting in the development of email marketing and functional responsive websites, tailored for our customers.',
+    location: 'São Paulo, Brazil',
+    icon: 'Work',
+  },
+  { 
+    period: '2017 – 09/2019', 
+    institution: 'Atitude Digital media', 
+    position: 'Web Developer',
+    description: 'I worked developing products and internal solutions for the company and clients, updating the products that already existed.',
+    location: 'São Paulo, Brazil',
+    icon: 'Work',
+  },
+  { 
+    period: `2019 – ${new Date().getFullYear()}`, 
+    institution: 'FDTE - Foundation for the Technological Development of Engineering', 
+    position: 'Web Developer Full Stack',
+    description: 'I work as a consultant, on projects, being a full-stack developer, thus being part of the workforce of these clients, as well as on projects, building resources, bug fixes, refactoring and rebuilding when necessary.',
+    location: 'São Paulo, Brazil',
     icon: 'Work',
   }
 ]
