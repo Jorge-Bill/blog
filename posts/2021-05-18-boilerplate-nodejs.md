@@ -6,7 +6,7 @@ thumbnail: assets/img/1_mp91a9rzagntggjbnwu4yw.png
 category: JS
 background: Lightgreen
 ---
-Recentemente no meu trabalho me vi cuidando de uma aplicação em **nodejs**, então optei por justar o projeto de acordo com as melhores práticas de desenvolvimento de software que conheço.
+Recentemente no meu trabalho me vi cuidando de uma aplicação em **nodejs**, então optei por ajustar o projeto de acordo com as melhores práticas de desenvolvimento de software que conheço.
 
 Ali montei a seguinte estrutura de diretórios
 
@@ -16,8 +16,6 @@ Ali montei a seguinte estrutura de diretórios
   * utils
   * routes (file)
   * app (file)
-
-
 
 ### Estrutura
 
