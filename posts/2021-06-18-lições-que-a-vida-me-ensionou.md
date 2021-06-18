@@ -47,19 +47,41 @@ Quantas e quanta vezes, meus amigos precisavam e desabafar com alguém e eu cump
 
 Esta frase pode ser muito bem resumida assim: muito cuidado com pessoas que falam das outras para você, pois elas irão falar de você para os outros.
 
-É muito importante observar quando conhecemos alguém, se esta pessoa só fala mal dos outros para você é bem provável que ela fale de você para os outros, e se ela é assim, é bem provável que não vá querer ver seu sucesso. Precisamos tomar cuidado para não ser esta pessoa. A pessoa que só reclama e não resolve os problemas.
+É muito importante observar quando conhecemos alguém, se esta pessoa só fala mal dos outros para você é bem provável que ela fale de você para os outros, e se ela é assim, é bem provável que não vá querer ver seu sucesso. Precisamos tomar cuidado principalmente para não ser esta pessoa. A pessoa que só reclama e não resolve os problemas. Nunca é bom ser esta pessoa.
+
+> Na vida, ou você ganha ou adquire conhecimento,  
+
+Nem sempre conseguimos o que queremos, e acabamos frustrados, e tudo bem, a vida é assim mesmo, o que não podemos fazer é permitir sermos consumidos pela frustração, no lugar disto, podemos aprender com a falha, e tentar aprender com isto, tirar algo de bom desta experiência.
+
+> Toda verdade tem três faces, a que você conta, a que a outra pessoa conta e a verdade mesmo. 
+
+Uma vez fui surpreendido com esta frase, quando falava sobre um problema, e entendi, cada pessoa enxerga a mesma situação de um jeito, então no fim, não existe alguém que está 100% correto, existem várias versões e os fatos, no fim, vale mais a pena nos atentar aos fatos e tentar resolver o problema, do que saber quem tem razão.
+
+> As vezes precisamos enxergar o problema como alguém de fora, para entender o que está acontecendo.
+
+Já se pegou em uma situação em que, você não encontra uma solução, ai você comenta sobre isso com alguém e a pessoa te da a resolução rapidamente? (isso acontece muito na programação)
+
+Todos passamos por isso, vez ou outra, as vezes, tudo que você precisa para entender um problema e chegar a resolução é a situação como alguém de fora, ai tudo faz sentido, e você percebe que o problema em si não era tão grande e complexo como tinha achado, claro que fazer isto é mais fácil na teoria que na prática.
+
+> Evite discussões idiotas, 
+
+Uma vez eu ouvi uma história, um rapaz passou e viu dois conhecidos discutindo, após 3 vezes do seguinte diálogo:
+
+Pessoa A: - Não está vendo que a parede é bege?
+
+Pessoa B: - Não, a parede é branca!
+
+A pessoa B concordou que a parede era bege, e as duas continuaram amigas, depois o conhecido perguntou para a pessoa B o porque ele concordou que a parede era bege, se de fato ela era branca, e foi surpreendido com a seguinte resposta:
+
+\- Eu sabia que estava certo, mas para mim o mais importante era acabar a briga ali e continuar com a amizade, que ser o dono da razão.
+
+Eu sempre penso nisso, e concluo, tem muitas coisas na vida que não valem a pena discutir, a vida passa tão rápido, porque esquentar a cabeça com discussões sem sentido.
+
+> Calado vence
 
 
 
-Na vida, ou você ganha ou adquire conhecimento,  
-
-as faces de cada verdade
-
-Evite discussões idiotas, 
-
-se alguém te falar que algo é beje e você ver que é branco, concorde com ela e siga sua vida,
-
-calada vence
+Você tem 2 ouvidos e 1 boca 
 
 É importante saber ouvir
 
