@@ -37,14 +37,30 @@ Esta me mostra que basicamente, a vida passa muito rápido, então devemos parar
 
 > É importante comemorar cada vitória, independente do tamanho.
 
+Sempre que conseguimos algo, ou algo bom acontece, é importante que você se consiga comemorar, e se sentir feliz e realizado, para as coisas pequenas e grandes, não se pode esperar para comprar um carro ou uma casa para comemorar, comemore quando conseguir fazer algo bom, ajudar alguém ou etc..
 
+> As vezes a melhor coisa que podemos fazer por alguém é **ouvir** sem questionar ou julgar
+
+Quantas e quanta vezes, meus amigos precisavam e desabafar com alguém e eu cumpri este papel, as vezes não precisamos de um conselho, dinheiro, ou qualquer coisa, apenas alguém em que possamos confiar para falar sobre algum assunto particular e ter alguém para desabafar é algo maravilhoso.
 
 > O peixe morre pela boca, 
 
-Muito cuidado com pessoas que falam das
+Esta frase pode ser muito bem resumida assim: muito cuidado com pessoas que falam das outras para você, pois elas irão falar de você para os outros.
+
+É muito importante observar quando conhecemos alguém, se esta pessoa só fala mal dos outros para você é bem provável que ela fale de você para os outros, e se ela é assim, é bem provável que não vá querer ver seu sucesso. Precisamos tomar cuidado para não ser esta pessoa. A pessoa que só reclama e não resolve os problemas.
 
 
+
+Na vida, ou você ganha ou adquire conhecimento,  
 
 as faces de cada verdade
+
+Evite discussões idiotas, 
+
+se alguém te falar que algo é beje e você ver que é branco, concorde com ela e siga sua vida,
+
+calada vence
+
+É importante saber ouvir
 
 mudar doi, mas o processo de mudança é necessário
