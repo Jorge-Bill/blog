@@ -79,10 +79,14 @@ Eu sempre penso nisso, e concluo, tem muitas coisas na vida que não valem a pen
 
 > Calado vence
 
-Esta frase é a descrição
+Esta frase é basicamente para nos lembrar de nunca cantar vitória antes e escolher muito bem para quem podemos contar nossas vitórias, pois nem todo mundo quer nos ver bem.
 
-Você tem 2 ouvidos e 1 boca 
+> Você tem 2 ouvidos e 1 boca 
 
 É muito importante saber ouvir
 
-mudar doi, mas o processo de mudança é necessário
+> É muito importante ser grato por tudo aquilo que já se conseguiu e não apenas pensar naquilo que deseja
+
+forte
+
+> Mudar dói, mas o processo de mudança é necessário
