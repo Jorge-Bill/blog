@@ -87,7 +87,7 @@ Esta frase é basicamente para nos lembrar de nunca cantar vitória antes do fim
 
 > É importante ser grato por tudo aquilo que já se conseguiu e não apenas pensar naquilo que deseja
 
-Em nossa caminhada pela vida, devemos sempre admirar e ser gratos por tudo aquilo que já conseguimos, ao invés de apenas buscar cegamente aquilo que desejamos, ou nunca estaremos felizes, pois sempre vai parecer faltar algo. É aquele velho dito, o passado não importa, o futuro a Deus pertence, mas o presente é chamado assim porque é uma dádiva, então viva sempre no presente.
+Em nossa caminhada pela vida, devemos sempre admirar e ser gratos por tudo aquilo que já conseguimos, ao invés de apenas buscar cegamente aquilo que desejamos, ou nunca estaremos felizes, pois sempre vai parecer faltar algo. É aquele velho dito, o passado não importa, o futuro a Deus pertence, mas o presente é chamado assim porque é uma dádiva, então **viva sempre no presente.**
 
 > Mudar dói, mas o processo de mudança é necessário 
 
