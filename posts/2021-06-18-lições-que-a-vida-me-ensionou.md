@@ -31,7 +31,7 @@ Existe um poema que sempre me vêm a mente quando penso no assunto:
 >
 > ###### Segundos, milésimos... Mudanças - Charles Bukowski
 >
-> A vida é um curto passeio, é importante aproveitar a vista.
+> ###### A vida é um curto passeio, é importante aproveitar a vista.
 
 Esta me mostra que basicamente, a vida passa muito rápido, então devemos parar de pensar em fazer as coisas e de fato começar a fazer, não estou dizendo para saltar de paraquedas todos os dias, mas nos permitir viver mesmo, e aproveitar cada segundo, pois cada segundo é único, então se você tem o costume de almoçar ou jantar com um ente querido, aproveite, não se sabe o quanto tempo isto vai durar. 
 
