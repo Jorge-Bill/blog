@@ -79,10 +79,10 @@ Eu sempre penso nisso, e concluo, tem muitas coisas na vida que não valem a pen
 
 > Calado vence
 
-
+Esta frase é a descrição
 
 Você tem 2 ouvidos e 1 boca 
 
-É importante saber ouvir
+É muito importante saber ouvir
 
 mudar doi, mas o processo de mudança é necessário
