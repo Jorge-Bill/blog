@@ -79,14 +79,16 @@ Eu sempre penso nisso, e concluo, tem muitas coisas na vida que não valem a pen
 
 > Calado vence
 
-Esta frase é basicamente para nos lembrar de nunca cantar vitória antes e escolher muito bem para quem podemos contar nossas vitórias, pois nem todo mundo quer nos ver bem.
+Esta frase é basicamente para nos lembrar de nunca cantar vitória antes do fim, e escolher muito bem para quem podemos contar nossas vitórias, pois nem todo mundo quer nos ver bem.
 
 > Você tem 2 ouvidos e 1 boca 
 
-É muito importante saber ouvir
+É importante saber ouvir, ao ouvir bem você evita desentendimentos, e aprende mais que só falando, até porque, quando você fala, você não está ouvindo.
 
-> É muito importante ser grato por tudo aquilo que já se conseguiu e não apenas pensar naquilo que deseja
+> É importante ser grato por tudo aquilo que já se conseguiu e não apenas pensar naquilo que deseja
 
-forte
+Em nossa caminhada pela vida, devemos sempre admirar e ser gratos por tudo aquilo que já conseguimos, ao invés de apenas buscar cegamente aquilo que desejamos, ou nunca estaremos felizes, pois sempre vai parecer faltar algo. É aquele velho dito, o passado não importa, o futuro a Deus pertence, mas o presente é chamado assim porque é uma dádiva, então viva sempre no presente.
 
-> Mudar dói, mas o processo de mudança é necessário
+> Mudar dói, mas o processo de mudança é necessário 
+
+E por fim, esta frase que para mim resume a vida, é muito importante sempre observar o quanto a vida muda e o quanto estamos mudando, e estar disposto a encarar estas mudanças, pois tudo na vida é passageiro, e mudar é sair da zona de conforto, confrontar problemas e seus próprios " demônios", e isso as vezes pode doer, machucar, mas olhando em retrospecto, também nos fortalece
