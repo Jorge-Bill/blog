@@ -11,11 +11,11 @@ background: Aqua
 
 ![boy reading book](assets/img/boy.jpg "boy reading book")
 
-Hoje conversando com minha esposa na cozinha de casa percebi que existem muitos ensinamentos no dia a dia. Frases que expressam muito bem os ciclos da vida, 
+Hoje conversando com minha esposa na cozinha de casa percebi que existem muitos ensinamentos no dia a dia. Frases que expressam muito bem os ciclos da vida:
 
 > A vida é como uma orta, você escolhe o plantio, mas nunca a colheita.
 
-Isto reflete muito sobre nossas escolhas, nossas escolhas ditam o caminho, e você não pode fazer sempre as mesmas coisas, e esperar um resultado diferente. Então temos de tomar muito cuidado com as nossas escolhas
+Isto reflete muito sobre nossas escolhas, nossas escolhas ditam o caminho, e você não pode fazer sempre as mesmas coisas, e esperar um resultado diferente. Então temos de tomar muito cuidado com as nossas escolhas.
 
 > As pessoas mudam, fique sem falar com uma pessoa por um tempo, 1 ano por exemplo e verá que ela pode ter se tornado alguém completamente diferente.
 
@@ -31,7 +31,7 @@ Existe um poema que sempre me vêm a mente quando penso no assunto:
 >
 > ###### Segundos, milésimos... Mudanças - Charles Bukowski
 >
-> ###### A vida é um curto passeio, é importante aproveitar a vista.
+> A vida é um curto passeio, é importante aproveitar a vista.
 
 Esta me mostra que basicamente, a vida passa muito rápido, então devemos parar de pensar em fazer as coisas e de fato começar a fazer, não estou dizendo para saltar de paraquedas todos os dias, mas nos permitir viver mesmo, e aproveitar cada segundo, pois cada segundo é único, então se você tem o costume de almoçar ou jantar com um ente querido, aproveite, não se sabe o quanto tempo isto vai durar. 
 
