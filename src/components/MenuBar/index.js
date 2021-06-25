@@ -80,7 +80,7 @@ const MenuBar = () => {
         >
           {isLightMode ? <LightOn /> : <LightOff />}
         </S.MenuBarItem>
-        <S.MenuBarItem
+        {/* <S.MenuBarItem
           title="change layout"
           onClick={() => {
             window.__setPreferredDisplay(isListMode ? "grid" : "list")
@@ -88,7 +88,7 @@ const MenuBar = () => {
           className="display"
         >
           {isListMode ? <Grid /> : <List />}
-        </S.MenuBarItem>
+        </S.MenuBarItem> */}
         <S.MenuBarItem
           title="go to top"
           onClick={() => {

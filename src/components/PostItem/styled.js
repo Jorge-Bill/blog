@@ -44,11 +44,11 @@ export const PostItemTag = styled.div`
   border-radius: 50%;
   color: var(--white);
   display: flex;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   font-weight: 700;
   justify-content: center;
-  min-height: 90px;
-  min-width: 90px;
+  min-height: 40px;
+  min-width: 40px;
   text-transform: uppercase;
 
   ${media.lessThan("large")`
@@ -88,10 +88,12 @@ export const PostItemTitle = styled.h1`
   font-size: 1.6rem;
   font-weight: 700;
   margin: 0.2rem 0 0.5rem;
+  height: 5rem;
 `
 
 export const PostItemDescription = styled.p`
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.2;
+  height: 4rem;
 `

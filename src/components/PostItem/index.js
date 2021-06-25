@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import ImageWrapper from "../ImageWrapper"
 import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
@@ -11,6 +12,7 @@ const PostItem = ({
   date,
   timeToRead,
   title,
+  thumbnail,
   description,
 }) => (
   <S.PostItemLink
@@ -22,7 +24,7 @@ const PostItem = ({
     duration={0.6}
   >
     <S.PostItemWrapper>
-      <S.PostItemTag background={background}>{category}</S.PostItemTag>
+      <ImageWrapper image={thumbnail} />
       <S.PostItemInfo>
         <S.PostItemDate>
           {date} - {timeToRead} min de leitura
@@ -30,6 +32,7 @@ const PostItem = ({
         <S.PostItemTitle>{title}</S.PostItemTitle>
         <S.PostItemDescription>{description}</S.PostItemDescription>
       </S.PostItemInfo>
+      {/* <S.PostItemTag background={background}>{category}</S.PostItemTag> */}
     </S.PostItemWrapper>
   </S.PostItemLink>
 )

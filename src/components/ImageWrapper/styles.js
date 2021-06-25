@@ -1,0 +1,6 @@
+import styled from 'styled-components'
+
+export const Thumb = styled.img`
+  border-radius: 6px;
+  height: 12rem;
+`
