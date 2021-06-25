@@ -12,7 +12,7 @@ export const PostItemLink = styled(AniLink)`
   }
 
   &:hover {
-    color: var(--highlight);
+    color: var(--postColor);
   }
 `
 
@@ -35,6 +35,10 @@ export const PostItemWrapper = styled.section`
     flex-direction: column;
     padding: 2rem 1rem;
   `}
+
+  &:hover {
+    background-color: var(--mediumBackground);
+  }
 `
 
 export const PostItemTag = styled.div`
