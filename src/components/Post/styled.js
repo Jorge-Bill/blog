@@ -54,17 +54,13 @@ export const imgWrapper = styled.div`
   align-items: center;
 
   .img-about {
-    width: 4rem;
-    height: 4rem;
     border-radius: 5%;
     border: 1px solid;
     box-shadow: 5px 10px var(--highlight);
   }
 
   .img-404 {
-    width: 10rem;
-    height: 6rem;
-    box-shadow: 0px -1px 14px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -1px 14px -5px var(--darker);
     margin-bottom: 1rem;
   }
 `

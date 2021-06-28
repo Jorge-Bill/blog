@@ -11,6 +11,7 @@ module.exports = {
     siteUrl: `https://jorgemendes.com.br/`,
   },
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,

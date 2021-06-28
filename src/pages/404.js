@@ -1,9 +1,9 @@
 import React from "react"
 
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import LayoutCustom from "../components/LayoutCustom/"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage as Img } from "gatsby-plugin-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import getThemeColor from "../utils/getThemeColor"
 
@@ -15,9 +15,10 @@ const NotFoundPage = () => {
       query {
         NotFoundImage: file(relativePath: { eq: "jorge_banner.png" }) {
           childImageSharp {
-            fixed(width: 500) {
-              ...GatsbyImageSharpFixed_tracedSVG
-            }
+            gatsbyImageData(
+              placeholder: TRACED_SVG
+              layout: CONSTRAINED
+            )
           }
         }
       }
@@ -26,7 +27,7 @@ const NotFoundPage = () => {
 
   return (
     <LayoutCustom>
-      <SEO title="404: Not found" />
+      <Seo title="404: Not found" />
       <S.PostHeader>
         <S.PostTitle>404</S.PostTitle>
         <S.PostDescription>Route not found...</S.PostDescription>
@@ -35,7 +36,7 @@ const NotFoundPage = () => {
         <S.imgWrapper>
           <Img
             className="img-404"
-            fixed={NotFoundImage.childImageSharp.fixed}
+            image={NotFoundImage.childImageSharp.gatsbyImageData}
             alt="404 image"
           />
         </S.imgWrapper>

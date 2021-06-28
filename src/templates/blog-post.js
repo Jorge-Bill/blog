@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import LayoutCustom from "../components/LayoutCustom"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import RecomendedPosts from "../components/RecomendedPosts"
 import Comments from "../components/Comments"
 
@@ -15,7 +15,7 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <LayoutCustom>
-      <SEO
+      <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description}
         image={post.frontmatter.image}
