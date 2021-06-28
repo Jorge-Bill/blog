@@ -22,6 +22,7 @@ export const PostItemWrapper = styled.section`
   display: flex;
   padding: 2rem 3rem;
   width: 100%;
+  transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
 
   body#grid & {
     border: none;
