@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import LayoutCustom from "../components/LayoutCustom"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import PostItem from "../components/PostItem"
 import Pagination from "../components/Pagination"
 
@@ -18,7 +18,7 @@ const BlogList = props => {
 
   return (
     <LayoutCustom>
-      <SEO title="Home" />
+      <Seo title="Home" />
       <S.ListWrapper>
         {postList.map(
           ({

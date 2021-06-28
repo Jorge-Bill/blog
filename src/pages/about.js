@@ -1,9 +1,9 @@
 import React from "react"
 import LayoutCustom from "../components/LayoutCustom/"
 import Timeline from '../components/Timeline/index';
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage as Img } from "gatsby-plugin-image"
 
 import * as S from "../components/Post/styled"
 import { storyEng } from '../utils/story';
@@ -14,9 +14,11 @@ const AboutPage = () => {
       query {
         aboutImage: file(relativePath: { eq: "aboutPic.jpg" }) {
           childImageSharp {
-            fixed(width: 200) {
-              ...GatsbyImageSharpFixed_tracedSVG
-            }
+            gatsbyImageData(
+              width: 300
+              placeholder: BLURRED
+              layout: CONSTRAINED
+            )
           }
         }
       }
@@ -25,7 +27,7 @@ const AboutPage = () => {
 
   return (
     <LayoutCustom>
-      <SEO title="About" />
+      <Seo title="About" />
       <S.PostHeader>
         <S.PostTitle>About Me</S.PostTitle>
         <S.PostDescription>Hello World! My name is Jorge.</S.PostDescription>
@@ -34,8 +36,8 @@ const AboutPage = () => {
         <S.imgWrapper>
           <Img
             className="img-about"
-            fixed={aboutImage.childImageSharp.fixed}
-            alt="my picture"
+            image={aboutImage.childImageSharp.gatsbyImageData}
+            alt="jorge profile picture"
           />
         </S.imgWrapper>
         <hr />
