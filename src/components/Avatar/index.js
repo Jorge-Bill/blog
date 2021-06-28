@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+
 import * as S from "./styled"
 
 const Avatar = () => (
