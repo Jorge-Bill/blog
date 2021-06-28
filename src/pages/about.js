@@ -16,7 +16,7 @@ const AboutPage = () => {
           childImageSharp {
             gatsbyImageData(
               width: 300
-              placeholder: TRACED_SVG
+              placeholder: BLURRED
               layout: CONSTRAINED
             )
           }
@@ -37,7 +37,7 @@ const AboutPage = () => {
           <Img
             className="img-about"
             image={aboutImage.childImageSharp.gatsbyImageData}
-            alt="alt='jorge profile picture'"
+            alt="jorge profile picture"
           />
         </S.imgWrapper>
         <hr />
