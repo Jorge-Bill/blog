@@ -6,5 +6,6 @@ export const AvatarWrapper = styled.div`
   height: 3.75rem;
   margin: auto;
   width: 3.75rem;
+  display: flex;
 }
 `
