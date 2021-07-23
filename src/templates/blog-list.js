@@ -1,10 +1,7 @@
 import React from "react"
-import { graphql } from "gatsby"
 
-import LayoutCustom from "../components/LayoutCustom"
-import Seo from "../components/seo"
-import PostItem from "../components/PostItem"
-import Pagination from "../components/Pagination"
+import { graphql } from "gatsby"
+import { LayoutCustom, PostItem,Pagination, Seo } from "../components"
 
 import * as S from "../components/ListWrapper/styled"
 

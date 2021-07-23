@@ -1,7 +1,6 @@
 import React from "react"
-import LayoutCustom from "../components/LayoutCustom/"
-import Timeline from '../components/Timeline/index';
-import Seo from "../components/seo"
+
+import { LayoutCustom, Timeline, Seo } from "../components"
 import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage as Img } from "gatsby-plugin-image"
 
