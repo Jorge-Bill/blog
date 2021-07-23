@@ -15,7 +15,6 @@ export { default as SwUpdater } from './SwUpdater'
 export { default as Timeline } from './Timeline'
 export { default as Seo } from './Seo'
 
-
 // only style components
 // ListWrapper
 // Post
