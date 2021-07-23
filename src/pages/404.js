@@ -1,7 +1,6 @@
 import React from "react"
 
-import Seo from "../components/seo"
-import LayoutCustom from "../components/LayoutCustom/"
+import { LayoutCustom, Seo } from "../components"
 import { StaticImage } from "gatsby-plugin-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import getThemeColor from "../utils/getThemeColor"

@@ -17,8 +17,12 @@ export const CardWrapper = styled.div`
   }
 `
 
+export const CardIcon = styled.svg`
+  width: 50px;
+`
 
 export const CardTitle = styled.h4`
+  color: var(--highlight);
   font-size: 4rem;
   font-weight: 700;
   padding: 0 1.4rem;
@@ -32,6 +36,7 @@ export const CardTitle = styled.h4`
 `
 
 export const CardDescription = styled.p`
+  color: var(--texts);
   font-size: 2rem;
   font-weight: 200;
   padding: 0 1.4rem;

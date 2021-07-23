@@ -1,7 +1,6 @@
 import React from "react"
-import LayoutCustom from "../components/LayoutCustom"
-import Seo from "../components/seo"
-import Search from "../components/Search"
+
+import { LayoutCustom, Search, Seo } from "../components"
 
 const algolia = {
   appId: process.env.GATSBY_ALGOLIA_APP_ID,

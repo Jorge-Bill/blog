@@ -1,10 +1,7 @@
 import React from "react"
-import { graphql } from "gatsby"
 
-import LayoutCustom from "../components/LayoutCustom"
-import Seo from "../components/seo"
-import RecomendedPosts from "../components/RecomendedPosts"
-import Comments from "../components/Comments"
+import { graphql } from "gatsby"
+import { LayoutCustom, RecomendedPosts,Comments, Seo } from "../components"
 
 import * as S from "../components/Post/styled"
 
