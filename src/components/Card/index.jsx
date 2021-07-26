@@ -3,22 +3,18 @@ import PropTypes from "prop-types"
 
 import * as S from './styles'
 
-const Card = ({ title, description, icon, ...props }) => (
+const Card = ({ children, ...props }) => (
   <S.CardWrapper {...props}>
-    <S.CardIcon>{icon}</S.CardIcon>
-    <S.CardTitle>{title}</S.CardTitle>
-    <S.CardDescription>{description}</S.CardDescription>
+    {children}
   </S.CardWrapper>
 )
 
 Card.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  icon: PropTypes.node,
+  children: PropTypes.node,
 }
 
 Card.defaultProps = {
-  icon: ''
+  children: '',
 }
 
 export default Card
