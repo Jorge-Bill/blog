@@ -3,7 +3,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { LayoutCustom, RecomendedPosts,Comments, Seo } from "../components"
 
-import * as S from "../components/Post/styled"
+import * as S from "../styles/post"
 
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark

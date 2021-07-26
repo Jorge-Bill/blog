@@ -3,7 +3,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { LayoutCustom, PostItem,Pagination, Seo } from "../components"
 
-import * as S from "../components/ListWrapper/styled"
+import * as S from "../styles/ListWrapper"
 
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
