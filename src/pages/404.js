@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import getThemeColor from "../utils/getThemeColor"
 
-import * as S from "../components/Post/styled"
+import * as S from "../styles/post"
 
 const NotFoundPage = () => (
     <LayoutCustom>

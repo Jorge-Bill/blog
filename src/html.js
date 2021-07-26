@@ -11,13 +11,13 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta 
-          name="google-site-verification" 
-          content="khzGXPM--SlAFG6V0_NIO4ITwpai3NBnCEtvgEMOlO8" 
+        <meta
+          name="google-site-verification"
+          content="khzGXPM--SlAFG6V0_NIO4ITwpai3NBnCEtvgEMOlO8"
         />
         {props.headComponents}
       </head>
-      <body {...props.bodyAttributes} className="light">
+      <body {...props.bodyAttributes} className="dark">
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -39,7 +39,7 @@ export default function HTML(props) {
                     localStorage.setItem('theme', newTheme);
                   } catch (err) {}
                 }
-                setTheme(preferredTheme || 'light');
+                setTheme(preferredTheme || 'dark');
 
                 window.__onDisplayChange = function() {};
                 function setDisplay(newDisplay) {
@@ -58,7 +58,7 @@ export default function HTML(props) {
                     localStorage.setItem('display', newDisplay);
                   } catch (err) {}
                 }
-                setDisplay(preferredDisplay || 'list');
+                setDisplay(preferredDisplay || 'grid');
 
               })();
             `,

@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import media from "styled-media-query"
+import Card from '../components/Card'
+
 
 export const AboutHeader = styled.header`
   text-align: center;
@@ -234,4 +236,50 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+`
+
+export const CardsWrapper = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  ${media.lessThan("large")`
+    flex-direction: column;
+  `}
+`
+export const CustomCard = styled(Card)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 16rem;
+
+  svg {
+    color: var(--postColor);
+    width: 3rem;
+  }
+
+  a {
+    margin: 0;
+    text-decoration: none;
+    color: var(--postColor);
+    border-bottom: 0;
+    min-width: 11rem;
+  }
+
+  &:hover {
+    background-color: var(--highlight);
+  }
+
+  &:nth-child(1){
+    margin: 0 1rem 0 0;
+   }
+
+  ${media.lessThan("large")`
+  width: 80%;
+    &:nth-child(1){
+      margin: 0 0 1rem 0;
+    }
+`}
 `
