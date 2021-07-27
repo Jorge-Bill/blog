@@ -17,9 +17,7 @@ const LayoutHero = ({ children }) => (
       placeholder='blurred'
     />
     <S.LayoutHeroMain>{children}</S.LayoutHeroMain>
-    <S.LayoutHeroMenuBar>
-      <MenuBar />
-    </S.LayoutHeroMenuBar>
+    <MenuBar position='bottom' />
   </S.LayoutHeroWrapper>
 )
 

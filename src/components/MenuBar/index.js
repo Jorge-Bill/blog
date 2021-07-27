@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 
+import PropTypes from 'prop-types'
 import { Home } from "@styled-icons/boxicons-solid/Home"
 import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2"
 import { User } from "@styled-icons/boxicons-regular/User"
@@ -12,7 +13,7 @@ import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
 
-const MenuBar = () => {
+const MenuBar = ({ position }) => {
   const [theme, setTheme] = useState(null)
   const [display, setDisplay] = useState(null)
 
@@ -28,8 +29,8 @@ const MenuBar = () => {
   }, [])
 
   return (
-    <S.MenuBarWrapper>
-      <S.MenuBarGroup>
+    <S.MenuBarWrapper position={position}>
+      <S.MenuBarGroup position={position}>
         <S.MenuBarLink
           to="/"
           title="Back to Home"
@@ -70,7 +71,7 @@ const MenuBar = () => {
           </S.MenuBarItem>
         </S.MenuBarLink>
       </S.MenuBarGroup>
-      <S.MenuBarGroup>
+      <S.MenuBarGroup position={position}>
         <S.MenuBarItem
           title="change theme"
           onClick={() => {
@@ -100,6 +101,14 @@ const MenuBar = () => {
       </S.MenuBarGroup>
     </S.MenuBarWrapper>
   )
+}
+
+MenuBar.propTypes = {
+  position: PropTypes.oneOf(['right', 'bottom']),
+}
+
+MenuBar.defaultProps = {
+  position: 'right',
 }
 
 export default MenuBar

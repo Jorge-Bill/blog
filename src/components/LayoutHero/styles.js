@@ -10,18 +10,3 @@ export const LayoutHeroMain = styled.main`
   min-height: 100vh;
   width: 100%;
 `
-
-export const LayoutHeroMenuBar = styled.footer`
-  aside {
-    width: 100vw;
-    height: 3.75rem;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    bottom: 0;
-
-    div {
-      flex-direction: row;
-    }
-  }
-`
