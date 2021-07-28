@@ -17,6 +17,7 @@ const LayoutHero = ({ children }) => (
     <StaticImage
       src='../../images/jorge_banner.png'
       alt='banner image'
+      className="img-banner"
       placeholder='blurred'
     />
     <S.LayoutHeroMain>{children}</S.LayoutHeroMain>

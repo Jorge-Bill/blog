@@ -1,6 +1,5 @@
 import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
-import { Avatar, MenuLinks, SocialLinks } from '../index'
 // import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from './styles'
@@ -24,18 +23,13 @@ const HeaderMenu = () => {
   return (
     <S.HeaderWrapper>
       <S.HeaderProfile>
-        <Avatar />
         <S.HeaderDesc>
           <h1>{title}</h1>
           <p>{position}</p>
         </S.HeaderDesc>
       </S.HeaderProfile>
-      <S.HeaderMenuLinks>
-        <MenuLinks />
-      </S.HeaderMenuLinks>
-      <S.HeaderSocial>
-        <SocialLinks />
-      </S.HeaderSocial>
+      <S.HeaderMenuLinks />
+      <S.HeaderSocial />
     </S.HeaderWrapper>
   )
 }

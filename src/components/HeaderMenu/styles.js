@@ -1,8 +1,11 @@
 import styled from 'styled-components'
 import media from "styled-media-query"
+import SocialLinks from '../SocialLinks'
+import MenuLinks from '../MenuLinks'
 
 export const HeaderWrapper = styled.div`
   width: 100vw;
+  padding: 0.8rem 0;
   display: flex;
   justify-content: space-between;
   color: var(--highlight);
@@ -36,34 +39,33 @@ export const HeaderDesc = styled.div`
   `}
 `
 
-export const HeaderMenuLinks = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+export const HeaderMenuLinks = styled(MenuLinks)`
+  text-transform: uppercase;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
- ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+    li {
+      padding: 0 0.3rem;
+    }
 
-  li {
-    padding: 0 0.5rem;
+    li:first-child{
+      padding-left: 0;
+    }
+
+    li:last-child {
+      padding-right: 0;
+    }
   }
- }
 `
 
-export const HeaderSocial = styled.div`
+export const HeaderSocial = styled(SocialLinks)`
   width: 20vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  nav {
-    margin: 0;
-  }
+  margin: 0 1rem;
 
   ${media.lessThan("large")`
-    width: 100vw;
+    width: 90vw;
     margin: 0.8rem 0 0.8rem 0;
   `}
 `

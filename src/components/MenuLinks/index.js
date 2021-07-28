@@ -1,11 +1,12 @@
 import React from "react"
 import links from "./content"
+import PropTypes from "prop-types"
 import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
 
-const MenuLinks = () => (
-  <S.MenuLinksWrapper>
+const MenuLinks = ({ className, ...props }) => (
+  <S.MenuLinksWrapper className={className} {...props}>
     <S.MenuLinksList>
       {links.map((link, i) => (
         <S.MenuLinksItem key={i}>
@@ -24,5 +25,13 @@ const MenuLinks = () => (
     </S.MenuLinksList>
   </S.MenuLinksWrapper>
 )
+
+MenuLinks.propTypes = {
+  className: PropTypes.string,
+}
+
+MenuLinks.defaultProps = {
+  className: '',
+}
 
 export default MenuLinks
