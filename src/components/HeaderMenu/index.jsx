@@ -23,10 +23,8 @@ const HeaderMenu = () => {
   return (
     <S.HeaderWrapper>
       <S.HeaderProfile>
-        <S.HeaderDesc>
-          <h1>{title}</h1>
-          <p>{position}</p>
-        </S.HeaderDesc>
+        <h1>{title}</h1>
+        <p>{position}</p>
       </S.HeaderProfile>
       <S.HeaderMenuLinks />
       <S.HeaderSocial />

@@ -3,7 +3,7 @@ import media from "styled-media-query"
 import SocialLinks from '../SocialLinks'
 import MenuLinks from '../MenuLinks'
 
-export const HeaderWrapper = styled.div`
+export const HeaderWrapper = styled.header`
   width: 100vw;
   padding: 0.8rem 0;
   display: flex;
@@ -22,19 +22,16 @@ export const HeaderProfile = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-direction: column;
+
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+  }
 
   ${media.lessThan("large")`
     width: 100vw;
     display: block;
-  `}
-`
-export const HeaderDesc = styled.div`
-  flex-direction: column;
-  h1 {
-    text-transform: uppercase;
-  }
-
-  ${media.lessThan("large")`
     text-align: center;
   `}
 `
