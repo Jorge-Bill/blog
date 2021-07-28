@@ -22,9 +22,7 @@ export const MenuBarWrapper = styled.aside`
       bottom: 0;
       flex-direction: row;
       height: auto;
-      padding: 0;
-      position: fixed;
-      width: 100%;
+      width: 100vw;
     `};
 
     ${position === 'bottom' && `
