@@ -6,10 +6,11 @@ export const LayoutHeroWrapper = styled.section`
   flex-direction: column;
 
   .img-banner {
-    margin-top 8vh;
+    margin-top: 8.310249307479225vh;
+    opacity: 0.8;
 
     ${media.lessThan("large")`
-    margin-top: 14vh;
+      margin-top: 16.897506925207757vh;
     `}
   }
 `
@@ -17,5 +18,4 @@ export const LayoutHeroMain = styled.main`
   background: var(--background);
   transition: background, color 0.5s;
   min-height: 100vh;
-  width: 100%;
 `
