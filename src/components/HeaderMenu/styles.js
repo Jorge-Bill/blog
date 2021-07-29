@@ -8,7 +8,7 @@ export const HeaderWrapper = styled.header`
   padding: 0.8rem 0;
   display: flex;
   justify-content: space-between;
-  color: var(--highlight);
+  color: var(--texts);
   background-color: var(--mediumBackground);
 
   ${media.lessThan("large")`

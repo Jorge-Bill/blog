@@ -1,8 +1,7 @@
 import React from 'react'
 
 import PropTypes from 'prop-types'
-import { HeaderMenu, MenuBar } from '../index'
-import { StaticImage } from "gatsby-plugin-image"
+import { HeaderMenu, HeaderBanner, MenuBar } from '../index'
 import { TransitionPortal } from "gatsby-plugin-transition-link"
 
 import * as S from './styles'
@@ -14,12 +13,7 @@ const LayoutHero = ({ children }) => (
     <TransitionPortal level="top">
       <HeaderMenu />
     </TransitionPortal>
-    <StaticImage
-      src='../../images/jorge_banner.png'
-      alt='banner image'
-      className="img-banner"
-      placeholder='blurred'
-    />
+    <HeaderBanner title='Jorge Mendes' />
     <S.LayoutHeroMain>{children}</S.LayoutHeroMain>
     <TransitionPortal level="top">
       <MenuBar position='bottom' />
