@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from "styled-media-query"
 
 export const LayoutHeroWrapper = styled.section`
   display: flex;
@@ -9,6 +10,9 @@ export const LayoutHeroMain = styled.main`
   background: var(--background);
   transition: background, color 0.5s;
   min-height: 100vh;
-  padding-top: 7rem;
-  padding-bottom: 5rem;
+  padding: 2rem 0 5rem 0;
+
+  ${media.lessThan("large")`
+    padding: 6.5rem 0 5rem 0;
+  `}
 `
