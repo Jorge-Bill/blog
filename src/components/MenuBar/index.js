@@ -9,6 +9,7 @@ import { Lightbulb as LightOff } from "@styled-icons/remix-line/Lightbulb"
 import { LightbulbFlash as LightOn } from "@styled-icons/remix-fill/LightbulbFlash"
 import { Grid } from "@styled-icons/boxicons-solid/Grid"
 import { List } from "@styled-icons/evaicons-solid/List"
+import { FileText } from '@styled-icons/bootstrap/FileText'
 import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
@@ -45,8 +46,22 @@ const MenuBar = ({ variant, ...props }) => {
           </S.MenuBarItem>
         </S.MenuBarLink>
         <S.MenuBarLink
+          to="/posts/"
+          title="Go to Home"
+          cover
+          direction="right"
+          bg={getThemeColor()}
+          duration={0.6}
+          activeClassName="active"
+        >
+          <S.MenuBarItem>
+            <FileText />
+          </S.MenuBarItem>
+        </S.MenuBarLink>
+
+        <S.MenuBarLink
           to="/about/"
-          title="About"
+          title="Go to About"
           cover
           direction="right"
           bg={getThemeColor()}
@@ -59,7 +74,7 @@ const MenuBar = ({ variant, ...props }) => {
         </S.MenuBarLink>
         <S.MenuBarLink
           to="/search/"
-          title="Search"
+          title="Go to Search"
           cover
           direction="right"
           bg={getThemeColor()}
@@ -81,8 +96,10 @@ const MenuBar = ({ variant, ...props }) => {
         >
           {isLightMode ? <LightOn /> : <LightOff />}
         </S.MenuBarItem>
+
+       {variant === 'right' &&
         <S.MenuBarItem
-          title="change layout"
+          title="change posts layout"
           onClick={() => {
             window.__setPreferredDisplay(isListMode ? "grid" : "list")
           }}
@@ -90,6 +107,8 @@ const MenuBar = ({ variant, ...props }) => {
         >
           {isListMode ? <Grid /> : <List />}
         </S.MenuBarItem>
+       }
+
         <S.MenuBarItem
           title="go to top"
           onClick={() => {
