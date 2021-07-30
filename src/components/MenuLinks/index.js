@@ -5,11 +5,11 @@ import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
 
-const MenuLinks = ({ className, ...props }) => (
-  <S.MenuLinksWrapper className={className} {...props}>
-    <S.MenuLinksList>
+const MenuLinks = ({ className, variant, ...props }) => (
+  <S.MenuLinksWrapper className={className} variant={variant} {...props}>
+    <S.MenuLinksList variant={variant}>
       {links.map((link, i) => (
-        <S.MenuLinksItem key={i}>
+        <S.MenuLinksItem key={i} variant={variant}>
           <S.MenuLinksLink
             cover
             direction="left"
@@ -28,10 +28,12 @@ const MenuLinks = ({ className, ...props }) => (
 
 MenuLinks.propTypes = {
   className: PropTypes.string,
+  variant: PropTypes.oneOf(['inline', 'column']),
 }
 
 MenuLinks.defaultProps = {
   className: '',
+  variant: 'column',
 }
 
 export default MenuLinks

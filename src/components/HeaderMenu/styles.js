@@ -1,14 +1,12 @@
 import styled from 'styled-components'
 import media from "styled-media-query"
 import SocialLinks from '../SocialLinks'
-import MenuLinks from '../MenuLinks'
 
 export const HeaderWrapper = styled.header`
   width: 100vw;
   padding: 0.8rem 0;
   display: flex;
   justify-content: space-between;
-  color: var(--texts);
   background-color: var(--mediumBackground);
 
   ${media.lessThan("large")`
@@ -23,6 +21,7 @@ export const HeaderProfile = styled.div`
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
+  color: var(--texts);
 
   h1 {
     text-transform: uppercase;
@@ -33,31 +32,6 @@ export const HeaderProfile = styled.div`
     width: 100vw;
     display: block;
     text-align: center;
-  `}
-`
-
-export const HeaderMenuLinks = styled(MenuLinks)`
-  display: flex;
-  ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    li {
-      padding: 0 0.3rem;
-    }
-
-    li:first-child{
-      padding-left: 0;
-    }
-
-    li:last-child {
-      padding-right: 0;
-    }
-  }
-
-  ${media.lessThan("large")`
-    display: none;
   `}
 `
 

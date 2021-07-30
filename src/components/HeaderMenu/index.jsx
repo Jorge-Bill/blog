@@ -1,5 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
+import { MenuLinks } from '../index'
 
 import * as S from './styles'
 
@@ -25,7 +26,7 @@ const HeaderMenu = () => {
         <h1>{title}</h1>
         <p>{position}</p>
       </S.HeaderProfile>
-      <S.HeaderMenuLinks />
+      <MenuLinks variant='inline' />
       <S.HeaderSocial />
     </S.HeaderWrapper>
   )
