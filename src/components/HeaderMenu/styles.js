@@ -38,6 +38,9 @@ export const HeaderProfile = styled.div`
 
 export const HeaderMenuLinks = styled(MenuLinks)`
   text-transform: uppercase;
+  transition: color 0.5s;
+  display: flex;
+
   ul {
     display: flex;
     align-items: center;
@@ -54,7 +57,21 @@ export const HeaderMenuLinks = styled(MenuLinks)`
     li:last-child {
       padding-right: 0;
     }
+
+    li {
+      a:hover {
+        color: var(--highlight);
+      }
+
+      a.active {
+        color: var(--postColor);
+      }
+    }
   }
+
+  ${media.lessThan("large")`
+    display: none;
+  `}
 `
 
 export const HeaderSocial = styled(SocialLinks)`

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import media from "styled-media-query"
 
 export const BannerWrapper = styled.section`
-  background: url("https://source.unsplash.com/weekly?nature,water");
+  background: url("https://source.unsplash.com/weekly?nature");
   background-color: var(--timelineColor);
   min-height: 80vh;
   box-shadow: 0 4px 8px 0 var(--background);
@@ -16,11 +16,9 @@ export const BannerWrapper = styled.section`
   justify-content: center;
   align-items: center;
 
-  margin-top: 8.310249307479225vh;
-
   ${media.lessThan("large")`
-    margin-top: 14.897507vh;
-    min-height: 25vh;
+    // min-height: 25vh;
+    display: none;
   `}
 `
 export const BannerTitle = styled.h1`
