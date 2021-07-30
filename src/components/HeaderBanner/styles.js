@@ -4,7 +4,7 @@ import media from "styled-media-query"
 export const BannerWrapper = styled.section`
   background: url("https://source.unsplash.com/weekly?nature");
   background-color: var(--timelineColor);
-  min-height: 80vh;
+  min-height: 100vh;
   box-shadow: 0 4px 8px 0 var(--background);
 
   background-attachment: fixed;
@@ -17,7 +17,6 @@ export const BannerWrapper = styled.section`
   align-items: center;
 
   ${media.lessThan("large")`
-    // min-height: 25vh;
     display: none;
   `}
 `

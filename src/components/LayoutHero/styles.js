@@ -9,4 +9,6 @@ export const LayoutHeroMain = styled.main`
   background: var(--background);
   transition: background, color 0.5s;
   min-height: 100vh;
+  padding-top: 7rem;
+  padding-bottom: 5rem;
 `
