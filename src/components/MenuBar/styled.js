@@ -3,7 +3,7 @@ import media from "styled-media-query"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const MenuBarWrapper = styled.aside`
-  ${({ position }) => css`
+  ${({ variant }) => css`
     align-items: center;
     background: var(--mediumBackground);
     border-left: 1px solid var(--borders);
@@ -25,7 +25,7 @@ export const MenuBarWrapper = styled.aside`
       width: 100vw;
     `};
 
-    ${position === 'bottom' && `
+    ${variant === 'bottom' && `
       width: 100vw;
       height: 3.75rem;
       flex-direction: row;
@@ -38,7 +38,7 @@ export const MenuBarWrapper = styled.aside`
 `
 
 export const MenuBarGroup = styled.div`
-  ${({ position }) => css`
+  ${({ variant }) => css`
     display: flex;
     flex-direction: column;
 
@@ -46,7 +46,7 @@ export const MenuBarGroup = styled.div`
       flex-direction: row;
     `}
 
-    ${position === 'bottom' && `
+    ${variant === 'bottom' && `
       flex-direction: row;
     `};
 

@@ -16,7 +16,7 @@ const LayoutHero = ({ children }) => (
     <HeaderBanner title='Jorge Mendes' />
     <S.LayoutHeroMain>{children}</S.LayoutHeroMain>
     <TransitionPortal level="top">
-      <MenuBar position='bottom' />
+      <MenuBar variant='bottom' />
     </TransitionPortal>
   </S.LayoutHeroWrapper>
 )

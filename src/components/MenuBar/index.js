@@ -13,7 +13,7 @@ import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
 
-const MenuBar = ({ position }) => {
+const MenuBar = ({ variant, ...props }) => {
   const [theme, setTheme] = useState(null)
   const [display, setDisplay] = useState(null)
 
@@ -29,8 +29,8 @@ const MenuBar = ({ position }) => {
   }, [])
 
   return (
-    <S.MenuBarWrapper position={position}>
-      <S.MenuBarGroup position={position}>
+    <S.MenuBarWrapper variant={variant} {...props}>
+      <S.MenuBarGroup variant={variant}>
         <S.MenuBarLink
           to="/"
           title="Back to Home"
@@ -71,7 +71,7 @@ const MenuBar = ({ position }) => {
           </S.MenuBarItem>
         </S.MenuBarLink>
       </S.MenuBarGroup>
-      <S.MenuBarGroup position={position}>
+      <S.MenuBarGroup variant={variant}>
         <S.MenuBarItem
           title="change theme"
           onClick={() => {
@@ -104,11 +104,11 @@ const MenuBar = ({ position }) => {
 }
 
 MenuBar.propTypes = {
-  position: PropTypes.oneOf(['right', 'bottom']),
+  variant: PropTypes.oneOf(['right', 'bottom']),
 }
 
 MenuBar.defaultProps = {
-  position: 'right',
+  variant: 'right',
 }
 
 export default MenuBar
