@@ -1,6 +1,5 @@
 import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
-// import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from './styles'
 

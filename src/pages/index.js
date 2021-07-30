@@ -6,9 +6,9 @@ import { about_me } from '../utils/about_me'
 import * as S from "../styles/about"
 
 
-const NewHomePage = () => (
+const indexPage = () => (
   <LayoutHero>
-    <Seo title="newHome" />
+    <Seo title="Home" />
     <S.AboutHeader>
         <S.AboutTitle>About Me</S.AboutTitle>
         <S.AboutDescription>Hello World! My name is Jorge.</S.AboutDescription>
@@ -19,4 +19,4 @@ const NewHomePage = () => (
   </LayoutHero>
 )
 
-export default NewHomePage
+export default indexPage

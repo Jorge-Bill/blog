@@ -23,6 +23,7 @@ export const MenuLinksItem = styled.li`
 export const MenuLinksLink = styled(AniLink)`
   color: var(--texts);
   text-decoration: none;
+  text-transform: uppercase;
   transition: color 0.5s;
   &:hover {
     color: var(--highlight);
