@@ -1,11 +1,12 @@
 import React from "react"
 import Icons from "./Icons"
 import links from "./content"
+import PropTypes from "prop-types"
 
 import * as S from "./styled"
 
-const SocialLinks = () => (
-  <S.SocialLinksWrapper>
+const SocialLinks = ({ className, size, ...props }) => (
+  <S.SocialLinksWrapper className={className} size={size} {...props}>
     <S.SocialLinksList>
       {links.map((link, i) => {
         const Icon = Icons[link.label]
@@ -28,5 +29,15 @@ const SocialLinks = () => (
     </S.SocialLinksList>
   </S.SocialLinksWrapper>
 )
+
+SocialLinks.propTypes = {
+  className: PropTypes.string,
+  size: PropTypes.oneOf(['small', 'auto']),
+}
+
+SocialLinks.defaultProps = {
+  className: '',
+  size: 'auto',
+}
 
 export default SocialLinks

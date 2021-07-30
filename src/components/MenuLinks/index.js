@@ -1,14 +1,15 @@
 import React from "react"
 import links from "./content"
+import PropTypes from "prop-types"
 import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
 
-const MenuLinks = () => (
-  <S.MenuLinksWrapper>
-    <S.MenuLinksList>
+const MenuLinks = ({ className, variant, ...props }) => (
+  <S.MenuLinksWrapper className={className} variant={variant} {...props}>
+    <S.MenuLinksList variant={variant}>
       {links.map((link, i) => (
-        <S.MenuLinksItem key={i}>
+        <S.MenuLinksItem key={i} variant={variant}>
           <S.MenuLinksLink
             cover
             direction="left"
@@ -24,5 +25,15 @@ const MenuLinks = () => (
     </S.MenuLinksList>
   </S.MenuLinksWrapper>
 )
+
+MenuLinks.propTypes = {
+  className: PropTypes.string,
+  variant: PropTypes.oneOf(['inline', 'column']),
+}
+
+MenuLinks.defaultProps = {
+  className: '',
+  variant: 'column',
+}
 
 export default MenuLinks

@@ -15,7 +15,7 @@ const BlogList = props => {
 
   return (
     <LayoutCustom>
-      <Seo title="Home" />
+      <Seo title="Posts" />
       <S.ListWrapper>
         {postList.map(
           ({

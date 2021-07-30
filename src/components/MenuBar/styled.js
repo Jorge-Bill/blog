@@ -1,38 +1,55 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 import media from "styled-media-query"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const MenuBarWrapper = styled.aside`
-  align-items: center;
-  background: var(--mediumBackground);
-  border-left: 1px solid var(--borders);
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: space-between;
-  padding: 0.8rem 0;
-  position: fixed;
-  right: 0;
-  width: 3.75rem;
-  transition: background 0.5s;
-
-  ${media.lessThan("large")`
-    border-top: 1px solid var(--borders);
-    bottom: 0;
-    flex-direction: row;
-    height: auto;
-    padding: 0;
+  ${({ variant }) => css`
+    align-items: center;
+    background: var(--mediumBackground);
+    border-left: 1px solid var(--borders);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    padding: 0.8rem 0;
     position: fixed;
-    width: 100%;
+    right: 0;
+    width: 3.75rem;
+    transition: background 0.5s;
+
+    ${media.lessThan("large")`
+      border-top: 1px solid var(--borders);
+      bottom: 0;
+      flex-direction: row;
+      height: auto;
+      width: 100vw;
+    `};
+
+    ${variant === 'bottom' && `
+      width: 100vw;
+      height: 3.75rem;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      bottom: 0;
+    `};
+
   `}
 `
 
 export const MenuBarGroup = styled.div`
-  display: flex;
-  flex-direction: column;
+  ${({ variant }) => css`
+    display: flex;
+    flex-direction: column;
 
-  ${media.lessThan("large")`
-    flex-direction: row;
+    ${media.lessThan("large")`
+      flex-direction: row;
+    `}
+
+    ${variant === 'bottom' && `
+      flex-direction: row;
+    `};
+
   `}
 `
 

@@ -8,7 +8,7 @@ export const PostHeader = styled.header`
   padding: 5rem 5rem 0;
 
   ${media.lessThan("large")`
-    padding: 5rem 0 0;
+    padding: 2rem 0 0;
     max-width: 100%;
   `}
 `

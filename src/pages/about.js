@@ -1,6 +1,6 @@
 import React from "react"
 
-import { LayoutCustom, Timeline, Seo } from "../components"
+import { LayoutHero, Timeline, Seo } from "../components"
 import { GatsbyImage as Img } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -32,11 +32,11 @@ const AboutPage = () => {
   )
 
   return (
-    <LayoutCustom>
+    <LayoutHero title='About Me'>
       <Seo title="About" />
       <S.AboutHeader>
-        <S.AboutTitle>About Me</S.AboutTitle>
-        <S.AboutDescription>Hello World! My name is Jorge.</S.AboutDescription>
+        <S.AboutTitle>Hello World!</S.AboutTitle>
+        <S.AboutDescription> My name is Jorge.</S.AboutDescription>
       </S.AboutHeader>
       <S.MainContent>
         <S.imgWrapper>
@@ -61,7 +61,7 @@ const AboutPage = () => {
         <S.AboutHighlight>Here you can see a timeline of my story as a web developer</S.AboutHighlight>
         <Timeline data={storyEng} />
       </S.MainContent>
-    </LayoutCustom>
+    </LayoutHero>
   )
 }
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 
+import PropTypes from 'prop-types'
 import { Home } from "@styled-icons/boxicons-solid/Home"
 import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2"
 import { User } from "@styled-icons/boxicons-regular/User"
@@ -8,11 +9,12 @@ import { Lightbulb as LightOff } from "@styled-icons/remix-line/Lightbulb"
 import { LightbulbFlash as LightOn } from "@styled-icons/remix-fill/LightbulbFlash"
 import { Grid } from "@styled-icons/boxicons-solid/Grid"
 import { List } from "@styled-icons/evaicons-solid/List"
+import { FileText } from '@styled-icons/bootstrap/FileText'
 import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
 
-const MenuBar = () => {
+const MenuBar = ({ variant, ...props }) => {
   const [theme, setTheme] = useState(null)
   const [display, setDisplay] = useState(null)
 
@@ -28,8 +30,8 @@ const MenuBar = () => {
   }, [])
 
   return (
-    <S.MenuBarWrapper>
-      <S.MenuBarGroup>
+    <S.MenuBarWrapper variant={variant} {...props}>
+      <S.MenuBarGroup variant={variant}>
         <S.MenuBarLink
           to="/"
           title="Back to Home"
@@ -44,8 +46,22 @@ const MenuBar = () => {
           </S.MenuBarItem>
         </S.MenuBarLink>
         <S.MenuBarLink
+          to="/posts/"
+          title="Go to Home"
+          cover
+          direction="right"
+          bg={getThemeColor()}
+          duration={0.6}
+          activeClassName="active"
+        >
+          <S.MenuBarItem>
+            <FileText />
+          </S.MenuBarItem>
+        </S.MenuBarLink>
+
+        <S.MenuBarLink
           to="/about/"
-          title="About"
+          title="Go to About"
           cover
           direction="right"
           bg={getThemeColor()}
@@ -58,7 +74,7 @@ const MenuBar = () => {
         </S.MenuBarLink>
         <S.MenuBarLink
           to="/search/"
-          title="Search"
+          title="Go to Search"
           cover
           direction="right"
           bg={getThemeColor()}
@@ -70,7 +86,7 @@ const MenuBar = () => {
           </S.MenuBarItem>
         </S.MenuBarLink>
       </S.MenuBarGroup>
-      <S.MenuBarGroup>
+      <S.MenuBarGroup variant={variant}>
         <S.MenuBarItem
           title="change theme"
           onClick={() => {
@@ -80,8 +96,10 @@ const MenuBar = () => {
         >
           {isLightMode ? <LightOn /> : <LightOff />}
         </S.MenuBarItem>
+
+       {variant === 'right' &&
         <S.MenuBarItem
-          title="change layout"
+          title="change posts layout"
           onClick={() => {
             window.__setPreferredDisplay(isListMode ? "grid" : "list")
           }}
@@ -89,6 +107,8 @@ const MenuBar = () => {
         >
           {isListMode ? <Grid /> : <List />}
         </S.MenuBarItem>
+       }
+
         <S.MenuBarItem
           title="go to top"
           onClick={() => {
@@ -100,6 +120,14 @@ const MenuBar = () => {
       </S.MenuBarGroup>
     </S.MenuBarWrapper>
   )
+}
+
+MenuBar.propTypes = {
+  variant: PropTypes.oneOf(['right', 'bottom']),
+}
+
+MenuBar.defaultProps = {
+  variant: 'right',
 }
 
 export default MenuBar

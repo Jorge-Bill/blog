@@ -7,11 +7,11 @@ export const AboutHeader = styled.header`
   text-align: center;
   margin: auto;
   max-width: 70rem;
-  padding: 5rem 5rem 0;
+  // padding: 5rem 5rem 0;
   letter-spacing: .2rem;
 
   ${media.lessThan("large")`
-    padding: 5rem 0 0;
+    // padding: 5rem 0 0;
     max-width: 100%;
   `}
 `

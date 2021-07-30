@@ -1,16 +1,22 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 import media from "styled-media-query"
 
 export const SocialLinksWrapper = styled.nav`
+${({ size }) => css`
   width: 100%;
+  margin: 2rem auto;
 
-  ${media.greaterThan('large')`
-    margin: 2rem auto;
-  `}
+  ${size === 'small' && `
+    width: 20vw;
+    margin: 0 1rem;
+  `};
 
   ${media.lessThan("large")`
-    margin-top: 0.8rem;
+    margin: 0.8rem auto;
+    width: 100%;
   `}
+
+ `}
 `
 
 export const SocialLinksList = styled.ul`
