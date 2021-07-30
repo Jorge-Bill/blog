@@ -5,8 +5,8 @@ import PropTypes from "prop-types"
 
 import * as S from "./styled"
 
-const SocialLinks = ({ className, ...props }) => (
-  <S.SocialLinksWrapper className={className} {...props}>
+const SocialLinks = ({ className, size, ...props }) => (
+  <S.SocialLinksWrapper className={className} size={size} {...props}>
     <S.SocialLinksList>
       {links.map((link, i) => {
         const Icon = Icons[link.label]
@@ -32,10 +32,12 @@ const SocialLinks = ({ className, ...props }) => (
 
 SocialLinks.propTypes = {
   className: PropTypes.string,
+  size: PropTypes.oneOf(['small', 'auto']),
 }
 
 SocialLinks.defaultProps = {
   className: '',
+  size: 'auto',
 }
 
 export default SocialLinks

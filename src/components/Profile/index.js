@@ -2,10 +2,11 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Avatar from "../Avatar"
 import getThemeColor from "../../utils/getThemeColor"
+import PropTypes from "prop-types"
 
 import * as S from "./styled"
 
-const Profile = () => {
+const Profile = ({ size, showAvatar, showDescription, ...props }) => {
   const {
     site: {
       siteMetadata: { title, position, description },
@@ -23,7 +24,7 @@ const Profile = () => {
   `)
 
   return (
-    <S.ProfileWrapper>
+    <S.ProfileWrapper size={size} {...props}>
       <S.ProfileLink
         to="/"
         cover
@@ -31,15 +32,27 @@ const Profile = () => {
         bg={getThemeColor()}
         duration={0.6}
       >
-        <Avatar />
+        {showAvatar && <Avatar />}
         <S.ProfileAuthor>
           {title}
           <S.ProfilePosition>{position}</S.ProfilePosition>
         </S.ProfileAuthor>
       </S.ProfileLink>
-      <S.ProfileDescription>{description}</S.ProfileDescription>
+      {showDescription && <S.ProfileDescription>{description}</S.ProfileDescription>}
     </S.ProfileWrapper>
   )
+}
+
+Profile.propTypes = {
+  size: PropTypes.oneOf(['small', 'auto']),
+  showAvatar: PropTypes.bool,
+  showDescription: PropTypes.bool,
+}
+
+Profile.defaultProps = {
+  size: 'auto',
+  showAvatar: false,
+  showDescription: true,
 }
 
 export default Profile
