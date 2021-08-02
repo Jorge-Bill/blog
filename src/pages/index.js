@@ -48,28 +48,31 @@ const indexPage = ({ ...props }) => {
           <p>Like my favorite writer once wrote:</p>
           <p><strong>“Where there's life there's hope, and need of vittles.”</strong> ― J.R.R. Tolkien, The Lord of the Rings </p>
 
-          <S.AboutDescription>See my Lasts Posts</S.AboutDescription>
-          {lastPosts.map(
-            ({
-              node: {
-                frontmatter: { background, category, date, description, title },
-                timeToRead,
-                id,
-                fields: { slug },
-              },
-            }) => (
-              <S.CustomPostItem
-                key={id}
-                slug={slug}
-                background={background}
-                category={category}
-                date={date}
-                timeToRead={timeToRead}
-                title={title}
-                description={description}
-              />
-            )
-          )}
+          <S.AboutDescription>See my Lasts Posts:</S.AboutDescription>
+
+          <S.LastsPostsWrapper>
+            {lastPosts.map(
+              ({
+                node: {
+                  frontmatter: { background, category, date, description, title },
+                  timeToRead,
+                  id,
+                  fields: { slug },
+                },
+              }) => (
+                <S.CustomPostItem
+                  key={id}
+                  slug={slug}
+                  background={background}
+                  category={category}
+                  date={date}
+                  timeToRead={timeToRead}
+                  title={title}
+                  description={description}
+                />
+              )
+            )}
+          </S.LastsPostsWrapper>
         </S.MainContent>
     </LayoutHero>
   )
