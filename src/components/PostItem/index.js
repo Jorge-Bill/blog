@@ -12,6 +12,7 @@ const PostItem = ({
   timeToRead,
   title,
   description,
+  ...props
 }) => (
   <S.PostItemLink
     to={slug}
@@ -21,7 +22,7 @@ const PostItem = ({
     bg={getThemeColor()}
     duration={0.6}
   >
-    <S.PostItemWrapper>
+    <S.PostItemWrapper {...props}>
       <S.PostItemTag background={background}>{category}</S.PostItemTag>
       <S.PostItemInfo>
         <S.PostItemDate>

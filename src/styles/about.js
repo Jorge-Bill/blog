@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import media from "styled-media-query"
 import Card from '../components/Card'
+import PostItem from '../components/PostItem'
 
 
 export const AboutHeader = styled.header`
@@ -98,7 +99,7 @@ export const MainContent = styled.section`
     font-weight: 300;
     line-height: 1.7;
     letter-spacing: 0.069rem;
-    padding: 0 1.4rem;
+    // padding: 0 1.4rem;
 
     ${media.lessThan("large")`
       padding: 0 1rem;
@@ -284,3 +285,31 @@ export const CustomCard = styled(Card)`
     }
 `}
 `
+
+export const CustomPostItem = styled(PostItem)`
+  h1 {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin: 0;
+  }
+
+  time {
+    margin-bottom: 0.3rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  ${media.lessThan("large")`
+    h1, p {
+      padding: 0;
+    }
+
+    p {
+      margin-top: 0.3rem;
+    }
+  `}
+`
+

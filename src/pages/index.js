@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { LayoutHero, Seo, PostItem } from "../components"
+import { LayoutHero, Seo } from "../components"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import getThemeColor from "../utils/getThemeColor"
 
@@ -47,7 +47,7 @@ const indexPage = ({ ...props }) => {
           .</p>
           <p>Like my favorite writer once wrote:</p>
           <p><strong>“Where there's life there's hope, and need of vittles.”</strong> ― J.R.R. Tolkien, The Lord of the Rings </p>
-          <h4>Lasts Posts</h4>
+          <h4>See my Lasts Posts</h4>
           {lastPosts.map(
             ({
               node: {
@@ -57,7 +57,7 @@ const indexPage = ({ ...props }) => {
                 fields: { slug },
               },
             }) => (
-              <PostItem
+              <S.CustomPostItem
                 key={id}
                 slug={slug}
                 background={background}
