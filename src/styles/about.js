@@ -248,6 +248,7 @@ export const CardsWrapper = styled.div`
     flex-direction: column;
   `}
 `
+
 export const CustomCard = styled(Card)`
   display: flex;
   justify-content: center;
