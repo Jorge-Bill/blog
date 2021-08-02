@@ -47,7 +47,8 @@ const indexPage = ({ ...props }) => {
           .</p>
           <p>Like my favorite writer once wrote:</p>
           <p><strong>“Where there's life there's hope, and need of vittles.”</strong> ― J.R.R. Tolkien, The Lord of the Rings </p>
-          <h4>See my Lasts Posts</h4>
+
+          <S.AboutDescription>See my Lasts Posts</S.AboutDescription>
           {lastPosts.map(
             ({
               node: {
