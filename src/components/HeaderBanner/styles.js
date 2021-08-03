@@ -2,7 +2,8 @@ import styled from 'styled-components'
 import media from "styled-media-query"
 
 export const BannerWrapper = styled.section`
-  background: url("https://source.unsplash.com/weekly?nature");
+  // background: url("https://source.unsplash.com/3823x2510/?nature,star,galaxy,space");
+  background: url("https://source.unsplash.com/3823x2510/?nature,cloud,desktop,sunset");
   background-color: var(--timelineColor);
   min-height: 100vh;
   box-shadow: 0 4px 8px 0 var(--background);
@@ -23,7 +24,7 @@ export const BannerWrapper = styled.section`
 export const BannerTitle = styled.h1`
   color:  var(--postColor);
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 700;
   letter-spacing: .2rem;
   text-shadow: 6px 6px 0px var(--timelineColor);
