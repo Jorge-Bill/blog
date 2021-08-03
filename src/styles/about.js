@@ -287,6 +287,10 @@ export const CustomCard = styled(Card)`
 `
 
 export const CustomPostItem = styled(PostItem)`
+  &:last-child{
+    border-bottom: 0;
+  }
+
   h1 {
     font-size: 1.4rem;
     line-height: 1.7rem;
@@ -309,7 +313,16 @@ export const CustomPostItem = styled(PostItem)`
 
     p {
       margin-top: 0.3rem;
+      text-transform: Capitalize;
     }
   `}
 `
 
+export const LastsPostsWrapper = styled.section`
+  a {
+    &:last-child{
+      border-bottom: 0;
+      border-right: 0;
+     }
+  }
+`

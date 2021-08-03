@@ -5,7 +5,7 @@ import * as S from './styled'
 
 const SwUpdater = () => (
   <S.NotificationWrapper>
-    <p>Tem uma atualização disponível.</p>
+    <p>Update Available - reload the page or click here</p>
     <S.IconWrapper>
       <Refresh onClick={() => window.location.reload()} />
     </S.IconWrapper>
