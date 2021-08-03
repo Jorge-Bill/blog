@@ -32,7 +32,7 @@ const AboutPage = () => {
   )
 
   return (
-    <LayoutHero title='About Me'>
+    <LayoutHero title='About Me' bannerTags='nature,cloud,sunset'>
       <Seo title="About" />
       <S.AboutHeader>
         <S.AboutTitle>Hello World!</S.AboutTitle>

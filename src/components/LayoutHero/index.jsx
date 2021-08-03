@@ -7,7 +7,7 @@ import { TransitionPortal } from "gatsby-plugin-transition-link"
 import * as S from './styles'
 import GlobalStyles from "../../styles/global"
 
-const LayoutHero = ({ title, children, ...props }) => (
+const LayoutHero = ({ title, bannerTags, children, ...props }) => (
   <S.LayoutHeroWrapper {...props}>
     <GlobalStyles />
     <TransitionPortal level="top">
@@ -21,7 +21,7 @@ const LayoutHero = ({ title, children, ...props }) => (
         socialSize='small'
       />
     </TransitionPortal>
-    <HeaderBanner title={title} />
+    <HeaderBanner title={title} tags={bannerTags} />
     <S.LayoutHeroMain>{children}</S.LayoutHeroMain>
     <TransitionPortal level="top">
       <MenuBar variant='bottom' size='small' />
@@ -32,10 +32,12 @@ const LayoutHero = ({ title, children, ...props }) => (
 LayoutHero.propTypes = {
   children: PropTypes.node.isRequired,
   title: PropTypes.string,
+  bannerTags: PropTypes.string,
 }
 
 LayoutHero.defaultProps = {
   title: 'Jorge Mendes',
+  bannerTags: '',
 }
 
 export default LayoutHero

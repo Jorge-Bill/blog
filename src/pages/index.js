@@ -10,7 +10,7 @@ const indexPage = ({ ...props }) => {
   const lastPosts = props.data.allMarkdownRemark.edges
 
   return (
-    <LayoutHero {...props}>
+    <LayoutHero {...props} bannerTags='images,travel,new-york'>
       <Seo title="Home" />
       <S.AboutHeader>
         <S.AboutTitle>Wellcome my friend</S.AboutTitle>
