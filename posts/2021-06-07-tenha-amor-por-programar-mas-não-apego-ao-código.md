@@ -2,7 +2,7 @@
 title: Tenha amor por programar mas não apego ao código
 description: Um post sobre o quão importante é gostar de programar, mas sem se
   manter apegado ao código produzido.
-date: 2021-08-03 06:38:59
+date: 2021-08-03 06:41:14
 thumbnail: assets/img/captura-de-tela-2021-08-03-182728.png
 category: code
 background: Red
