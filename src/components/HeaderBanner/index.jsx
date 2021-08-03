@@ -6,10 +6,8 @@ import LazyLoad from "react-lazyload"
 import * as S from './styles'
 
 const HeaderBanner = ({ title, tags, ...props }) => {
-  const refLoader = React.useRef();
-  const removeLoader = () => {
-    refLoader.current.remove();
-  };
+  const refLoader = React.useRef()
+  const removeLoader = () => refLoader.current.remove()
 
   return (
     <S.BannerWrapper {...props}>
@@ -18,7 +16,7 @@ const HeaderBanner = ({ title, tags, ...props }) => {
         <S.Loader ref={refLoader} />
         <S.ImageBanner
           src={`https://source.unsplash.com/1600x900/?desktop,${tags}`}
-          alt={tags}
+          alt={`Desktop wallpapers random about ${tags}`}
           onLoad={removeLoader}
           onError={removeLoader} />
       </LazyLoad>

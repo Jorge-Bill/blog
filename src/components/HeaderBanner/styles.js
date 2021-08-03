@@ -10,7 +10,6 @@ export const BannerWrapper = styled.section`
   box-shadow: 0 4px 8px 0 var(--background);
   min-height: 100vh;
   transition: .15s;
-  opacity: 0.8;
 
   ${media.lessThan("large")`
     display: none;
@@ -24,14 +23,12 @@ export const ImageBanner = styled.img`
   width: 100%;
   height: 100vh;
   object-fit: cover;
+  opacity: 0.8;
 `
 
 const loadingAnimation = keyframes`
   0% {
     transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(180deg);
   }
   100% {
     transform: rotate(360deg);
@@ -39,30 +36,19 @@ const loadingAnimation = keyframes`
 `;
 
 export const Loader = styled.div`
+  margin: auto;
   position: absolute;
+  top: 35vh;
   left: 0;
-  top: 0;
   right: 0;
-  bottom: 0;
+  z-index: 1;
+  width: 20rem;
+  height: 20rem;
 
-  transform: translateZ(0);
-  animation: ${loadingAnimation} 1.1s infinite linear;
-
-
-  margin: 60px auto;
-  font-size: 10px;
-  position: relative;
-  text-indent: -9999em;
-  border-top: 1.1em solid rgba(255, 255, 255, 0.2);
-  border-right: 1.1em solid rgba(255, 255, 255, 0.2);
-  border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
-  border-left: 1.1em solid #ffffff;
-
-  &:after {
-    border-radius: 50%;
-    width: 50em;
-    height: 50em;
-  }
+  animation: ${loadingAnimation} 1s linear infinite;
+  border: 1em solid var(--postColor);
+  border-top: 1em solid var(--background);
+  border-radius: 50%;
 `;
 
 export const BannerTitle = styled.h1`
