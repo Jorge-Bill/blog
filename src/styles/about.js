@@ -274,17 +274,21 @@ export const CustomCard = styled(Card)`
    }
 
   ${media.lessThan("large")`
-  width: 80%;
+    width: 80%;
     &:nth-child(1){
       margin: 0 0 1rem 0;
     }
-`}
+  `}
 `
 
 export const LastPostsWrapper = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  ${media.lessThan("large")`
+    flex-direction: column;
+  `}
 `
 export const LastPostsCard = styled(Card)`
   flex: 0 1 calc(30% - 0.1em);
@@ -293,6 +297,15 @@ export const LastPostsCard = styled(Card)`
   color: var(--postColor);
   white-space: normal;
   text-align: left;
+
+  ${media.lessThan("large")`
+    padding-top: 0;
+    margin-bottom: 1rem;
+
+    &:last-child{
+      margin: 0;
+    }
+  `}
 `
 export const LastPostsImage = styled.img`
   object-fit: cover;
