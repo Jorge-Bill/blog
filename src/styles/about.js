@@ -1,18 +1,15 @@
 import styled from 'styled-components'
 import media from "styled-media-query"
 import Card from '../components/Card'
-import PostItem from '../components/PostItem'
-
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const AboutHeader = styled.header`
   text-align: center;
   margin: auto;
   max-width: 70rem;
-  // padding: 5rem 5rem 0;
   letter-spacing: .2rem;
 
   ${media.lessThan("large")`
-    // padding: 5rem 0 0;
     max-width: 100%;
   `}
 `
@@ -79,6 +76,17 @@ export const MainContent = styled.section`
   max-width: 70rem;
   padding: 2rem 5rem;
 
+  color: var(--postColor);
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.7;
+  letter-spacing: 0.069rem;
+
+  // ${media.lessThan("large")`
+  //   padding: 0 1rem;
+  //   word-break: break-word;
+  // `}
+
   ${media.lessThan("large")`
     padding: 2rem 0;
     max-width: 100%;
@@ -93,19 +101,6 @@ export const MainContent = styled.section`
   ol,
   .tags,
   iframe,
-  .button-post {
-    color: var(--postColor);
-    font-size: 1.25rem;
-    font-weight: 300;
-    line-height: 1.7;
-    letter-spacing: 0.069rem;
-    // padding: 0 1.4rem;
-
-    ${media.lessThan("large")`
-      padding: 0 1rem;
-      word-break: break-word;
-    `}
-  }
   p {
     margin: 0 auto 1.6rem;
   }
@@ -286,43 +281,51 @@ export const CustomCard = styled(Card)`
 `}
 `
 
-export const CustomPostItem = styled(PostItem)`
-  &:last-child{
-    border-bottom: 0;
-  }
+export const LastPostsWrapper = styled.section`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+`
+export const LastPostsCard = styled(Card)`
+  flex: 0 1 calc(30% - 0.1em);
 
-  h1 {
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    margin: 0;
-  }
-
-  time {
-    margin-bottom: 0.3rem;
-  }
-
-  p {
-    font-size: 1rem;
-    line-height: 1.4rem;
-  }
-
-  ${media.lessThan("large")`
-    h1, p {
-      padding: 0;
-    }
-
-    p {
-      margin-top: 0.3rem;
-      text-transform: Capitalize;
-    }
-  `}
+  transition: 0.3s;
+  color: var(--postColor);
+  white-space: normal;
+  text-align: left;
+`
+export const LastPostsImage = styled.img`
+  object-fit: cover;
+  margin: auto;
+  width: 100%;
+  height: 8em;
+  border-radius: 4px;
+  margin-bottom: 1rem;
 `
 
-export const LastsPostsWrapper = styled.section`
-  a {
-    &:last-child{
-      border-bottom: 0;
-      border-right: 0;
-     }
-  }
+export const LastPostsCardContent = styled.div`
+  padding: 1rem;
 `
+
+export const LastPostsTitle = styled.h6`
+  color: var(--timelineLine);
+  font-weight: 700;
+  line-height: 1.4rem;
+  margin-bottom: 0.5rem;
+`
+export const LastPostsInfo = styled.span`
+  font-size: .75rem;
+  margin-bottom: 1rem;
+`
+
+export const LastPostsDesc = styled.p`
+  font-size: .85rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+`
+export const LastPostsLink = styled(AniLink)`
+
+`
+
