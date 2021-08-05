@@ -281,6 +281,12 @@ export const CustomCard = styled(Card)`
   `}
 `
 
+export const SubTitle = styled.h2`
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: rgb(0 0 0 / 1%) 0 0 1px;
+`
+
 export const LastPostsWrapper = styled.section`
   display: flex;
   flex-wrap: wrap;
@@ -288,47 +294,64 @@ export const LastPostsWrapper = styled.section`
 
   ${media.lessThan("large")`
     flex-direction: column;
+    padding: 1rem;
   `}
-`
-export const LastPostsCard = styled(Card)`
-  flex: 0 1 calc(30% - 0.1em);
 
+  a {
+    border-bottom: 1px solid var(--mediumBackground);
+  }
+`
+
+export const LastPostsItem = styled(AniLink)`
+  flex: 0 1 calc(33% - .2em);
+  max-width: 33.333333%;
+
+  border: 1px solid var(--mediumBackground);
+  box-shadow: 0 1px 10px rgb(29 34 47 / 10%);
+  border-radius: 4px;
   transition: 0.3s;
-  color: var(--postColor);
   white-space: normal;
   text-align: left;
+  background: var(--mediumBackground);
+  cursor: pointer;
 
   ${media.lessThan("large")`
     padding-top: 0;
+    max-width: 100%;
     margin-bottom: 1rem;
 
     &:last-child{
       margin: 0;
     }
   `}
+
+  &:hover {
+    opacity: 0.6;
+    border: 1px solid var(--highlight);
+  }
 `
+
 export const LastPostsImage = styled.img`
   object-fit: cover;
   margin: auto;
   width: 100%;
   height: 8em;
-  border-radius: 4px;
-  margin-bottom: 1rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 `
 
-export const LastPostsCardContent = styled.div`
+export const LastPostsContent = styled.div`
   padding: 1rem;
 `
 
 export const LastPostsTitle = styled.h6`
-  color: var(--timelineLine);
+  color: var(--postColor);
+  text-shadow: rgb(0 0 0 / 1%) 0 0 1px;
+  font-smoothing: antialiased;
   font-weight: 700;
   line-height: 1.4rem;
-  margin-bottom: 0.5rem;
-`
-export const LastPostsInfo = styled.span`
-  font-size: .75rem;
   margin-bottom: 1rem;
+  height: 70px;
 `
 
 export const LastPostsDesc = styled.p`
@@ -337,8 +360,14 @@ export const LastPostsDesc = styled.p`
   line-height: 1.2rem;
   text-transform: capitalize;
   margin: 0;
+  height: 60px;
+  color: var(--texts);
 `
-export const LastPostsLink = styled(AniLink)`
 
+export const LastPostsInfo = styled.div`
+  p {
+    font-size: .75rem;
+    text-align: center;
+    color: var(--postColor);
+  }
 `
-

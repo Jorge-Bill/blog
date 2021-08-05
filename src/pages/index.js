@@ -48,35 +48,35 @@ const indexPage = ({ ...props }) => {
           <p>Like my favorite writer once wrote:</p>
           <p><strong>“Where there's life there's hope, and need of vittles.”</strong> ― J.R.R. Tolkien, The Lord of the Rings </p>
 
-          <S.AboutDescription>See the Last Posts</S.AboutDescription>
+          <S.SubTitle> - See the Last Posts - </S.SubTitle>
           <S.LastPostsWrapper>
           {lastPosts.map(
             ({
               node: {
-                frontmatter: { thumbnail, date, description, title },
+                frontmatter: { category, thumbnail, date, description, title },
                 timeToRead,
                 id,
                 fields: { slug },
               },
             }) => (
-              <S.LastPostsCard key={id}>
+              <S.LastPostsItem
+                key={id}
+                to={slug}
+                title={title}
+                cover
+                direction="right"
+                bg={getThemeColor()}
+                duration={0.6}
+                >
                 <S.LastPostsImage src={thumbnail} alt={title} />
-                <S.LastPostsCardContent>
+                <S.LastPostsContent>
                   <S.LastPostsTitle>{title}</S.LastPostsTitle>
-                  <S.LastPostsInfo>{date} - {timeToRead} min of read</S.LastPostsInfo>
                   <S.LastPostsDesc>{description}</S.LastPostsDesc>
-                  <S.LastPostsLink
-                    to={slug}
-                    title={title}
-                    cover
-                    direction="right"
-                    bg={getThemeColor()}
-                    duration={0.6}
-                  >
-                    Read more
-                  </S.LastPostsLink>
-                </S.LastPostsCardContent>
-              </S.LastPostsCard>
+                </S.LastPostsContent>
+                <S.LastPostsInfo>
+                  <p>{category} - {date} - {timeToRead} min of read</p>
+                </S.LastPostsInfo>
+              </S.LastPostsItem>
             )
           )}
           </S.LastPostsWrapper>
@@ -102,6 +102,7 @@ export const query = graphql`
             description
             title
             thumbnail
+            category
           }
           timeToRead
           id
