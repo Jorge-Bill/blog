@@ -3,13 +3,13 @@ title: Lições que a vida me ensionou
 description: Trechos de sabedoria que aprendi a muito custo com a vida, e desejo
   compartilhar no intuito de ajudar alguém.
 date: 2021-06-18 10:57:41
-thumbnail: assets/img/boy.jpg
+thumbnail: assets/img/top-10-books-every-college-student-read-1024x640-1.jpeg
 category: Misc
 background: Aqua
 ---
 ## Ensinamentos
 
-![boy reading book](assets/img/boy.jpg "boy reading book")
+![books](assets/img/top-10-books-every-college-student-read-1024x640-1.jpeg "books")
 
 Hoje conversando com minha esposa na cozinha de casa percebi que existem muitos ensinamentos no dia a dia. Frases que expressam muito bem os ciclos da vida:
 
