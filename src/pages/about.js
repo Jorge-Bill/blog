@@ -50,11 +50,11 @@ const AboutPage = () => {
         <S.CardsWrapper>
           <S.CustomCard>
             <Document />
-            <a href={resume} target='_blank' rel='noopener noreferrer'>See my curriculum vitae</a>
+            <a href={resume} target='_blank' rel='noopener noreferrer'>My curriculum vitae</a>
           </S.CustomCard>
           <S.CustomCard>
             <Document />
-            <a href={letter} target='_blank' rel='noopener noreferrer'>See my cover letter</a>
+            <a href={letter} target='_blank' rel='noopener noreferrer'>My cover letter</a>
           </S.CustomCard>
         </S.CardsWrapper>
         <br />

@@ -251,6 +251,7 @@ export const CustomCard = styled(Card)`
   align-items: center;
   padding: 1rem;
   width: 16rem;
+  cursor: pointer;
 
   svg {
     color: var(--postColor);
@@ -263,6 +264,9 @@ export const CustomCard = styled(Card)`
     color: var(--postColor);
     border-bottom: 0;
     min-width: 11rem;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.4rem;
   }
 
   &:hover {

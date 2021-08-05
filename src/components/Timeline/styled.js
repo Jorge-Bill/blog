@@ -12,4 +12,7 @@ export const TimelineWrapper = styled(VerticalTimeline)`
   }
 `
 export const TimelineElement = styled(VerticalTimelineElement)`
+  h3, h4, p {
+    color: var(--postColor);
+  }
 `
