@@ -1,18 +1,15 @@
 import styled from 'styled-components'
 import media from "styled-media-query"
 import Card from '../components/Card'
-import PostItem from '../components/PostItem'
-
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const AboutHeader = styled.header`
   text-align: center;
   margin: auto;
   max-width: 70rem;
-  // padding: 5rem 5rem 0;
   letter-spacing: .2rem;
 
   ${media.lessThan("large")`
-    // padding: 5rem 0 0;
     max-width: 100%;
   `}
 `
@@ -79,6 +76,17 @@ export const MainContent = styled.section`
   max-width: 70rem;
   padding: 2rem 5rem;
 
+  color: var(--postColor);
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.7;
+  letter-spacing: 0.069rem;
+
+  // ${media.lessThan("large")`
+  //   padding: 0 1rem;
+  //   word-break: break-word;
+  // `}
+
   ${media.lessThan("large")`
     padding: 2rem 0;
     max-width: 100%;
@@ -93,19 +101,6 @@ export const MainContent = styled.section`
   ol,
   .tags,
   iframe,
-  .button-post {
-    color: var(--postColor);
-    font-size: 1.25rem;
-    font-weight: 300;
-    line-height: 1.7;
-    letter-spacing: 0.069rem;
-    // padding: 0 1.4rem;
-
-    ${media.lessThan("large")`
-      padding: 0 1rem;
-      word-break: break-word;
-    `}
-  }
   p {
     margin: 0 auto 1.6rem;
   }
@@ -256,6 +251,7 @@ export const CustomCard = styled(Card)`
   align-items: center;
   padding: 1rem;
   width: 16rem;
+  cursor: pointer;
 
   svg {
     color: var(--postColor);
@@ -268,6 +264,9 @@ export const CustomCard = styled(Card)`
     color: var(--postColor);
     border-bottom: 0;
     min-width: 11rem;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.4rem;
   }
 
   &:hover {
@@ -279,50 +278,100 @@ export const CustomCard = styled(Card)`
    }
 
   ${media.lessThan("large")`
-  width: 80%;
+    width: 80%;
     &:nth-child(1){
       margin: 0 0 1rem 0;
-    }
-`}
-`
-
-export const CustomPostItem = styled(PostItem)`
-  &:last-child{
-    border-bottom: 0;
-  }
-
-  h1 {
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    margin: 0;
-  }
-
-  time {
-    margin-bottom: 0.3rem;
-  }
-
-  p {
-    font-size: 1rem;
-    line-height: 1.4rem;
-  }
-
-  ${media.lessThan("large")`
-    h1, p {
-      padding: 0;
-    }
-
-    p {
-      margin-top: 0.3rem;
-      text-transform: Capitalize;
     }
   `}
 `
 
-export const LastsPostsWrapper = styled.section`
+export const SubTitle = styled.h2`
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: rgb(0 0 0 / 1%) 0 0 1px;
+`
+
+export const LastPostsWrapper = styled.section`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  ${media.lessThan("large")`
+    flex-direction: column;
+    padding: 1rem;
+  `}
+
   a {
+    border-bottom: 1px solid var(--mediumBackground);
+  }
+`
+
+export const LastPostsItem = styled(AniLink)`
+  flex: 0 1 calc(33% - .2em);
+  max-width: 33.333333%;
+
+  border: 1px solid var(--mediumBackground);
+  box-shadow: 0 1px 10px rgb(29 34 47 / 10%);
+  border-radius: 4px;
+  transition: 0.3s;
+  white-space: normal;
+  text-align: left;
+  background: var(--mediumBackground);
+  cursor: pointer;
+
+  ${media.lessThan("large")`
+    padding-top: 0;
+    max-width: 100%;
+    margin-bottom: 1rem;
+
     &:last-child{
-      border-bottom: 0;
-      border-right: 0;
-     }
+      margin: 0;
+    }
+  `}
+
+  &:hover {
+    opacity: 0.6;
+    border: 1px solid var(--highlight);
+  }
+`
+
+export const LastPostsImage = styled.img`
+  object-fit: cover;
+  margin: auto;
+  width: 100%;
+  height: 8em;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+`
+
+export const LastPostsContent = styled.div`
+  padding: 1rem;
+`
+
+export const LastPostsTitle = styled.h6`
+  color: var(--postColor);
+  text-shadow: rgb(0 0 0 / 1%) 0 0 1px;
+  font-smoothing: antialiased;
+  font-weight: 700;
+  line-height: 1.4rem;
+  margin-bottom: 1rem;
+  height: 70px;
+`
+
+export const LastPostsDesc = styled.p`
+  font-size: .85rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+  height: 60px;
+  color: var(--texts);
+`
+
+export const LastPostsInfo = styled.div`
+  p {
+    font-size: .75rem;
+    text-align: center;
+    color: var(--postColor);
   }
 `

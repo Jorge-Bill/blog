@@ -48,28 +48,39 @@ const indexPage = ({ ...props }) => {
           <p>Like my favorite writer once wrote:</p>
           <p><strong>“Where there's life there's hope, and need of vittles.”</strong> ― J.R.R. Tolkien, The Lord of the Rings </p>
 
-          <S.AboutDescription>See the Last Posts</S.AboutDescription>
+          <S.SubTitle> - See the Last Posts - </S.SubTitle>
+          <S.LastPostsWrapper>
           {lastPosts.map(
             ({
               node: {
-                frontmatter: { background, category, date, description, title },
+                frontmatter: { category, thumbnail, date, description, title },
                 timeToRead,
                 id,
                 fields: { slug },
               },
             }) => (
-              <S.CustomPostItem
+              <S.LastPostsItem
                 key={id}
-                slug={slug}
-                background={background}
-                category={category}
-                date={date}
-                timeToRead={timeToRead}
+                to={slug}
                 title={title}
-                description={description}
-              />
+                cover
+                direction="right"
+                bg={getThemeColor()}
+                duration={0.6}
+                >
+                <S.LastPostsImage src={thumbnail} alt={title} />
+                <S.LastPostsContent>
+                  <S.LastPostsTitle>{title}</S.LastPostsTitle>
+                  <S.LastPostsDesc>{description}</S.LastPostsDesc>
+                </S.LastPostsContent>
+                <S.LastPostsInfo>
+                  <p>{category} - {date} - {timeToRead} min of read</p>
+                </S.LastPostsInfo>
+              </S.LastPostsItem>
             )
           )}
+          </S.LastPostsWrapper>
+
         </S.MainContent>
     </LayoutHero>
   )
@@ -87,11 +98,11 @@ export const query = graphql`
             slug
           }
           frontmatter {
-            background
-            category
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             description
             title
+            thumbnail
+            category
           }
           timeToRead
           id
