@@ -1,12 +1,14 @@
 ---
-title: Boilerplate nodejs
-description: criei um boilerplate para api em nodejs
+title: Boilerplate nodejs express
+description: criei um boilerplate para api em nodejs com express
 date: 2021-05-18 09:08:53
-thumbnail: assets/img/1_mp91a9rzagntggjbnwu4yw.png
+thumbnail: assets/img/6dnng3pre04xxdebia1g.png
 category: JS
 background: Lightgreen
 ---
-Recentemente no meu trabalho me vi cuidando de uma aplicação em **nodejs**, então optei por ajustar o projeto de acordo com as melhores práticas de desenvolvimento de software que conheço.
+Recentemente no meu trabalho me vi cuidando de uma aplicação em **nodejs com express**, então optei por ajustar o projeto de acordo com as melhores práticas de desenvolvimento de software que conheço.
+
+![node express](assets/img/6dnng3pre04xxdebia1g.png "node express")
 
 Ali montei a seguinte estrutura de diretórios
 
