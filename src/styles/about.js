@@ -91,7 +91,9 @@ export const MainContent = styled.section`
     max-width: 100%;
   `}
 
-  p,
+  p {
+    margin: 1.6rem;
+  },
   h1,
   h2,
   h3,
@@ -100,22 +102,19 @@ export const MainContent = styled.section`
   ol,
   .tags,
   iframe,
-  p {
-    margin: 1.6rem;
-  }
   h1,
   h2,
   h3,
   h4,
   h5 {
     margin: 2.4rem auto 1rem;
-  }
+  },
   ul,
   ol {
     list-style: disc;
     padding-left: 2.5rem;
     margin: 0 auto 1.6rem;
-  }
+  },
   li {
     padding: 0.625rem 0;
     & > ul {
@@ -331,6 +330,7 @@ export const LastPostsItem = styled(AniLink)`
   &:hover {
     opacity: 0.6;
     border: 1px solid var(--highlight);
+    background-color: var(--background);
   }
 `
 
@@ -341,10 +341,14 @@ export const LastPostsImage = styled.img`
   height: 8em;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+  border-bottom: 1px solid var(--mediumBackground);
 `
 
 export const LastPostsContent = styled.div`
   padding: 1rem;
+  p{
+    margin: 0;
+  }
 `
 
 export const LastPostsTitle = styled.h6`
@@ -362,7 +366,6 @@ export const LastPostsDesc = styled.p`
   font-weight: 400;
   line-height: 1.2rem;
   text-transform: capitalize;
-  margin: 0;
   height: 60px;
   color: var(--texts);
 `
@@ -373,5 +376,6 @@ export const LastPostsInfo = styled.div`
     text-align: center;
     color: var(--postColor);
     text-transform: capitalize;
+    margin: 1rem;
   }
 `
