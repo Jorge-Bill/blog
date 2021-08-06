@@ -36,7 +36,7 @@ const AboutPage = () => {
       <Seo title="About" />
       <S.AboutHeader>
         <S.AboutTitle>Hello World!</S.AboutTitle>
-        <S.AboutDescription> My name is Jorge.</S.AboutDescription>
+        <S.AboutDescription> I'm Jorge Mendes</S.AboutDescription>
       </S.AboutHeader>
       <S.MainContent>
         <S.imgWrapper>
