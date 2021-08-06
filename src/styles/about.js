@@ -82,10 +82,9 @@ export const MainContent = styled.section`
   line-height: 1.7;
   letter-spacing: 0.069rem;
 
-  // ${media.lessThan("large")`
-  //   padding: 0 1rem;
-  //   word-break: break-word;
-  // `}
+  ${media.lessThan("large")`
+    word-break: break-word;
+  `}
 
   ${media.lessThan("large")`
     padding: 2rem 0;
@@ -102,7 +101,7 @@ export const MainContent = styled.section`
   .tags,
   iframe,
   p {
-    margin: 0 auto 1.6rem;
+    margin: 1.6rem;
   }
   h1,
   h2,
@@ -373,5 +372,6 @@ export const LastPostsInfo = styled.div`
     font-size: .75rem;
     text-align: center;
     color: var(--postColor);
+    text-transform: capitalize;
   }
 `

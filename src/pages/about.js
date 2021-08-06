@@ -58,7 +58,7 @@ const AboutPage = () => {
           </S.CustomCard>
         </S.CardsWrapper>
         <br />
-        <S.AboutHighlight>Here you can see a timeline of my story as a web developer</S.AboutHighlight>
+        <S.SubTitle>My journey as a web developer</S.SubTitle>
         <Timeline data={storyEng} />
       </S.MainContent>
     </LayoutHero>
