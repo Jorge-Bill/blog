@@ -5,7 +5,7 @@ export const BannerWrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-
+  border-bottom: 1px solid var(--borders);
   background-color: var(--timelineColor);
   box-shadow: 0 4px 8px 0 var(--background);
   min-height: 100vh;
@@ -29,9 +29,11 @@ export const ImageBanner = styled.img`
 const loadingAnimation = keyframes`
   0% {
     transform: rotate(0deg);
+    transition: opacity 0.5s;
   }
   100% {
     transform: rotate(360deg);
+    transition: opacity 0.8s;
   }
 `;
 
@@ -42,13 +44,17 @@ export const Loader = styled.div`
   left: 0;
   right: 0;
   z-index: 1;
+
   width: 20rem;
   height: 20rem;
-
-  animation: ${loadingAnimation} 1s linear infinite;
-  border: 1em solid var(--postColor);
-  border-top: 1em solid var(--background);
   border-radius: 50%;
+
+  animation: ${loadingAnimation} .5s linear infinite;
+  border: 1em solid var(--postColor);
+  border-image-source: linear-gradient(to left,(--postColor), var(--borders));
+  border-top: 1em solid var(--highlight);
+  box-shadow: 0 4px 8px 0 var(--highlight);
+  opacity 0.7;
 `;
 
 export const BannerTitle = styled.h1`

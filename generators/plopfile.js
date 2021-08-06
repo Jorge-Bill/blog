@@ -5,13 +5,13 @@ module.exports = (plop) => {
       {
         type: 'input',
         name: 'name',
-        message: 'What the name of the (component, page or template )?'
+        message: 'What the name of the (component)?'
       },
       {
         type: 'list',
         name: 'type',
         message: 'What type of structure do you need?',
-        choices: ['components', 'pages', 'templates']
+        choices: ['components']
       }
     ],
     actions: [

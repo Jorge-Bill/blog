@@ -8,7 +8,6 @@ export const AboutHeader = styled.header`
   margin: auto;
   max-width: 70rem;
   letter-spacing: .2rem;
-
   ${media.lessThan("large")`
     max-width: 100%;
   `}
@@ -17,12 +16,10 @@ export const AboutHeader = styled.header`
 export const AboutTitle = styled.h1`
   color: var(--highlight);
   text-transform: uppercase;
-
   font-size: 4rem;
   font-weight: 700;
   padding: 0 1.4rem;
   margin: 1rem auto;
-
   ${media.lessThan("large")`
     font-size: 2.8rem;
     line-height: 1.1;
@@ -35,7 +32,6 @@ export const AboutDescription = styled.h2`
   color: var(--postColor);
   font-weight: 100;
   padding: 0 1.4rem;
-
   ${media.lessThan("large")`
     font-size: 1.6rem;
     line-height: 1.3;
@@ -50,7 +46,6 @@ export const AboutHighlight = styled.h6`
   font-weight: 400;
   padding: 0 1.4rem;
   margin: 1rem 0 1rem 0;
-
   ${media.lessThan("large")`
     font-size: 1.3rem;
     line-height: 1.3;
@@ -62,7 +57,6 @@ export const imgWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
   .img-about {
     border-radius: 5%;
     border: 1px solid;
@@ -75,23 +69,18 @@ export const MainContent = styled.section`
   margin: auto;
   max-width: 70rem;
   padding: 2rem 5rem;
-
   color: var(--postColor);
   font-size: 1.25rem;
   font-weight: 300;
   line-height: 1.7;
   letter-spacing: 0.069rem;
-
-  // ${media.lessThan("large")`
-  //   padding: 0 1rem;
-  //   word-break: break-word;
-  // `}
-
+  ${media.lessThan("large")`
+    word-break: break-word;
+  `}
   ${media.lessThan("large")`
     padding: 2rem 0;
     max-width: 100%;
   `}
-
   p,
   h1,
   h2,
@@ -102,7 +91,7 @@ export const MainContent = styled.section`
   .tags,
   iframe,
   p {
-    margin: 0 auto 1.6rem;
+    margin: 1.6rem;
   }
   h1,
   h2,
@@ -136,7 +125,6 @@ export const MainContent = styled.section`
   iframe {
     padding: 0 1.6rem 1.6rem;
     width: 100%;
-
     ${media.lessThan("large")`
       padding: 0 1rem;
     `}
@@ -167,21 +155,18 @@ export const MainContent = styled.section`
   }
   h1 {
     font-size: 2.8rem;
-
     ${media.lessThan("large")`
       font-size: 1.875rem;
     `}
   }
   h2 {
     font-size: 2.1rem;
-
     ${media.lessThan("large")`
       font-size: 1.375rem;
     `}
   }
   h3 {
     font-size: 1.6rem;
-
     ${media.lessThan("large")`
       font-size: 1.125rem;
     `}
@@ -212,7 +197,6 @@ export const MainContent = styled.section`
   }
   .gatsby-highlight {
     padding: 0 1.6rem 1.6rem;
-
     ${media.lessThan("large")`
       padding: 0;
     `}
@@ -332,6 +316,7 @@ export const LastPostsItem = styled(AniLink)`
   &:hover {
     opacity: 0.6;
     border: 1px solid var(--highlight);
+    background-color: var(--background);
   }
 `
 
@@ -342,10 +327,14 @@ export const LastPostsImage = styled.img`
   height: 8em;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+  border-bottom: 1px solid var(--mediumBackground);
 `
 
 export const LastPostsContent = styled.div`
   padding: 1rem;
+  p{
+    margin: 0;
+  }
 `
 
 export const LastPostsTitle = styled.h6`
@@ -363,7 +352,6 @@ export const LastPostsDesc = styled.p`
   font-weight: 400;
   line-height: 1.2rem;
   text-transform: capitalize;
-  margin: 0;
   height: 60px;
   color: var(--texts);
 `
@@ -373,5 +361,7 @@ export const LastPostsInfo = styled.div`
     font-size: .75rem;
     text-align: center;
     color: var(--postColor);
+    text-transform: capitalize;
+    margin: 1rem;
   }
 `
