@@ -5,7 +5,7 @@ export const BannerWrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-
+  border-bottom: 1px solid var(--borders);
   background-color: var(--timelineColor);
   box-shadow: 0 4px 8px 0 var(--background);
   min-height: 100vh;
