@@ -1,24 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import PropTypes from 'prop-types'
 import LazyLoad from "react-lazyload"
 
+import { Loader } from '../index'
+
 import * as S from './styles'
 
 const HeaderBanner = ({ title, tags, ...props }) => {
-  const refLoader = React.useRef()
-  const removeLoader = () => refLoader.current.remove()
+  const [loader, setLoader] = useState(true)
+  const handleLoader = () => setLoader(!loader)
 
   return (
     <S.BannerWrapper {...props}>
       <LazyLoad>
         <S.BannerTitle>{title}</S.BannerTitle>
-        <S.Loader ref={refLoader} />
+        <Loader stopOutside={loader} />
         <S.ImageBanner
           src={`https://source.unsplash.com/1600x900/?desktop,${tags}`}
-          alt={`Desktop wallpapers random about ${tags}`}
-          onLoad={removeLoader}
-          onError={removeLoader} />
+          alt={`Random desktop wallpapers about the tags: ${tags}`}
+          onLoad={handleLoader}
+          onError={handleLoader} />
       </LazyLoad>
     </S.BannerWrapper>
   )
