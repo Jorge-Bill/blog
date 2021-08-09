@@ -46,7 +46,7 @@ const AboutPage = () => {
             alt="jorge profile picture"
           />
         </S.imgWrapper>
-        {about_me.map((item, i) => (<p key={i}>{item}</p>))}
+        {about_me.map((item, i) => (<S.CustomParagraphy key={i}>{item}</S.CustomParagraphy>))}
         <S.CardsWrapper>
           <S.CustomCard>
             <Document />

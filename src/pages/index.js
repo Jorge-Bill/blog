@@ -16,10 +16,10 @@ const indexPage = ({ ...props }) => {
         <S.AboutTitle>Wellcome my friend</S.AboutTitle>
         </S.AboutHeader>
         <S.MainContent>
-          <p>I'm Jorge Mendes, and this is my world!</p>
-          <p>I love code and Javascript, this website was born to share knowledge and help anyone that's been this unexpected journey to become a web developer.</p>
-          <p>Good luck, and Live long and prosper!</p>
-          <p>If you want to know more about my carrer go to
+          <S.CustomParagraphy>I'm Jorge Mendes, and this is my world!</S.CustomParagraphy>
+          <S.CustomParagraphy>I love code and Javascript, this website was born to share knowledge and help anyone that's been this unexpected journey to become a web developer.</S.CustomParagraphy>
+          <S.CustomParagraphy>Good luck, and Live long and prosper!</S.CustomParagraphy>
+          <S.CustomParagraphy>If you want to know more about my carrer go to
           {" "}
             <AniLink
               to="/about/"
@@ -31,8 +31,8 @@ const indexPage = ({ ...props }) => {
             >
               About
             </AniLink>
-          .</p>
-          <p>If you want to read some articles go to
+          .</S.CustomParagraphy>
+          <S.CustomParagraphy>If you want to read some articles go to
           {" "}
             <AniLink
               to="/posts/"
@@ -44,10 +44,9 @@ const indexPage = ({ ...props }) => {
             >
               Posts
             </AniLink>
-          .</p>
-          <p>Like my favorite writer once wrote:</p>
-          <p><strong>“Where there's life there's hope, and need of vittles.”</strong> ― J.R.R. Tolkien, The Lord of the Rings </p>
-
+          .</S.CustomParagraphy>
+          <S.CustomParagraphy>Like my favorite writer once wrote:</S.CustomParagraphy>
+          <S.CustomParagraphy><strong>“Where there's life there's hope, and need of vittles.”</strong> ― J.R.R. Tolkien, The Lord of the Rings </S.CustomParagraphy>
           <S.SubTitle> - See the Last Posts - </S.SubTitle>
           <PostCard postsData={lastPosts} />
         </S.MainContent>

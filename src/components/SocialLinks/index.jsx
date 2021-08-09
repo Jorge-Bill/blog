@@ -1,7 +1,8 @@
 import React from "react"
+
+import PropTypes from "prop-types"
 import Icons from "./Icons"
 import links from "./content"
-import PropTypes from "prop-types"
 
 import * as S from "./styled"
 

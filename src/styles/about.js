@@ -80,7 +80,6 @@ export const MainContent = styled.section`
     padding: 2rem 0;
     max-width: 100%;
   `}
-  p,
   h1,
   h2,
   h3,
@@ -89,9 +88,6 @@ export const MainContent = styled.section`
   ol,
   .tags,
   iframe,
-  p {
-    margin: 1.6rem;
-  }
   h1,
   h2,
   h3,
@@ -214,6 +210,10 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+`
+
+export const CustomParagraphy = styled.p`
+  margin: 1.6rem;
 `
 
 export const CardsWrapper = styled.div`

@@ -1,8 +1,9 @@
 import React from "react"
+
+import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Avatar from "../Avatar"
 import getThemeColor from "../../utils/getThemeColor"
-import PropTypes from "prop-types"
 
 import * as S from "./styled"
 
