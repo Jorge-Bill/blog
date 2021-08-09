@@ -78,7 +78,7 @@ module.exports = {
         name: `Jorge Mendes`,
         short_name: `Jorge Mendes`,
         start_url: `/`,
-        background_color: `#ff0000`,
+        background_color: `#090909`,
         theme_color: `#ff0000`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
