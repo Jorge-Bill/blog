@@ -46,7 +46,9 @@ const indexPage = ({ ...props }) => {
             </AniLink>
           .</S.CustomParagraphy>
           <S.CustomParagraphy>Like my favorite writer once wrote:</S.CustomParagraphy>
-          <S.CustomParagraphy><strong>“Where there's life there's hope, and need of vittles.”</strong> ― J.R.R. Tolkien, The Lord of the Rings </S.CustomParagraphy>
+          <blockquote>
+            <strong>“Where there's life there's hope, and need of vittles.”</strong> ― J.R.R. Tolkien, The Lord of the Rings
+          </blockquote>
           <S.SubTitle> - See the Last Posts - </S.SubTitle>
           <PostCard postsData={lastPosts} />
         </S.MainContent>
