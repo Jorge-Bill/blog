@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import media from "styled-media-query"
 import Card from '../components/Card'
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const AboutHeader = styled.header`
   text-align: center;
@@ -81,7 +80,6 @@ export const MainContent = styled.section`
     padding: 2rem 0;
     max-width: 100%;
   `}
-  p,
   h1,
   h2,
   h3,
@@ -90,9 +88,6 @@ export const MainContent = styled.section`
   ol,
   .tags,
   iframe,
-  p {
-    margin: 1.6rem;
-  }
   h1,
   h2,
   h3,
@@ -205,7 +200,6 @@ export const MainContent = styled.section`
     margin: 1rem auto !important;
   }
   a {
-    border-bottom: 1px dashed var(--highlight);
     color: var(--highlight);
     text-decoration: none;
     transition: opacity 0.5s;
@@ -216,6 +210,10 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+`
+
+export const CustomParagraphy = styled.p`
+  margin: 1.6rem;
 `
 
 export const CardsWrapper = styled.div`
@@ -273,95 +271,4 @@ export const SubTitle = styled.h2`
   text-align: center;
   text-transform: uppercase;
   text-shadow: rgb(0 0 0 / 1%) 0 0 1px;
-`
-
-export const LastPostsWrapper = styled.section`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  ${media.lessThan("large")`
-    flex-direction: column;
-    padding: 1rem;
-  `}
-
-  a {
-    border-bottom: 1px solid var(--mediumBackground);
-  }
-`
-
-export const LastPostsItem = styled(AniLink)`
-  flex: 0 1 calc(33% - .2em);
-  max-width: 33.333333%;
-
-  border: 1px solid var(--mediumBackground);
-  box-shadow: 0 1px 10px rgb(29 34 47 / 10%);
-  border-radius: 4px;
-  transition: 0.3s;
-  white-space: normal;
-  text-align: left;
-  background: var(--mediumBackground);
-  cursor: pointer;
-
-  ${media.lessThan("large")`
-    padding-top: 0;
-    max-width: 100%;
-    margin-bottom: 1rem;
-
-    &:last-child{
-      margin: 0;
-    }
-  `}
-
-  &:hover {
-    opacity: 0.6;
-    border: 1px solid var(--highlight);
-    background-color: var(--background);
-  }
-`
-
-export const LastPostsImage = styled.img`
-  object-fit: cover;
-  margin: auto;
-  width: 100%;
-  height: 8em;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border-bottom: 1px solid var(--mediumBackground);
-`
-
-export const LastPostsContent = styled.div`
-  padding: 1rem;
-  p{
-    margin: 0;
-  }
-`
-
-export const LastPostsTitle = styled.h6`
-  color: var(--postColor);
-  text-shadow: rgb(0 0 0 / 1%) 0 0 1px;
-  font-smoothing: antialiased;
-  font-weight: 700;
-  line-height: 1.4rem;
-  margin-bottom: 1rem;
-  height: 70px;
-`
-
-export const LastPostsDesc = styled.p`
-  font-size: .85rem;
-  font-weight: 400;
-  line-height: 1.2rem;
-  text-transform: capitalize;
-  height: 60px;
-  color: var(--texts);
-`
-
-export const LastPostsInfo = styled.div`
-  p {
-    font-size: .75rem;
-    text-align: center;
-    color: var(--postColor);
-    text-transform: capitalize;
-    margin: 1rem;
-  }
 `

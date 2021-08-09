@@ -1,8 +1,8 @@
 import React from "react"
-import Icons from '../SocialLinks/Icons';
-import { Github } from '@styled-icons/boxicons-logos/Github'
 
 import propTypes from "prop-types"
+import Icons from '../SocialLinks/Icons';
+import { Github } from '@styled-icons/boxicons-logos/Github'
 
 import * as S from "./styled"
 
