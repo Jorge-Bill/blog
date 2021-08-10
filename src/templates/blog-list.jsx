@@ -3,8 +3,6 @@ import React from "react"
 import { graphql } from "gatsby"
 import { LayoutCustom, PostCard, Pagination, Seo } from "@components"
 
-// import * as S from "../styles/ListWrapper"
-
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
   const { currentPage, numPages } = props.pageContext

@@ -1,8 +1,8 @@
 import React from "react"
 
-import PropTypes from "prop-types"
+import getThemeColor from "@utils/getThemeColor"
 import links from "./content"
-import getThemeColor from "../../utils/getThemeColor"
+import PropTypes from "prop-types"
 
 import * as S from "./styled"
 

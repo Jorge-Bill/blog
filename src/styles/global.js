@@ -78,11 +78,11 @@ const GlobalStyles = createGlobalStyle`
     --black: #222;
   }
   body.light {
-    --borders: #dedede;
+    --borders: #d0cece;
     --postColor: #111;
     --texts: #555555;
     --highlight: #ff0000;
-    --mediumBackground: #f0f0f3;
+    --mediumBackground: #dbdbde;
     --background: #fff;
     --timelineColor: #f0f0f3;
     --timelineLine: #ff0000;

@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 import { NavigationBar, HeaderBanner, MenuBar } from '../index'
 import { TransitionPortal } from "gatsby-plugin-transition-link"
 
-import * as S from './styles'
-import GlobalStyles from "../../styles/global"
+import * as S from './styled'
+import GlobalStyles from "@styles/global"
 
 const LayoutHero = ({ title, bannerTags, children, ...props }) => (
   <S.LayoutHeroWrapper {...props}>

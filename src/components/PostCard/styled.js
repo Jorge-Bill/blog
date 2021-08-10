@@ -27,9 +27,8 @@ export const PostCardItem = styled(AniLink)`
   max-width: 33%;
 
   &:hover {
-    opacity: 0.6;
     border: 1px solid var(--highlight);
-    background-color: var(--background);
+    background-image: linear-gradient(to right, var(--timelineColor) 0%, var(--mediumBackground) 100%);
   }
 
   ${media.lessThan("large")`
@@ -55,8 +54,8 @@ export const PostCardImage = styled.img`
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom: 1px solid var(--mediumBackground);
-  background: ${props =>
-    props.background ? props.background : "var(--highlight)"};
+  background-image: linear-gradient(-20deg, ${props =>
+    props.background} 0%, var(--highlight) 100%);
 `
 
 export const PostCardContent = styled.div`
