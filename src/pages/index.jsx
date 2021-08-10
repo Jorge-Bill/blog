@@ -6,7 +6,7 @@ import getThemeColor from "@utils/getThemeColor"
 
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-import * as S from "@styles/about"
+import * as S from "@styles/default"
 
 const indexPage = ({ ...props }) => {
   const lastPosts = props.data.allMarkdownRemark.edges

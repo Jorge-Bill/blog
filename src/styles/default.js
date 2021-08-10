@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import media from "styled-media-query"
-import Card from '../components/Card'
+import Card from '@components/Card'
 
 export const AboutHeader = styled.header`
   text-align: center;

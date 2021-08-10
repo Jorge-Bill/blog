@@ -11,7 +11,7 @@ import { Document } from '@styled-icons/fluentui-system-regular/Document'
 import resume from '/public/assets/docs/JORGE_MENDES_resume.pdf'
 import letter from '/public/assets/docs/JORGE_MENDES_cover_letter.pdf'
 
-import * as S from "@styles/about"
+import * as S from "@styles/default"
 
 const AboutPage = () => {
   const { aboutImage } = useStaticQuery(
