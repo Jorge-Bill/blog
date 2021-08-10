@@ -13,6 +13,6 @@ export const LayoutHeroMain = styled.main`
   padding: 2rem 0 5rem 0;
 
   ${media.lessThan("large")`
-    padding: 7rem 0 5rem 0;
+    padding: 7.5rem 0 5rem 0;
   `}
 `

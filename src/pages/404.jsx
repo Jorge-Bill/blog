@@ -1,11 +1,12 @@
 import React from "react"
 
-import { LayoutCustom, Seo } from "../components"
+import { LayoutCustom, Seo } from "@components"
+import getThemeColor from "@utils/getThemeColor"
+
 import { StaticImage } from "gatsby-plugin-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import getThemeColor from "../utils/getThemeColor"
 
-import * as S from "../styles/post"
+import * as S from "@styles/post"
 
 const NotFoundPage = () => (
     <LayoutCustom>

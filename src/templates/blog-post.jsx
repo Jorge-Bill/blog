@@ -1,7 +1,7 @@
 import React from "react"
 
 import { graphql } from "gatsby"
-import { LayoutCustom, RecomendedPosts,Comments, Seo } from "../components"
+import { LayoutCustom, RecomendedPosts,Comments, Seo } from "@components"
 
 import * as S from "../styles/post"
 

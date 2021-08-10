@@ -1,10 +1,12 @@
 import React from "react"
-import { graphql } from "gatsby"
-import { LayoutHero, Seo, PostCard } from "../components"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
-import getThemeColor from "../utils/getThemeColor"
 
-import * as S from "../styles/about"
+import { graphql } from "gatsby"
+import { LayoutHero, Seo, PostCard } from "@components"
+import getThemeColor from "@utils/getThemeColor"
+
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+
+import * as S from "@styles/about"
 
 const indexPage = ({ ...props }) => {
   const lastPosts = props.data.allMarkdownRemark.edges

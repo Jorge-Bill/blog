@@ -3,7 +3,6 @@ import media from "styled-media-query"
 
 export const PaginationWrapper = styled.section`
   align-items: center;
-  border-top: 1px solid var(--borders);
   color: var(--texts);
   display: flex;
   padding: 1.5rem 3rem;
@@ -15,11 +14,15 @@ export const PaginationWrapper = styled.section`
   `}
 
   a {
+    transition: 0.3s;
     color: var(--texts);
     text-decoration: none;
     transition: color 0.5s;
+    text-transform: uppercase;
+
     &:hover {
       color: var(--highlight);
+      font-weight: 500;
     }
   }
 `

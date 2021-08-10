@@ -1,9 +1,9 @@
 import React from "react"
 
 import { graphql } from "gatsby"
-import { LayoutCustom, PostItem,Pagination, Seo } from "../components"
+import { LayoutCustom, PostCard, Pagination, Seo } from "@components"
 
-import * as S from "../styles/ListWrapper"
+// import * as S from "../styles/ListWrapper"
 
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
@@ -16,29 +16,7 @@ const BlogList = props => {
   return (
     <LayoutCustom>
       <Seo title="Posts" />
-      <S.ListWrapper>
-        {postList.map(
-          ({
-            node: {
-              frontmatter: { background, category, date, description, title },
-              timeToRead,
-              id,
-              fields: { slug },
-            },
-          }) => (
-            <PostItem
-              key={id}
-              slug={slug}
-              background={background}
-              category={category}
-              date={date}
-              timeToRead={timeToRead}
-              title={title}
-              description={description}
-            />
-          )
-        )}
-      </S.ListWrapper>
+      <PostCard postsData={postList} />
       <Pagination
         isFirst={isFirst}
         isLast={isLast}
@@ -64,11 +42,12 @@ export const query = graphql`
             slug
           }
           frontmatter {
-            background
-            category
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             description
             title
+            thumbnail
+            background
+            category
           }
           timeToRead
           id
