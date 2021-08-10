@@ -31,11 +31,11 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Jorge-Bill/blog/master/static/assets/docs/JORGE_MENDES_resume.pdf">
+  <a href="https://raw.githubusercontent.com/Jorge-Bill/blog/master/static/assets/docs/JORGE_MENDES_resume.pdf" target="_blank">
     My curriculum vitae
   </a>
-  {' '} and {' '}
-  <a href="https://raw.githubusercontent.com/Jorge-Bill/blog/master/static/assets/docs/JORGE_MENDES_cover_letter.pdf">
+   &nbsp; and &nbsp;
+  <a href="https://raw.githubusercontent.com/Jorge-Bill/blog/master/static/assets/docs/JORGE_MENDES_cover_letter.pdf" target="_blank">
     My cover letter
   </a>
 </p>
