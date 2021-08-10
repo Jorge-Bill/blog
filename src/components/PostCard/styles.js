@@ -17,6 +17,7 @@ export const PostCardItem = styled(AniLink)`
   border: 1px solid var(--mediumBackground);
   box-shadow: 0 1px 10px rgb(29 34 47 / 10%);
   background: var(--mediumBackground);
+  text-decoration: none;
   white-space: normal;
   border-radius: 4px;
   margin-top: 1rem;
