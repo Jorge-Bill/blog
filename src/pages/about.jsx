@@ -1,18 +1,17 @@
 import React from "react"
 
-import { LayoutHero, Timeline, Seo } from "../components"
+import { LayoutHero, Timeline, Seo } from "@components"
+import { about_me } from '@utils/about_me'
+import { storyEng } from '@utils/my_story'
+
 import { GatsbyImage as Img } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
-
 import { Document } from '@styled-icons/fluentui-system-regular/Document'
 
 import resume from '/public/assets/docs/JORGE_MENDES_resume.pdf'
 import letter from '/public/assets/docs/JORGE_MENDES_cover_letter.pdf'
 
-import { about_me } from '../utils/about_me'
-import { storyEng } from '../utils/my_story'
-
-import * as S from "../styles/about"
+import * as S from "@styles/about"
 
 const AboutPage = () => {
   const { aboutImage } = useStaticQuery(
