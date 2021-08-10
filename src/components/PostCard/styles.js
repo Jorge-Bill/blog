@@ -55,8 +55,8 @@ export const PostCardImage = styled.img`
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom: 1px solid var(--mediumBackground);
-  background: ${props =>
-    props.background ? props.background : "var(--highlight)"};
+  background-image: linear-gradient(-20deg, ${props =>
+    props.background} 0%, var(--highlight) 100%);
 `
 
 export const PostCardContent = styled.div`
