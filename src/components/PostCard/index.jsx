@@ -25,7 +25,7 @@ const PostCard = ({ postsData, ...props }) => (
           bg={getThemeColor()}
           duration={0.6}
           >
-          <S.PostCardImage src={thumbnail} alt={title} background={background} />
+          <S.PostCardImage src={`/${thumbnail}`} alt={title} background={background} />
           <S.PostCardContent>
             <S.PostCardTitle>{title}</S.PostCardTitle>
             <S.PostCardDesc>{description}</S.PostCardDesc>

@@ -74,6 +74,7 @@ export const query = graphql`
             description
             title
             thumbnail
+            background
             category
           }
           timeToRead
