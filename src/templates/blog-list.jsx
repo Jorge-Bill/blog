@@ -1,7 +1,7 @@
 import React from "react"
 
 import { graphql } from "gatsby"
-import { LayoutCustom, PostCard, Pagination, Seo } from "../components"
+import { LayoutCustom, PostCard, Pagination, Seo } from "@components"
 
 // import * as S from "../styles/ListWrapper"
 
