@@ -33,14 +33,14 @@ const AboutPage = () => {
   return (
     <LayoutHero title='About Me' bannerTags='nature,cloud,sunset'>
       <Seo title="About" />
-      <S.AboutHeader>
-        <S.AboutTitle>Hello World!</S.AboutTitle>
-        <S.AboutDescription> I'm Jorge Mendes</S.AboutDescription>
-      </S.AboutHeader>
+      <S.DefaultHeader>
+        <S.DefaultTitle>Hello World!</S.DefaultTitle>
+        <S.DefaultDescription> I'm Jorge Mendes</S.DefaultDescription>
+      </S.DefaultHeader>
       <S.MainContent>
         <S.imgWrapper>
           <Img
-            className="img-about"
+            className="img-default"
             image={aboutImage.childImageSharp.gatsbyImageData}
             alt="jorge profile picture"
           />
