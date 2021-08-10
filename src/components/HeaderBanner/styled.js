@@ -17,6 +17,7 @@ export const BannerWrapper = styled.section`
 `
 
 export const ImageBanner = styled.img`
+  background-image: linear-gradient(to right, var(--timelineColor) 0%, var(--mediumBackground) 100%);
   position: absolute;
   top: 0;
   left: 0;

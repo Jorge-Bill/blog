@@ -1,16 +1,8 @@
 import React, { useState, useEffect } from "react"
 
 import PropTypes from 'prop-types'
-import { Home } from "@styled-icons/boxicons-solid/Home"
-import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2"
-import { User } from "@styled-icons/boxicons-regular/User"
-import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
-import { Lightbulb as LightOff } from "@styled-icons/remix-line/Lightbulb"
-import { LightbulbFlash as LightOn } from "@styled-icons/remix-fill/LightbulbFlash"
-import { Grid } from "@styled-icons/boxicons-solid/Grid"
-import { List } from "@styled-icons/evaicons-solid/List"
-import { FileText } from '@styled-icons/bootstrap/FileText'
-import getThemeColor from "../../utils/getThemeColor"
+import getThemeColor from "@utils/getThemeColor"
+import Icons from "./Icons"
 
 import * as S from "./styled"
 
@@ -42,7 +34,7 @@ const MenuBar = ({ variant, ...props }) => {
           activeClassName="active"
         >
           <S.MenuBarItem>
-            <Home />
+            <Icons.Home />
           </S.MenuBarItem>
         </S.MenuBarLink>
         <S.MenuBarLink
@@ -55,7 +47,7 @@ const MenuBar = ({ variant, ...props }) => {
           activeClassName="active"
         >
           <S.MenuBarItem>
-            <FileText />
+            <Icons.FileText />
           </S.MenuBarItem>
         </S.MenuBarLink>
 
@@ -69,7 +61,7 @@ const MenuBar = ({ variant, ...props }) => {
           activeClassName="active"
         >
           <S.MenuBarItem>
-            <User />
+            <Icons.User />
           </S.MenuBarItem>
         </S.MenuBarLink>
         <S.MenuBarLink
@@ -82,7 +74,7 @@ const MenuBar = ({ variant, ...props }) => {
           activeClassName="active"
         >
           <S.MenuBarItem>
-            <Search />
+            <Icons.Search />
           </S.MenuBarItem>
         </S.MenuBarLink>
       </S.MenuBarGroup>
@@ -94,7 +86,7 @@ const MenuBar = ({ variant, ...props }) => {
           }}
           className={theme}
         >
-          {isLightMode ? <LightOn /> : <LightOff />}
+          {isLightMode ? <Icons.LightOn /> : <Icons.LightOff />}
         </S.MenuBarItem>
 
        {variant === 'right' &&
@@ -105,7 +97,7 @@ const MenuBar = ({ variant, ...props }) => {
           }}
           className="display"
         >
-          {isListMode ? <Grid /> : <List />}
+          {isListMode ? <Icons.Grid /> : <Icons.List />}
         </S.MenuBarItem>
        }
 
@@ -115,7 +107,7 @@ const MenuBar = ({ variant, ...props }) => {
             window.scroll({ top: 0, behavior: "smooth" })
           }}
         >
-          <Arrow />
+          <Icons.Arrow />
         </S.MenuBarItem>
       </S.MenuBarGroup>
     </S.MenuBarWrapper>

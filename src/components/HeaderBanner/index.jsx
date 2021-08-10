@@ -5,7 +5,7 @@ import LazyLoad from "react-lazyload"
 
 import { Loader } from '../index'
 
-import * as S from './styles'
+import * as S from './styled'
 
 const HeaderBanner = ({ title, tags, ...props }) => {
   const [loader, setLoader] = useState(true)
