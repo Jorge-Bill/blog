@@ -5,26 +5,25 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 export const PostCardWrapper = styled.section`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
   ${media.lessThan("large")`
     flex-direction: column;
-    padding: 1rem;
+    padding: .8rem;
   `}
 `
 
 export const PostCardItem = styled(AniLink)`
-  flex: 0 1 calc(33% - .2em);
-  max-width: 33%;
   border: 1px solid var(--mediumBackground);
   box-shadow: 0 1px 10px rgb(29 34 47 / 10%);
-  border-radius: 4px;
-  transition: 0.3s;
-  white-space: normal;
-  text-align: left;
   background: var(--mediumBackground);
+  white-space: normal;
+  border-radius: 4px;
+  margin-top: 1rem;
+  transition: 0.3s;
+  text-align: left;
   cursor: pointer;
-  margin-bottom: 1rem;
+  max-width: 33%;
 
   &:hover {
     opacity: 0.6;
@@ -33,12 +32,17 @@ export const PostCardItem = styled(AniLink)`
   }
 
   ${media.lessThan("large")`
-    padding-top: 0;
     max-width: 100%;
+    margin-top: 0;
+    margin-bottom: .8rem;
 
     &:last-child{
-      margin: 0;
+      margin-bottom: 0;
     }
+  `}
+
+  ${media.greaterThan("huge")`
+    width: 300px;
   `}
 `
 
@@ -50,6 +54,8 @@ export const PostCardImage = styled.img`
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom: 1px solid var(--mediumBackground);
+  background: ${props =>
+    props.background ? props.background : "var(--highlight)"};
 `
 
 export const PostCardContent = styled.div`

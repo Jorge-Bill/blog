@@ -10,7 +10,7 @@ const PostCard = ({ postsData, ...props }) => (
     {postsData.map(
       ({
         node: {
-          frontmatter: { category, thumbnail, date, description, title },
+          frontmatter: { category, thumbnail, date, description, title, background },
           timeToRead,
           id,
           fields: { slug },
@@ -25,7 +25,7 @@ const PostCard = ({ postsData, ...props }) => (
           bg={getThemeColor()}
           duration={0.6}
           >
-          <S.PostCardImage src={thumbnail} alt={title} />
+          <S.PostCardImage src={thumbnail} alt={title} background={background} />
           <S.PostCardContent>
             <S.PostCardTitle>{title}</S.PostCardTitle>
             <S.PostCardDesc>{description}</S.PostCardDesc>
