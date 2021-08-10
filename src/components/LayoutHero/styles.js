@@ -7,7 +7,7 @@ export const LayoutHeroWrapper = styled.section`
 `
 
 export const LayoutHeroMain = styled.main`
-  background-image: linear-gradient(to right, var(--background) 0%, var(--mediumBackground) 100%);
+  background: var(--background);
   transition: background, color 0.5s;
   min-height: 100vh;
   padding: 2rem 0 5rem 0;

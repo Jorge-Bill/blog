@@ -27,9 +27,8 @@ export const PostCardItem = styled(AniLink)`
   max-width: 33%;
 
   &:hover {
-    opacity: 0.6;
     border: 1px solid var(--highlight);
-    background-color: var(--background);
+    background-image: linear-gradient(to right, var(--timelineColor) 0%, var(--mediumBackground) 100%);
   }
 
   ${media.lessThan("large")`
