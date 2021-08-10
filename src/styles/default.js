@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import media from "styled-media-query"
-import Card from '../components/Card'
+import Card from '@components/Card'
 
-export const AboutHeader = styled.header`
+export const DefaultHeader = styled.header`
   text-align: center;
   margin: auto;
   max-width: 70rem;
@@ -12,7 +12,7 @@ export const AboutHeader = styled.header`
   `}
 `
 
-export const AboutTitle = styled.h1`
+export const DefaultTitle = styled.h1`
   color: var(--highlight);
   text-transform: uppercase;
   font-size: 4rem;
@@ -26,7 +26,7 @@ export const AboutTitle = styled.h1`
   `}
 `
 
-export const AboutDescription = styled.h2`
+export const DefaultDescription = styled.h2`
   font-size: 2rem;
   color: var(--postColor);
   font-weight: 100;
@@ -38,7 +38,7 @@ export const AboutDescription = styled.h2`
   `}
 `
 
-export const AboutHighlight = styled.h6`
+export const DefaultHighlight = styled.h6`
   text-align: center;
   font-size: 1.8rem;
   color: var(--highlight);
@@ -56,7 +56,7 @@ export const imgWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  .img-about {
+  .img-default {
     border-radius: 5%;
     border: 1px solid;
     box-shadow: 5px 10px var(--highlight);

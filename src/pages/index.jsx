@@ -6,7 +6,7 @@ import getThemeColor from "@utils/getThemeColor"
 
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-import * as S from "@styles/about"
+import * as S from "@styles/default"
 
 const indexPage = ({ ...props }) => {
   const lastPosts = props.data.allMarkdownRemark.edges
@@ -14,9 +14,9 @@ const indexPage = ({ ...props }) => {
   return (
     <LayoutHero {...props} bannerTags='images,travel,new-york'>
       <Seo title="Home" />
-      <S.AboutHeader>
-        <S.AboutTitle>Wellcome my friend</S.AboutTitle>
-        </S.AboutHeader>
+      <S.DefaultHeader>
+        <S.DefaultTitle>Wellcome my friend</S.DefaultTitle>
+        </S.DefaultHeader>
         <S.MainContent>
           <S.CustomParagraphy>I'm Jorge Mendes, and this is my world!</S.CustomParagraphy>
           <S.CustomParagraphy>I love code and Javascript, this website was born to share knowledge and help anyone that's been this unexpected journey to become a web developer.</S.CustomParagraphy>
