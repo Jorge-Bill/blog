@@ -25,7 +25,7 @@ module.exports = (plop) => {
         type: 'add',
         path:
           '../src/{{lowerCase type}}/{{pascalCase name}}/styles.js',
-        templateFile: 'templates/styles.js.hbs'
+        templateFile: 'templates/styled.js.hbs'
       }
     ]
   })
