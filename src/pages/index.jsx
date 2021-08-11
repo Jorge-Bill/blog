@@ -52,7 +52,7 @@ const indexPage = ({ ...props }) => {
             <strong>“Where there's life there's hope, and need of vittles.”</strong> ― J.R.R. Tolkien, The Lord of the Rings
           </blockquote>
           <S.SubTitle> - See the Last Posts - </S.SubTitle>
-          <PostCard postsData={lastPosts} />
+          <PostCard data={lastPosts} />
         </S.MainContent>
     </LayoutHero>
   )
