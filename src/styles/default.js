@@ -56,9 +56,9 @@ export const imgWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
   .img-default {
-    border-radius: 5%;
-    border: 1px solid;
+    border-radius: 50%;
     box-shadow: 5px 10px var(--highlight);
     margin-bottom: 2rem;
   }

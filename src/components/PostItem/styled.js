@@ -29,6 +29,7 @@ export const PostItemWrapper = styled.section`
     padding: 2rem 1rem;
     flex-direction: column;
     justify-content: center;
+    height: 354px;
   }
 
   ${media.lessThan("large")`
@@ -38,22 +39,25 @@ export const PostItemWrapper = styled.section`
   `}
 
   &:hover {
-    background-color: var(--mediumBackground);
+    background-image: linear-gradient(to right, var(--timelineColor) 0%, var(--mediumBackground) 100%);
   }
+
 `
 
 export const PostItemTag = styled.div`
   align-items: center;
-  background: ${props =>
-    props.background ? props.background : "var(--highlight)"};
-  border-radius: 50%;
-  color: var(--white);
   display: flex;
-  font-size: 1.3rem;
-  font-weight: 700;
   justify-content: center;
   min-height: 90px;
   min-width: 90px;
+
+  border: 2px solid ${props => props.background ? props.background : "var(--highlight)"};
+  border-radius: 50%;
+  box-shadow: 0 1px 10px rgb(29 34 47 / 10%);
+
+  color: var(--postColor);
+  font-size: 1.3rem;
+  font-weight: 700;
   text-transform: uppercase;
 
   ${media.lessThan("large")`

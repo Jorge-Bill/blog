@@ -2,7 +2,7 @@ import React from "react"
 
 import { LayoutHero, Timeline, Seo } from "@components"
 import { about_me } from '@utils/about_me'
-import { storyEng } from '@utils/my_story'
+import { journeyEng } from '@utils/journey'
 
 import { GatsbyImage as Img } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
@@ -17,7 +17,7 @@ const AboutPage = () => {
   const { aboutImage } = useStaticQuery(
     graphql`
       query {
-        aboutImage: file(relativePath: { eq: "aboutPic.jpg" }) {
+        aboutImage: file(relativePath: { eq: "profile.jpeg" }) {
           childImageSharp {
             gatsbyImageData(
               width: 300
@@ -58,7 +58,7 @@ const AboutPage = () => {
         </S.CardsWrapper>
         <br />
         <S.SubTitle>My journey as a web developer</S.SubTitle>
-        <Timeline data={storyEng} />
+        <Timeline data={journeyEng} />
       </S.MainContent>
     </LayoutHero>
   )

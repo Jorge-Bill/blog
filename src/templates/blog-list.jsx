@@ -14,7 +14,7 @@ const BlogList = props => {
   return (
     <LayoutCustom>
       <Seo title="Posts" />
-      <PostCard postsData={postList} />
+      <PostCard data={postList} />
       <Pagination
         isFirst={isFirst}
         isLast={isLast}

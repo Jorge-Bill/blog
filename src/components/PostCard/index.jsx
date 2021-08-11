@@ -5,9 +5,9 @@ import getThemeColor from "@utils/getThemeColor"
 
 import * as S from './styled'
 
-const PostCard = ({ postsData, ...props }) => (
+const PostCard = ({ data, ...props }) => (
   <S.PostCardWrapper {...props}>
-    {postsData.map(
+    {data.map(
       ({
         node: {
           frontmatter: { category, thumbnail, date, description, title, background },
@@ -40,7 +40,7 @@ const PostCard = ({ postsData, ...props }) => (
   )
 
 PostCard.propTypes = {
-  postsData: PropTypes.array.isRequired,
+  data: PropTypes.array.isRequired,
 }
 
 
