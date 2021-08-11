@@ -17,7 +17,7 @@ const AboutPage = () => {
   const { aboutImage } = useStaticQuery(
     graphql`
       query {
-        aboutImage: file(relativePath: { eq: "aboutPic.jpg" }) {
+        aboutImage: file(relativePath: { eq: "profile.jpeg" }) {
           childImageSharp {
             gatsbyImageData(
               width: 300
