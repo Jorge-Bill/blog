@@ -1,7 +1,7 @@
 import React from "react"
 
 import PropTypes from "prop-types"
-import { Profile, SocialLinks, MenuLinks } from '../index'
+import { Profile, SocialLinks, MenuLinks } from '@components'
 
 import * as S from "./styled"
 
