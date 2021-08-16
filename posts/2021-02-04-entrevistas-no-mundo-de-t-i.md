@@ -26,4 +26,6 @@ Tudo começa com uma devolutiva positiva sobre sua candidatura, e você conversa
 
 Ali vocês batem um papo para conhecer melhor seu perfil, para saber melhor sobre sua experiência, no que trabalhou, quem de fato é você etc...
 
-Neste bate papo, você aprende mais sobre a empresa que deseja trabalhar,
+Neste bate papo, você aprende mais sobre a empresa que deseja trabalhar, sua cultura, valores, etc.. algumas vezes são discutidos valores monetários também, podendo ou não entrar em foco, **sua pretensão salarial (***Quer ganhar quanto?***)**, regime de trabalho (**CLT, PJ**), benefícios da vaga etc...
+
+A por ai vai,
