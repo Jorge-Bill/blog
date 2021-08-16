@@ -40,7 +40,7 @@ Acontece de te pedirem também para executar fazer um teste de competência em p
 
 #### Entrevista técnica
 
-Algumas emp
+Algumas empresas preferem que você bata um papo técnico com desenvolvedores ao invés de realizar um desafio técnico, outras pedem para que esta conversa aconteças após você passar no desafio técnico
 
 
 
