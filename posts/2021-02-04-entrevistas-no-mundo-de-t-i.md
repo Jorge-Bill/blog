@@ -54,20 +54,18 @@ Normalmente neste ponto, você tem uma conversa com alguém que pode vir a se to
 
 Chegamos ao fim do processo, neste momento a empresa pode te oferecer uma proposta de trabalho, e você pode ou não topar. Cada caso é um caso.
 
-### Obs.:.. e Dicas
-
-Você pode desistir do processo de contratação em todas as etapas, caso deseje, não precisa chegar ao fim do processo para isto.
-
-**O mais importante, cada empresa é de um jeito, não existe uma receita de bolo para entrevistas no mundo da tecnologia,** da mesma forma que é possível que exista outra etapa antes da contratação, você pode ser contratado(a) depois de uma entrevista apenas, sem passar por tudo isto.
-
-Dica,
-
-tudo e conversavel
-
-glassdoor
-
 
 
 não tenho experiência o que fazer 
 
 as vagas de estágio
+
+### Obs.:.. e Dicas
+
+Você pode desistir do processo de contratação em todas as etapas, caso deseje, não precisa chegar ao fim do processo para isto.
+
+**O mais importante, cada empresa é de um jeito, não existe uma receita de bolo para entrevistas no mundo da tecnologia,** da mesma forma que é possível que exista outra etapa antes da contratação, **você pode ser contratado(a) depois de uma entrevista apenas**, sem passar por tudo isto.
+
+Outra coisa, não precisa se sentir pressionado a aceitar o que a vaga te oferece de primeira, as vezes é possível negociar um valor maior de salário (*mas isto é raridade*).
+
+Uma ótima dica, é buscar maiores informações sobre a empresa que você deseja se candidatar, em sites como o [Glassdoor](https://www.glassdoor.com.br/member/home/index.htm), ali é possível ter um spoiler de opiniões de funcionários da empresa, benefícios, salários etc.. **informação é poder!**
