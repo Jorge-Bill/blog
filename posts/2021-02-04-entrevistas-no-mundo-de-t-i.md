@@ -26,7 +26,7 @@ Hoje em dia, as pessoas do RH quase sempre respondem seu e-mail ou mensagem de c
 
 Para quem esta começando "**não tenho experiência, o que fazer para conseguir o tão sonhado primeiro emprego?**"
 
-As vagas de estágio
+Para se candidatar a vagas de estágio, 
 
 
 
