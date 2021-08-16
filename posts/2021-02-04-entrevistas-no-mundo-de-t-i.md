@@ -1,7 +1,7 @@
 ---
 title: Entrevistas no mundo de T.I
 description: Saiba um pouco mais como funcionam as entrevistas no mundo da técnologia
-date: 2021-01-21 05:11:06
+date: 2021-08-16 12:44:04
 thumbnail: assets/img/interview.png
 category: DEV
 background: Lightslategray
