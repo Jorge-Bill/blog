@@ -12,7 +12,7 @@ background: Lightslategray
 
 Basicamente, todo processo de contratação muda de acordo com a empresa, então esse post não necessariamente vai ser via de regra, é só um compilado do que já vivi, nessa minha experiência trabalhando no mundo da tecnologia.
 
-Hoje em dia, existem múltiplos sites para busca de vagas, ex.. Linkedin, Facebook, Github, e por ai vai, você só precisa entrar e dar ver quais vagas se aplicam para ti. Algumas vezes as vagas vem até você até, por mais incrível que isto possa parecer.
+Hoje em dia, existem múltiplos sites para busca de vagas, ex.. [Linkedin](https://www.linkedin.com/feed/), [Facebook](https://www.facebook.com/groups/frontendvagas), [Github](https://github.com/frontendbr/vagas), e por ai vai, você só precisa entrar e dar ver quais vagas se aplicam para ti. Algumas vezes as vagas vem até você até, por mais incrível que isto possa parecer.
 
 Mas o tio aqui, antigamente entrava no site das empresas que gostaria de trabalhar para ver as vagas disponíveis e mandava e-mails com seu currículo na esperança de alguma alma caridosa do RH se possibilitar a responder o e-mail e dar alguma esperança ou reprova da aplicação ao tão desejado trabalho. 
 
@@ -36,7 +36,7 @@ Neste momento, vocês entram em acordo se você ou o(a) recrutador(a) desejam co
 
 Isto varia muito de empresa para empresa, algumas aplicam um desafio para que você desenvolva no seu [Github](https://github.com/), [Bitbucket](https://bitbucket.org/), mande o link do repositório para ser examinado, e assim mostre um pouco do seu trabalho. 
 
-Acontece de te pedirem também para executar fazer um teste de competência em plataformas como[ https://exercism.io/](https://exercism.io/) ou <https://www.hackerrank.com/> estes testes são desafios de lógica que você precisa ler, interpretar e chegar a alguma solução, em um limite de tempo por questão, na maioria das vezes, você consegue escolher a linguagem que deseja codificar sua solução, e seu código passa por um tipo de "validação" te mostrando se está correto ou não, para sua solução ser submetida, quando realizei estes testes, eles levavam em média 60 minutos no total, e no fim, você recebe uma pontuação.
+Acontece de te pedirem também para executar fazer um teste de competência em plataformas como[ https://exercism.io/](https://exercism.io/) ou <https://www.hackerrank.com/> estes testes são desafios de lógica que você precisa ler, interpretar e chegar a alguma solução, em um limite de tempo por questão, na maioria das vezes, você consegue escolher a linguagem que deseja codificar sua solução, e seu código passa por um tipo de *"validação"* te mostrando se está correto ou não, para sua solução ser submetida, quando realizei estes testes, eles levavam em média 60 minutos no total, e no fim, você recebe uma pontuação.
 
 #### Entrevista técnica
 
