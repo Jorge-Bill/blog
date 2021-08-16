@@ -24,9 +24,9 @@ Hoje em dia, as pessoas do RH quase sempre respondem seu e-mail ou mensagem de c
 
 ### **Quando o profissional não tem experiência:**
 
-Para quem esta começando "não tenho experiência, o que fazer para conseguir o tão sonhado novo emprego?"
+Para quem esta começando "**não tenho experiência, o que fazer para conseguir o tão sonhado primeiro emprego?**"
 
-as vagas de estágio
+As vagas de estágio
 
 
 
