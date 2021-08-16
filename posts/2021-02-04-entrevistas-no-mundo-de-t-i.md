@@ -52,17 +52,21 @@ Normalmente neste ponto, você tem uma conversa com alguém que pode vir a se to
 
 ### **Contratação**
 
-s
+Chegamos ao fim do processo, neste momento a empresa pode te oferecer uma proposta de trabalho, e você pode ou não topar. Cada caso é um caso.
 
-Obs:..
+### Obs.:.. e Dicas
 
-Algumas vezes você pode 
+Você pode desistir do processo de contratação em todas as etapas, caso deseje, não precisa chegar ao fim do processo para isto.
 
-Dicas,
+**O mais importante, cada empresa é de um jeito, não existe uma receita de bolo para entrevistas no mundo da tecnologia,** da mesma forma que é possível que exista outra etapa antes da contratação, você pode ser contratado(a) depois de uma entrevista apenas, sem passar por tudo isto.
+
+Dica,
+
+tudo e conversavel
 
 glassdoor
 
-tudo e conversavel
+
 
 não tenho experiência o que fazer 
 
