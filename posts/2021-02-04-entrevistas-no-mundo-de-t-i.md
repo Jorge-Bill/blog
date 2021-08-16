@@ -6,7 +6,7 @@ thumbnail: assets/img/interview.png
 category: DEV
 background: Lightslategray
 ---
-### Como funcionam as entrevistas no fabuloso mundo da tecnologia.
+## Como funcionam as entrevistas no fabuloso mundo da tecnologia.
 
 ![entrevistas](assets/img/interview.png "entrevistas")
 
@@ -20,4 +20,10 @@ Hoje em dia, as pessoas do RH quase sempre respondem seu e-mail ou mensagem de c
 
 **Voltando ao foco...**
 
-Tudo começa com uma devolutiva positiva sobre sua candidatura, e você conversa com o recrutador(a) *(Head-hunter)*, e assim
+### **1º contato**
+
+Tudo começa com uma devolutiva positiva sobre sua candidatura, e você conversa com o recrutador(a) *(Head-hunter)*, e assim ele te informa maiores detalhes sobre a vaga, algumas vezes esta conversa se aplica por uma vídeo chamada, antes da pandemia do COVID19, eu sempre participei destas conversas presencialmente. 
+
+Ali vocês batem um papo para conhecer melhor seu perfil, para saber melhor sobre sua experiência, no que trabalhou, quem de fato é você etc...
+
+Neste bate papo, você aprende mais sobre a empresa que deseja trabalhar,
