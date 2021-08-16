@@ -22,7 +22,11 @@ Hoje em dia, as pessoas do RH quase sempre respondem seu e-mail ou mensagem de c
 
 **Voltando ao foco...**
 
-### **Quando o profissional não tem experiência:**
+
+
+### **Profissional sem experiência:**
+
+
 
 Para quem esta começando "**não tenho experiência, o que fazer para conseguir o tão sonhado primeiro emprego?**"
 
@@ -30,7 +34,9 @@ Para se candidatar a vagas de estágio,
 
 
 
-### **Quando o profissional tem experiência:**
+### **Profissional com experiência:**
+
+
 
 ### **1º contato - Bate papo**
 
@@ -38,9 +44,11 @@ Tudo começa com uma devolutiva positiva sobre sua candidatura, e você conversa
 
 Ali vocês batem um papo para conhecer melhor seu perfil, para saber melhor sobre sua experiência, no que trabalhou, quem de fato é você etc...
 
-Neste bate papo, você aprende mais sobre a empresa que deseja trabalhar, sua cultura, valores, etc.. algumas vezes são discutidos valores monetários também, podendo ou não entrar em foco, **sua pretensão salarial (***Quer ganhar quanto?***)**, regime de trabalho (**CLT, PJ**), benefícios da vaga etc...
+Neste bate papo, você aprende mais sobre a empresa que deseja trabalhar, sua cultura, valores, etc.. algumas vezes são discutidos valores monetários também, podendo ou não entrar em foco, **sua pretensão salarial (***Quer ganhar quanto?**\*)**, regime de trabalho (**CLT, PJ**), benefícios da vaga etc...
 
 Neste momento, vocês entram em acordo se você ou o(a) recrutador(a) desejam continuar com o processo de contratação ou a jornada termina por aqui.
+
+
 
 ### **2º contato - Desafio ou entrevista técnica**
 
@@ -56,13 +64,19 @@ Algumas empresas preferem que você bata um papo técnico com desenvolvedores ao
 
 Esta conversa acontece como todas as outras só que entre desenvolvedores, e você responde algumas perguntas mais técnicas, sobre as tecnologias que já trabalhou, e sobre como realizar tal coisa com a linguagem X, e por ai vai, não tem bem um padrão, no máximo, os devs tem uma checklist do que você precisa saber para continuar no processo, e vão perguntando durante a conversa.
 
+
+
 ### **3º contato - Conversa com o gestor**
 
 Normalmente neste ponto, você tem uma conversa com alguém que pode vir a se tornar seu gestor caso seja contratado, e assim vocês se conhecem, e conversam sobre como é o trabalho dentro da empresa, que tarefas você vai desempenhar, se existem algum tipo de metodologia ágil que irá trabalhar e por ai vai, neste ponto, para mim o mais importante é você e o gestor se conhecerem para saber se conseguiriam trabalhar juntos.
 
+
+
 ### **Contratação**
 
 Chegamos ao fim do processo, neste momento a empresa pode te oferecer uma proposta de trabalho, e você pode ou não topar. Cada caso é um caso.
+
+
 
 ### Obs.:.. e Dicas
 
