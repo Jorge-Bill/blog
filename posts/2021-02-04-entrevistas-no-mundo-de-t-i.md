@@ -6,7 +6,9 @@ thumbnail: assets/img/interview.png
 category: DEV
 background: Lightslategray
 ---
-## Como funcionam as entrevistas no fabuloso mundo da tecnologia.
+# Como funcionam as entrevistas no fabuloso mundo da tecnologia.
+
+## **Este artigo só se aplica a programadores, pois é a experiência que disponho.**
 
 ![entrevistas](assets/img/interview.png "entrevistas")
 
@@ -42,11 +44,11 @@ Acontece de te pedirem também para executar fazer um teste de competência em p
 
 Algumas empresas preferem que você bata um papo técnico com desenvolvedores ao invés de realizar um desafio técnico, outras pedem para que esta conversa aconteças após você passar no desafio técnico.
 
-Esta conversa acontece como todas as outras só que entre desenvolvedores, e você responde algumas perguntas mais técnicas, sobre as tecnologias que já trabalhou, e sobre como realizar tal coisa com a linguagem X, e por ai vai, não tem bem um padrão, no máximo, os devs tem um checklist do que você precisa saber para continuar no processo, e vão perguntando durante a conversa.
+Esta conversa acontece como todas as outras só que entre desenvolvedores, e você responde algumas perguntas mais técnicas, sobre as tecnologias que já trabalhou, e sobre como realizar tal coisa com a linguagem X, e por ai vai, não tem bem um padrão, no máximo, os devs tem uma checklist do que você precisa saber para continuar no processo, e vão perguntando durante a conversa.
 
 ### **3º contato - Conversa com o gestor**
 
-a
+Normalmente neste ponto, você tem uma conversa com alguém que pode vir a se tornar seu gestor caso seja contratado, e assim vocês se conhecem, e conversam sobre como é o trabalho dentro da empresa, que tarefas você vai desempenhar, se existem algum tipo de metodologia ágil que irá trabalhar e por ai vai, neste ponto, para mim o mais importante é você e o gestor se conhecerem para saber se conseguiriam trabalhar juntos.
 
 ### **Contratação**
 
