@@ -20,7 +20,7 @@ Hoje em dia, as pessoas do RH quase sempre respondem seu e-mail ou mensagem de c
 
 **Voltando ao foco...**
 
-### **1º contato - bate papo**
+### **1º contato - Bate papo**
 
 Tudo começa com uma devolutiva positiva sobre sua candidatura, e você conversa com o recrutador(a) *(Head-hunter)*, e assim ele te informa maiores detalhes sobre a vaga, algumas vezes esta conversa se aplica por uma vídeo chamada, antes da pandemia do COVID19, eu sempre participei destas conversas presencialmente. 
 
@@ -30,7 +30,7 @@ Neste bate papo, você aprende mais sobre a empresa que deseja trabalhar, sua cu
 
 Neste momento, vocês entram em acordo se você ou o(a) recrutador(a) desejam continuar com o processo de contratação ou a jornada termina por aqui.
 
-### **2º contato - desafio ou entrevista técnica**
+### **2º contato - Desafio ou entrevista técnica**
 
 #### Desafio técnico
 
@@ -44,8 +44,6 @@ Algumas empresas preferem que você bata um papo técnico com desenvolvedores ao
 
 Esta conversa acontece como todas as outras só que entre desenvolvedores, e você responde algumas perguntas mais técnicas, sobre as tecnologias que já trabalhou, e sobre como realizar tal coisa com a linguagem X, e por ai vai, não tem bem um padrão, no máximo, os devs tem um checklist do que você precisa saber para continuar no processo, e vão perguntando durante a conversa.
 
-
-
 ### **3º contato - Conversa com o gestor**
 
 a
@@ -53,3 +51,17 @@ a
 ### **Contratação**
 
 s
+
+Obs:..
+
+Algumas vezes você pode 
+
+Dicas,
+
+glassdoor
+
+tudo e conversavel
+
+não tenho experiência o que fazer 
+
+as vagas de estágio
