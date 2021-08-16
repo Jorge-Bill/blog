@@ -22,6 +22,16 @@ Hoje em dia, as pessoas do RH quase sempre respondem seu e-mail ou mensagem de c
 
 **Voltando ao foco...**
 
+### **Quando o profissional não tem experiência:**
+
+Para quem esta começando "não tenho experiência, o que fazer para conseguir o tão sonhado novo emprego?"
+
+as vagas de estágio
+
+
+
+### **Quando o profissional tem experiência:**
+
 ### **1º contato - Bate papo**
 
 Tudo começa com uma devolutiva positiva sobre sua candidatura, e você conversa com o recrutador(a) *(Head-hunter)*, e assim ele te informa maiores detalhes sobre a vaga, algumas vezes esta conversa se aplica por uma vídeo chamada, antes da pandemia do COVID19, eu sempre participei destas conversas presencialmente. 
@@ -53,12 +63,6 @@ Normalmente neste ponto, você tem uma conversa com alguém que pode vir a se to
 ### **Contratação**
 
 Chegamos ao fim do processo, neste momento a empresa pode te oferecer uma proposta de trabalho, e você pode ou não topar. Cada caso é um caso.
-
-
-
-não tenho experiência o que fazer 
-
-as vagas de estágio
 
 ### Obs.:.. e Dicas
 
