@@ -1,5 +1,5 @@
 ---
-title: Listas de Podcasts que eu acompanho
+title: Lista de Podcasts que eu acompanho
 description: Podcasts que eu acompanho para me atualizar
 date: 2021-08-16 01:02:20
 thumbnail: assets/img/brett-jordan-ybbrtuowhna-unsplash.jpg
