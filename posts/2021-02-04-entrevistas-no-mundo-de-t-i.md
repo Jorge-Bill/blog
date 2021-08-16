@@ -6,11 +6,7 @@ thumbnail: assets/img/interview.png
 category: DEV
 background: Lightslategray
 ---
-# Como funcionam as entrevistas no fabuloso mundo da tecnologia.
-
-
-
-## **Este artigo só se aplica a programadores, pois é a experiência que disponho.**
+###### **Este artigo só se aplica a programadores, pois é a experiência que disponho.**
 
 ![entrevistas](assets/img/interview.png "entrevistas")
 
@@ -30,8 +26,6 @@ Para quem esta começando "**não tenho experiência, o que fazer para conseguir
 
 Quando falamos de vagas de estágio, normalmente, o profissional se candidata a vaga, faz uma ou mais entrevistas e pode ser ou não contratado, normalmente as empresas sérias não exigem tanto conhecimento deste profissional pois ele está no início de sua jornada profissional.
 
-
-
 ### **Profissional com experiência:**
 
 ### **1º contato - Bate papo**
@@ -40,7 +34,7 @@ Tudo começa com uma devolutiva positiva sobre sua candidatura, e você conversa
 
 Ali vocês batem um papo para conhecer melhor seu perfil, para saber melhor sobre sua experiência, no que trabalhou, quem de fato é você etc...
 
-Neste bate papo, você aprende mais sobre a empresa que deseja trabalhar, sua cultura, valores, etc.. algumas vezes são discutidos valores monetários também, podendo ou não entrar em foco, **sua pretensão salarial (***Quer ganhar quanto?***)**, regime de trabalho (**CLT, PJ**), benefícios da vaga etc...
+Neste bate papo, você aprende mais sobre a empresa que deseja trabalhar, sua cultura, valores, etc.. algumas vezes são discutidos valores monetários também, podendo ou não entrar em foco, **sua pretensão salarial (***Quer ganhar quanto?**\*)**, regime de trabalho (**CLT, PJ**), benefícios da vaga etc...
 
 Neste momento, vocês entram em acordo se você ou o(a) recrutador(a) desejam continuar com o processo de contratação ou a jornada termina por aqui.
 
