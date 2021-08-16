@@ -6,7 +6,7 @@ thumbnail: assets/img/interview.png
 category: DEV
 background: Lightslategray
 ---
-###### **Este artigo só se aplica a programadores, pois é a experiência que disponho.**
+#### **Este artigo só se aplica a programadores, pois é a experiência que disponho.**
 
 ![entrevistas](assets/img/interview.png "entrevistas")
 
@@ -48,7 +48,7 @@ Acontece de te pedirem também para executar fazer um teste de competência em p
 
 #### Entrevista técnica
 
-Algumas empresas preferem que você bata um papo técnico com desenvolvedores ao invés de realizar um desafio técnico, outras pedem para que esta conversa aconteças após você passar no desafio técnico.
+Algumas empresas preferem que você bata um papo técnico com desenvolvedores ao invés de realizar um desafio técnico, outras pedem para que esta conversa aconteça após você passar no desafio técnico.
 
 Esta conversa acontece como todas as outras só que entre desenvolvedores, e você responde algumas perguntas mais técnicas, sobre as tecnologias que já trabalhou, e sobre como realizar tal coisa com a linguagem X, e por ai vai, não tem bem um padrão, no máximo, os devs tem uma checklist do que você precisa saber para continuar no processo, e vão perguntando durante a conversa.
 
