@@ -34,7 +34,7 @@ As vagas de estágio
 
 ### **1º contato - Bate papo**
 
-Tudo começa com uma devolutiva positiva sobre sua candidatura, e você conversa com o recrutador(a) *(Head-hunter)*, e assim ele te informa maiores detalhes sobre a vaga, algumas vezes esta conversa se aplica por uma vídeo chamada, antes da pandemia do COVID19, eu sempre participei destas conversas presencialmente. 
+Tudo começa com uma devolutiva positiva sobre sua candidatura, e você conversa com o recrutador(a) *(Head-Hunter)*, e assim ele te informa maiores detalhes sobre a vaga, algumas vezes esta conversa se aplica por uma vídeo chamada, antes da pandemia do COVID19, eu sempre participei destas conversas presencialmente. 
 
 Ali vocês batem um papo para conhecer melhor seu perfil, para saber melhor sobre sua experiência, no que trabalhou, quem de fato é você etc...
 
