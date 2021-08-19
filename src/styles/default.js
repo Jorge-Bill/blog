@@ -227,6 +227,15 @@ export const CardsWrapper = styled.div`
   `}
 `
 
+export const SkillWrapper = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+
+  ${media.lessThan("large")`
+    flex-direction: column;
+  `}
+`
+
 export const CustomCard = styled(Card)`
   display: flex;
   justify-content: center;

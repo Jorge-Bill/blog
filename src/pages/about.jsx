@@ -1,11 +1,12 @@
 import React from "react"
 
-import { LayoutHero, Timeline, Seo } from "@components"
+import { LayoutHero, Timeline, Skills, Seo } from "@components"
 import { about_me } from '@utils/about_me'
 import { journeyEng } from '@utils/journey'
+import { hardSkills, softSkills } from '@utils/skills'
 
-import { GatsbyImage as Img } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
+import { GatsbyImage as Img } from "gatsby-plugin-image"
 import { Document } from '@styled-icons/fluentui-system-regular/Document'
 
 import resume from '/public/assets/docs/JORGE_MENDES_resume.pdf'
@@ -46,6 +47,21 @@ const AboutPage = () => {
           />
         </S.imgWrapper>
         {about_me.map((item, i) => (<S.CustomParagraphy key={i}>{item}</S.CustomParagraphy>))}
+        <S.SubTitle>My Skills</S.SubTitle>
+        <S.SkillWrapper>
+          <Skills title='hard skills' data={hardSkills} />
+          <Skills title='soft skills' data={softSkills} />
+        </S.SkillWrapper>
+        <center>
+          <S.CustomParagraphy>
+            To know more about my skills access my {' '}
+            <a href="https://github.com/Jorge-Bill" target="_blank" rel="noopener noreferrer">Github</a>{' '}
+            or {' '}
+            <a href="https://www.linkedin.com/in/jorge-mendes-83a572a7" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            {' '}
+            profile.
+          </S.CustomParagraphy>
+        </center>
         <S.CardsWrapper>
           <S.CustomCard>
             <Document />
@@ -56,7 +72,6 @@ const AboutPage = () => {
             <a href={letter} target='_blank' rel='noopener noreferrer'>My cover letter</a>
           </S.CustomCard>
         </S.CardsWrapper>
-        <br />
         <S.SubTitle>My journey as a web developer</S.SubTitle>
         <Timeline data={journeyEng} />
       </S.MainContent>
