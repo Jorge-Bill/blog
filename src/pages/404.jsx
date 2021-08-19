@@ -13,20 +13,22 @@ const NotFoundPage = () => (
       <Seo title="404: Not found" />
       <S.DefaultHeader>
         <S.DefaultTitle>404</S.DefaultTitle>
-        <S.DefaultDescription>Route not found...</S.DefaultDescription>
+        <S.DefaultTitle>LOST WEBSITE</S.DefaultTitle>
+        <S.DefaultDescription>This page not exist or the url is invalid...</S.DefaultDescription>
       </S.DefaultHeader>
-      <S.MainContent>
         <S.imgWrapper>
           <StaticImage
-            className="img-404"
+            className="img-default"
             src='../images/icon.png'
-            alt='404 image'
+            alt='404 avatar'
             placeholder='blurred'
+            width={400}
           />
         </S.imgWrapper>
+        <S.MainContent>
         <center>
           <S.CustomParagraphy>
-            This route does not exist or is incorrect, try go back to{" "}
+            Try go back to{" "}
             <AniLink
               to="/"
               title="Home"
@@ -57,7 +59,7 @@ const NotFoundPage = () => (
               duration={0.6}
             >
               Search
-            </AniLink>
+            </AniLink> for something.
           </S.CustomParagraphy>
         </center>
       </S.MainContent>
