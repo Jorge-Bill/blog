@@ -15,7 +15,7 @@ const indexPage = ({ ...props }) => {
     <LayoutHero {...props} bannerTags='images,travel,new-york'>
       <Seo title="Home" />
       <S.DefaultHeader>
-        <S.DefaultTitle>Wellcome my friend</S.DefaultTitle>
+        <S.DefaultTitle>Welcome my friend</S.DefaultTitle>
         </S.DefaultHeader>
         <S.MainContent>
           <S.CustomParagraphy>I'm Jorge Mendes, and this is my world!</S.CustomParagraphy>
