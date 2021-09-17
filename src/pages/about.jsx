@@ -57,8 +57,6 @@ const AboutPage = () => {
             To know more about my skills access my {' '}
             <a href="https://github.com/Jorge-Bill" target="_blank" rel="noopener noreferrer">Github</a>{' '}
             or {' '}
-            <a href="https://www.linkedin.com/in/jorge-mendes-83a572a7" target="_blank" rel="noopener noreferrer">Linkedin</a>
-            {' '}
             profile.
           </S.CustomParagraphy>
         </center>

@@ -1,7 +1,7 @@
 const github = "Jorge-Bill"
-const linkedin = "jorge-mendes-83a572a7"
-const instagram = "jorgebillsilva"
-const facebook = "jorgebill.silva"
+const linkedin = ""
+const instagram = ""
+const facebook = ""
 const gmail = "jorge.mendesx@gmail.com"
 
 const links = [
