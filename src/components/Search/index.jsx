@@ -17,7 +17,11 @@ const Search = ({ algolia }) => {
         <Stats
           translations={{
             stats(nbHits, timeSpentMs) {
-              return <S.resultsMsg>{nbHits} results found in {timeSpentMs}ms</S.resultsMsg>
+              return (
+                <S.resultsMsg>
+                  {nbHits} results found in {timeSpentMs}ms
+                </S.resultsMsg>
+              )
             },
           }}
         />

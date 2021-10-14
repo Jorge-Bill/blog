@@ -90,20 +90,20 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify-cms`,
     {
-      resolve: 'gatsby-plugin-module-resolver',
+      resolve: "gatsby-plugin-module-resolver",
       options: {
-        root: './src', // <- will be used as a root dir
+        root: "./src", // <- will be used as a root dir
         aliases: {
-          '@components': './components',
-          '@templates': './templates',
-          '@styles': './styles',
-          '@utils': './utils',
+          "@components": "./components",
+          "@templates": "./templates",
+          "@styles": "./styles",
+          "@utils": "./utils",
           static: {
-            root: './public', // <- will used as this alias' root dir
-            alias: './static' // <- will become ./public/static
-          }
-        }
-      }
+            root: "./public", // <- will used as this alias' root dir
+            alias: "./static", // <- will become ./public/static
+          },
+        },
+      },
     },
   ],
 }

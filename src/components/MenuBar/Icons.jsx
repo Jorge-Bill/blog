@@ -6,7 +6,7 @@ import { Lightbulb as LightOff } from "@styled-icons/remix-line/Lightbulb"
 import { LightbulbFlash as LightOn } from "@styled-icons/remix-fill/LightbulbFlash"
 import { Grid } from "@styled-icons/boxicons-solid/Grid"
 import { List } from "@styled-icons/evaicons-solid/List"
-import { FileText } from '@styled-icons/bootstrap/FileText'
+import { FileText } from "@styled-icons/bootstrap/FileText"
 
 const Icons = {
   Home,
@@ -17,7 +17,7 @@ const Icons = {
   LightOn,
   Grid,
   List,
-  FileText
+  FileText,
 }
 
 export default Icons

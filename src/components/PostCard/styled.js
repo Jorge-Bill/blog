@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 import media from "styled-media-query"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
@@ -28,7 +28,11 @@ export const PostCardItem = styled(AniLink)`
 
   &:hover {
     border: 1px solid var(--highlight);
-    background-image: linear-gradient(to right, var(--timelineColor) 0%, var(--mediumBackground) 100%);
+    background-image: linear-gradient(
+      to right,
+      var(--timelineColor) 0%,
+      var(--mediumBackground) 100%
+    );
   }
 
   ${media.lessThan("large")`
@@ -54,13 +58,16 @@ export const PostCardImage = styled.img`
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom: 1px solid var(--mediumBackground);
-  background-image: linear-gradient(-20deg, ${props =>
-    props.background} 0%, var(--highlight) 100%);
+  background-image: linear-gradient(
+    -20deg,
+    ${props => props.background} 0%,
+    var(--highlight) 100%
+  );
 `
 
 export const PostCardContent = styled.div`
   padding: 1rem;
-  p{
+  p {
     margin: 0;
   }
 `
@@ -76,7 +83,7 @@ export const PostCardTitle = styled.h6`
 `
 
 export const PostCardDesc = styled.p`
-  font-size: .85rem;
+  font-size: 0.85rem;
   font-weight: 400;
   line-height: 1.2rem;
   text-transform: capitalize;
@@ -87,7 +94,7 @@ export const PostCardDesc = styled.p`
 
 export const PostCardInfo = styled.div`
   p {
-    font-size: .75rem;
+    font-size: 0.75rem;
     text-align: center;
     color: var(--postColor);
     margin: 1rem;

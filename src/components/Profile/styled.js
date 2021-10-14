@@ -3,22 +3,22 @@ import media from "styled-media-query"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const ProfileWrapper = styled.section`
-${({ size }) => css`
-  color: var(--texts);
-  display: flex;
-  flex-direction: column;
+  ${({ size }) => css`
+    color: var(--texts);
+    display: flex;
+    flex-direction: column;
 
-  ${size === 'small' && `
+    ${size === "small" &&
+    `
     width: 20vw;
   `};
 
-  ${media.lessThan("large")`
+    ${media.lessThan("large")`
     display: flex;
     text-align: left;
     width: auto;
   `}
-
-`}
+  `}
 `
 
 export const ProfileLink = styled(AniLink)`
@@ -35,7 +35,7 @@ export const ProfileLink = styled(AniLink)`
 export const ProfileAuthor = styled.h1`
   font-size: 1.4rem;
   text-transform: uppercase;
-  margin: .5rem auto .5rem;
+  margin: 0.5rem auto 0.5rem;
 
   ${media.lessThan("large")`
     font-size: 1.2rem;

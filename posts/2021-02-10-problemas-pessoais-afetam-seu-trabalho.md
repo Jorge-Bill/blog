@@ -7,6 +7,7 @@ thumbnail: assets/img/problems.jpg
 category: Misc
 background: Aqua
 ---
+
 Recentemente um superior me chamou para conversar, e me perguntou porque o time que trabalho começou a decair em suas entregas.
 
 ![problemas na vida pessoal](assets/img/problems.jpg "problemas na vida pessoal")
@@ -19,7 +20,7 @@ De fato eu havia, um mês atrás, mas isso não vem ao caso aqui, comuniquei que
 
 > Você pode até querer acreditar que sua vida particular não influência no seu trabalho, mas ela reflete diretamente, se algum aspecto da sua vida não vai bem, você como ser humano demonstra, ainda que indiretamente. Não somos maquinas que simplesmente conseguem separar ás áreas da nossa vida em caixas.
 
-E isso me fez refletir, muitas vezes sofremos com a perda de um parente, com  alguma conta que não sabemos como vamos pagar, com um pagamento atrasado que te faz usar um limite de crédito para que não falte nada em casa, em como você vai resolver algum problema, e nesses tempos, que até um resfriado te faz pensar no pior dos casos.
+E isso me fez refletir, muitas vezes sofremos com a perda de um parente, com alguma conta que não sabemos como vamos pagar, com um pagamento atrasado que te faz usar um limite de crédito para que não falte nada em casa, em como você vai resolver algum problema, e nesses tempos, que até um resfriado te faz pensar no pior dos casos.
 
 Tentamos trabalhar, tentamos ser produtivos, tentamos ser como o super H. Tentamos ser super fortes para aguentar os problemas e ainda sim, isso não é possível.
 
@@ -33,6 +34,6 @@ Sinceramente admitir para mim mesmo isso foi o primeiro passo para eu perceber, 
 
 ### E o que eu quero dizer, após isso tudo?
 
-Basicamente, que não somos de ferro, e as vezes se cobrar só piora as coisas, quando não estamos bem, podemos pedir ajuda. Afinal tudo na vida passa, até os maus momentos. 
+Basicamente, que não somos de ferro, e as vezes se cobrar só piora as coisas, quando não estamos bem, podemos pedir ajuda. Afinal tudo na vida passa, até os maus momentos.
 
 Como diz a Monja Coen: [na vida nada é fixo nem permanente](https://www.youtube.com/watch?v=Lk4QWum2Jmc)

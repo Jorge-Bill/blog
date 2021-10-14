@@ -39,19 +39,21 @@ const Profile = ({ size, showAvatar, showDescription, ...props }) => {
           <S.ProfilePosition>{position}</S.ProfilePosition>
         </S.ProfileAuthor>
       </S.ProfileLink>
-      {showDescription && <S.ProfileDescription>{description}</S.ProfileDescription>}
+      {showDescription && (
+        <S.ProfileDescription>{description}</S.ProfileDescription>
+      )}
     </S.ProfileWrapper>
   )
 }
 
 Profile.propTypes = {
-  size: PropTypes.oneOf(['small', 'auto']),
+  size: PropTypes.oneOf(["small", "auto"]),
   showAvatar: PropTypes.bool,
   showDescription: PropTypes.bool,
 }
 
 Profile.defaultProps = {
-  size: 'auto',
+  size: "auto",
   showAvatar: false,
   showDescription: true,
 }

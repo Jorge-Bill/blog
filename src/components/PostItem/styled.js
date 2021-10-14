@@ -22,7 +22,7 @@ export const PostItemWrapper = styled.section`
   display: flex;
   padding: 2rem 3rem;
   width: 100%;
-  transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 
   body#grid & {
     border: none;
@@ -39,9 +39,12 @@ export const PostItemWrapper = styled.section`
   `}
 
   &:hover {
-    background-image: linear-gradient(to right, var(--timelineColor) 0%, var(--mediumBackground) 100%);
+    background-image: linear-gradient(
+      to right,
+      var(--timelineColor) 0%,
+      var(--mediumBackground) 100%
+    );
   }
-
 `
 
 export const PostItemTag = styled.div`
@@ -51,7 +54,8 @@ export const PostItemTag = styled.div`
   min-height: 90px;
   min-width: 90px;
 
-  border: 2px solid ${props => props.background ? props.background : "var(--highlight)"};
+  border: 2px solid
+    ${props => (props.background ? props.background : "var(--highlight)")};
   border-radius: 50%;
   box-shadow: 0 1px 10px rgb(29 34 47 / 10%);
 

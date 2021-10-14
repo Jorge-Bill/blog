@@ -33,12 +33,12 @@ const SocialLinks = ({ className, size, ...props }) => (
 
 SocialLinks.propTypes = {
   className: PropTypes.string,
-  size: PropTypes.oneOf(['small', 'auto']),
+  size: PropTypes.oneOf(["small", "auto"]),
 }
 
 SocialLinks.defaultProps = {
-  className: '',
-  size: 'auto',
+  className: "",
+  size: "auto",
 }
 
 export default SocialLinks

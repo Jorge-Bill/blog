@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components'
+import styled, { keyframes } from "styled-components"
 
 const loadingAnimation = keyframes`
   0% {
@@ -9,7 +9,7 @@ const loadingAnimation = keyframes`
     transform: rotate(360deg);
     transition: opacity 0.8s;
   }
-`;
+`
 
 export const Loader = styled.div`
   margin: auto;
@@ -29,4 +29,4 @@ export const Loader = styled.div`
   border-top: 1em solid var(--highlight);
   box-shadow: 0 4px 8px 0 var(--highlight);
   opacity 0.7;
-`;
+`

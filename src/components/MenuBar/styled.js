@@ -25,7 +25,8 @@ export const MenuBarWrapper = styled.aside`
       width: 100vw;
     `};
 
-    ${variant === 'bottom' && `
+    ${variant === "bottom" &&
+    `
       width: 100vw;
       height: 3.75rem;
       flex-direction: row;
@@ -33,7 +34,6 @@ export const MenuBarWrapper = styled.aside`
       justify-content: center;
       bottom: 0;
     `};
-
   `}
 `
 
@@ -46,10 +46,10 @@ export const MenuBarGroup = styled.div`
       flex-direction: row;
     `}
 
-    ${variant === 'bottom' && `
+    ${variant === "bottom" &&
+    `
       flex-direction: row;
     `};
-
   `}
 `
 

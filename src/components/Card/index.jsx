@@ -1,13 +1,11 @@
-import React from 'react'
+import React from "react"
 
 import PropTypes from "prop-types"
 
-import * as S from './styled'
+import * as S from "./styled"
 
 const Card = ({ children, ...props }) => (
-  <S.CardWrapper {...props}>
-    {children}
-  </S.CardWrapper>
+  <S.CardWrapper {...props}>{children}</S.CardWrapper>
 )
 
 Card.propTypes = {
@@ -15,7 +13,7 @@ Card.propTypes = {
 }
 
 Card.defaultProps = {
-  children: '',
+  children: "",
 }
 
 export default Card

@@ -7,9 +7,9 @@ import * as S from "./styled"
 const Avatar = () => (
   <S.AvatarWrapper>
     <StaticImage
-      src='../../images/profile.jpeg'
-      alt='jorge profile picture'
-      placeholder='blurred'
+      src="../../images/profile.jpeg"
+      alt="jorge profile picture"
+      placeholder="blurred"
     />
   </S.AvatarWrapper>
 )

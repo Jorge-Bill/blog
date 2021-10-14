@@ -7,7 +7,8 @@ thumbnail: assets/img/captura-de-tela-2021-08-03-182728.png
 category: code
 background: Red
 ---
-Tenha amor por programar, mas não apegou ao código. 
+
+Tenha amor por programar, mas não apegou ao código.
 
 ### Afinal o que isto significa?
 
@@ -31,7 +32,7 @@ Até transformei um simples componente de **sidebar** em um componente de **nave
 
 ```javascript
 import React from "react"
-import { Profile, SocialLinks, MenuLinks } from '../index'
+import { Profile, SocialLinks, MenuLinks } from "../index"
 import PropTypes from "prop-types"
 
 import * as S from "./styled"
@@ -45,41 +46,45 @@ const NavigationBar = ({
   firstMenu,
   socialSize,
   ...props
-  }) => (
+}) => (
   <S.NavigationBarWrapper variant={variant} {...props}>
-    <Profile size={profileSize} showAvatar={profileAvatar} showDescription={profileDescription} />
-    {firstMenu ?
-     <>
-      <MenuLinks variant={menuLinksDisplay} />
-      <SocialLinks size={socialSize} />
-    </>
-     :
-     <>
-      <SocialLinks size={socialSize} />
-      <MenuLinks variant={menuLinksDisplay} />
-    </>
-     }
+    <Profile
+      size={profileSize}
+      showAvatar={profileAvatar}
+      showDescription={profileDescription}
+    />
+    {firstMenu ? (
+      <>
+        <MenuLinks variant={menuLinksDisplay} />
+        <SocialLinks size={socialSize} />
+      </>
+    ) : (
+      <>
+        <SocialLinks size={socialSize} />
+        <MenuLinks variant={menuLinksDisplay} />
+      </>
+    )}
   </S.NavigationBarWrapper>
 )
 
 NavigationBar.propTypes = {
-  variant: PropTypes.oneOf(['navbar', 'sidebar']),
+  variant: PropTypes.oneOf(["navbar", "sidebar"]),
   profileAvatar: PropTypes.bool,
   profileDescription: PropTypes.bool,
-  menuLinksDisplay: PropTypes.oneOf(['inline', 'column']),
+  menuLinksDisplay: PropTypes.oneOf(["inline", "column"]),
   firstMenu: PropTypes.bool,
-  profileSize: PropTypes.oneOf(['small', 'auto']),
-  socialSize: PropTypes.oneOf(['small', 'auto']),
+  profileSize: PropTypes.oneOf(["small", "auto"]),
+  socialSize: PropTypes.oneOf(["small", "auto"]),
 }
 
 NavigationBar.defaultProps = {
-  variant: 'sidebar',
+  variant: "sidebar",
   profileAvatar: false,
   profileDescription: true,
-  menuLinksDisplay: 'column',
+  menuLinksDisplay: "column",
   firstMenu: false,
-  profileSize: 'auto',
-  socialSize: 'auto',
+  profileSize: "auto",
+  socialSize: "auto",
 }
 
 export default NavigationBar
@@ -90,12 +95,12 @@ export default NavigationBar
 Depois resolvi melhorar o banner, e renderizar imagens de maneira randômica de acordo com as tags passadas, mas para fazer isto, fiz uma otimização no componente, usando o [React.Memo](https://pt-br.reactjs.org/docs/react-api.html#reactmemo) e [react-lazyload](https://www.npmjs.com/package/react-lazyload), e assim criando um loader antes do banner renderizar.
 
 ```javascript
-import React from 'react'
+import React from "react"
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types"
 import LazyLoad from "react-lazyload"
 
-import * as S from './styles'
+import * as S from "./styles"
 
 const HeaderBanner = ({ title, tags, ...props }) => {
   const refLoader = React.useRef()
@@ -110,7 +115,8 @@ const HeaderBanner = ({ title, tags, ...props }) => {
           src={`https://source.unsplash.com/1600x900/?desktop,${tags}`}
           alt={`Desktop wallpapers random about ${tags}`}
           onLoad={removeLoader}
-          onError={removeLoader} />
+          onError={removeLoader}
+        />
       </LazyLoad>
     </S.BannerWrapper>
   )
@@ -118,12 +124,12 @@ const HeaderBanner = ({ title, tags, ...props }) => {
 
 HeaderBanner.propTypes = {
   title: PropTypes.string,
-  tags: PropTypes.string
+  tags: PropTypes.string,
 }
 
 HeaderBanner.defaultProps = {
-  title: '',
-  tags: 'nature,star,galaxy,space'
+  title: "",
+  tags: "nature,star,galaxy,space",
 }
 
 export default React.memo(HeaderBanner)
@@ -137,6 +143,6 @@ export default React.memo(HeaderBanner)
 
 ![banner ja carregado](assets/img/about.png "banner ja carregado")
 
-Tudo bem mudar e melhorar, até porque programação é isto, a mudança precisa acontecer e é esperada. 
+Tudo bem mudar e melhorar, até porque programação é isto, a mudança precisa acontecer e é esperada.
 
 > Afinal na vida tudo muda, inclusive o seu código.

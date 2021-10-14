@@ -6,6 +6,7 @@ thumbnail: assets/img/screen-shot-2020-11-10-at-19.10.50.png
 category: Misc
 background: Aqua
 ---
+
 # Primeiro lugar do Google
 
 Estou escrevendo esse post, apenas para comemorar que ao pesquisar:

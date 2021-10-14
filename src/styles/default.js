@@ -1,12 +1,12 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 import media from "styled-media-query"
-import Card from '@components/Card'
+import Card from "@components/Card"
 
 export const DefaultHeader = styled.header`
   text-align: center;
   margin: auto;
   max-width: 70rem;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   ${media.lessThan("large")`
     max-width: 100%;
   `}
@@ -264,9 +264,9 @@ export const CustomCard = styled(Card)`
     background-color: var(--highlight);
   }
 
-  &:nth-child(1){
+  &:nth-child(1) {
     margin: 0 1rem 0 0;
-   }
+  }
 
   ${media.lessThan("large")`
     width: 80%;

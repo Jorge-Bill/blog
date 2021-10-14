@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react"
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types"
 
-import * as S from './styled'
+import * as S from "./styled"
 
 const Skills = ({ title, data, ...props }) => {
-  const stars = level => [...Array(level)].map((level, i) => <S.SkillStar key={i} />)
+  const stars = level =>
+    [...Array(level)].map((level, i) => <S.SkillStar key={i} />)
 
   return (
     <S.SkillsWrapper {...props}>
@@ -28,7 +29,7 @@ Skills.propTypes = {
 }
 
 Skills.defaultProps = {
-  title: '',
+  title: "",
 }
 
 export default Skills

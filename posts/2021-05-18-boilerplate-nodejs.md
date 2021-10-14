@@ -6,18 +6,19 @@ thumbnail: assets/img/6dnng3pre04xxdebia1g.png
 category: JS
 background: Lightgreen
 ---
+
 Recentemente no meu trabalho me vi cuidando de uma aplicação em **nodejs com express**, então optei por ajustar o projeto de acordo com as melhores práticas de desenvolvimento de software que conheço.
 
 ![node express](assets/img/6dnng3pre04xxdebia1g.png "node express")
 
 Ali montei a seguinte estrutura de diretórios
 
-* src
-* * controllers
-  * services
-  * utils
-  * routes (file)
-  * app (file)
+- src
+- - controllers
+  - services
+  - utils
+  - routes (file)
+  - app (file)
 
 ### Estrutura
 
@@ -39,15 +40,15 @@ Nesta pasta temos várias funções de uso genérico da aplicação que poderiam
 
 Atualmente temos as seguintes funções:
 
-* **delay** *(uma função de setTimeout)*
-* **validateTelephone** *(validar seu um número de telefone é válido)*
-* **normalizeTelephone** *(padronização de número de telefone para o Brasil Ex. 55119999-9999)*
-* **generateHash** *(gerador de hashs aleatórias criptografadas)*
-* **convertToBase64** *(conversor para arquivos no encode base64)*
+- **delay** _(uma função de setTimeout)_
+- **validateTelephone** _(validar seu um número de telefone é válido)_
+- **normalizeTelephone** _(padronização de número de telefone para o Brasil Ex. 55119999-9999)_
+- **generateHash** _(gerador de hashs aleatórias criptografadas)_
+- **convertToBase64** _(conversor para arquivos no encode base64)_
 
 #### routes
 
-Arquivo que registra todas as rotas do sistema, atualmente temos apenas uma rota GET de exemplo usando a controller de exemplo: **ExampleController.** 
+Arquivo que registra todas as rotas do sistema, atualmente temos apenas uma rota GET de exemplo usando a controller de exemplo: **ExampleController.**
 
 ```asn
 import { Router } from "express";
@@ -69,7 +70,7 @@ Arquivo que possui todas as configurações para a base do serviço, e como a po
 
 ### Configurações especiais
 
-Adicionei  um gerador que cria os arquivos para desenvolvimento do projeto nos diretórios corretos, com o padrão correto.
+Adicionei um gerador que cria os arquivos para desenvolvimento do projeto nos diretórios corretos, com o padrão correto.
 
 #### express
 
@@ -87,7 +88,7 @@ Um framework muito usado por todo o mundo na criação de apis em node, ele é r
 
 Adicionei a combinação de commitizen + husky para criar commits com mensagens concisas e com escopo definido.
 
-só com o commitizen ao digitar **git cz** ele abre essa interface no terminal e ajuda no commit, mas ai vêm o pulo do gato. 
+só com o commitizen ao digitar **git cz** ele abre essa interface no terminal e ajuda no commit, mas ai vêm o pulo do gato.
 
 Com o husky você pode criar um hook para sobrescrever o comando **git commit** e assim usar o commitizen por default, inclusive, isso também alimenta o changelog da aplicação.
 
@@ -109,7 +110,7 @@ Gerenciar credênciais de acesso são sempre um problema, e não podemos guardar
 
 Um client para realizar chamadas http, onde com ele é possível realizar chamadas para hosts.
 
-Ele já está configurado para usar um base url vindo da .env, então é só importar para realizar as chamadas **GET, POST, PUT, DELETE.** 
+Ele já está configurado para usar um base url vindo da .env, então é só importar para realizar as chamadas **GET, POST, PUT, DELETE.**
 
 **[Link axios](https://www.npmjs.com/package/axios)**
 

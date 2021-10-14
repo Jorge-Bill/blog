@@ -6,6 +6,7 @@ thumbnail: assets/img/spark.jpg
 category: Misc
 background: Aqua
 ---
+
 ## Ja se perguntou como é criado um filtro para o instagram e ou facebook?
 
 ![SPARK AR STUDIO](assets/img/spark.jpg "SPARK AR STUDIO")
@@ -30,7 +31,7 @@ Sinceramente, a interface parece uma mistura de adobe photoshop com android stud
 
 ## Testes usando seu smartphone
 
-Para facilitar o desenvolvimento, é possível conectar seu próprio dispositivo e testar o funcionamento do seu mais novo filtro ali mesmo. Tudo isso apenas ao realizar o download do app [Spark AR Player](https://play.google.com/store/apps/details?id=com.facebook.arstudio.player&hl=pt), usado apenas para esse propósito *(muito parecido com o android studio hein)*
+Para facilitar o desenvolvimento, é possível conectar seu próprio dispositivo e testar o funcionamento do seu mais novo filtro ali mesmo. Tudo isso apenas ao realizar o download do app [Spark AR Player](https://play.google.com/store/apps/details?id=com.facebook.arstudio.player&hl=pt), usado apenas para esse propósito _(muito parecido com o android studio hein)_
 
 ![Spark AR Player](assets/img/screen-1.jpg "Spark AR Player")
 
@@ -54,7 +55,7 @@ No **SPARK AR Hub** é possível ver métricas e outros dados dos filtros criado
 
 ## Onde buscar conhecimento
 
-É possível buscar conhecimento no próprio facebook, pelo grupo [Spark AR community](https://www.facebook.com/groups/SparkARcommunity/), no próprio site, existem tutoriais, e principalmente na web, no [Youtube](https://www.youtube.com/results?search_query=SPARK+AR), ali é possível aprender muito, eu sinceramente adoro adquirir conhecimento por lá, porque é rápido e simples. 
+É possível buscar conhecimento no próprio facebook, pelo grupo [Spark AR community](https://www.facebook.com/groups/SparkARcommunity/), no próprio site, existem tutoriais, e principalmente na web, no [Youtube](https://www.youtube.com/results?search_query=SPARK+AR), ali é possível aprender muito, eu sinceramente adoro adquirir conhecimento por lá, porque é rápido e simples.
 
 ## Resumo
 

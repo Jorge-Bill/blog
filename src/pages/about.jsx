@@ -1,16 +1,16 @@
 import React from "react"
 
 import { LayoutHero, Timeline, Skills, Seo } from "@components"
-import { about_me } from '@utils/about_me'
-import { journeyEng } from '@utils/journey'
-import { hardSkills, softSkills } from '@utils/skills'
+import { about_me } from "@utils/about_me"
+import { journeyEng } from "@utils/journey"
+import { hardSkills, softSkills } from "@utils/skills"
 
 import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage as Img } from "gatsby-plugin-image"
-import { Document } from '@styled-icons/fluentui-system-regular/Document'
+import { Document } from "@styled-icons/fluentui-system-regular/Document"
 
-import resume from '/public/assets/docs/JORGE_MENDES_resume.pdf'
-import letter from '/public/assets/docs/JORGE_MENDES_cover_letter.pdf'
+import resume from "/public/assets/docs/JORGE_MENDES_resume.pdf"
+import letter from "/public/assets/docs/JORGE_MENDES_cover_letter.pdf"
 
 import * as S from "@styles/default"
 
@@ -32,7 +32,7 @@ const AboutPage = () => {
   )
 
   return (
-    <LayoutHero title='About Me' bannerTags='nature,cloud,sunset'>
+    <LayoutHero title="About Me" bannerTags="nature,cloud,sunset">
       <Seo title="About" />
       <S.DefaultHeader>
         <S.DefaultTitle>Hello World!</S.DefaultTitle>
@@ -46,28 +46,39 @@ const AboutPage = () => {
             alt="jorge profile picture"
           />
         </S.imgWrapper>
-        {about_me.map((item, i) => (<S.CustomParagraphy key={i}>{item}</S.CustomParagraphy>))}
+        {about_me.map((item, i) => (
+          <S.CustomParagraphy key={i}>{item}</S.CustomParagraphy>
+        ))}
         <S.SubTitle>My Skills</S.SubTitle>
         <S.SkillWrapper>
-          <Skills title='hard skills' data={hardSkills} />
-          <Skills title='soft skills' data={softSkills} />
+          <Skills title="hard skills" data={hardSkills} />
+          <Skills title="soft skills" data={softSkills} />
         </S.SkillWrapper>
         <center>
           <S.CustomParagraphy>
-            To know more about my skills access my {' '}
-            <a href="https://github.com/Jorge-Bill" target="_blank" rel="noopener noreferrer">Github</a>{' '}
-            or {' '}
-            profile.
+            To know more about my skills access my{" "}
+            <a
+              href="https://github.com/Jorge-Bill"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>{" "}
+            or profile.
           </S.CustomParagraphy>
         </center>
         <S.CardsWrapper>
           <S.CustomCard>
             <Document />
-            <a href={resume} target='_blank' rel='noopener noreferrer'>My curriculum vitae</a>
+            <a href={resume} target="_blank" rel="noopener noreferrer">
+              My curriculum vitae
+            </a>
           </S.CustomCard>
           <S.CustomCard>
             <Document />
-            <a href={letter} target='_blank' rel='noopener noreferrer'>My cover letter</a>
+            <a href={letter} target="_blank" rel="noopener noreferrer">
+              My cover letter
+            </a>
           </S.CustomCard>
         </S.CardsWrapper>
         <S.SubTitle>My journey as a web developer</S.SubTitle>

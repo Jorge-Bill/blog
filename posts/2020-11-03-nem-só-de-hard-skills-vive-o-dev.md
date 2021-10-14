@@ -6,6 +6,7 @@ thumbnail: assets/img/hard-and-soft-skills.jpg
 category: DEV
 background: Lightslategray
 ---
+
 Muito se fala sobre **soft skills** ou **hard skills**, estas **buzz words** estão para todos os lados, quando se procura aprender sobre programação, mas de fato o que são? onde vivem? e para que servem?...hoje no G....nesse post.
 
 # [](https://github.com/Jorge-Bill/blog/blob/df564df04821222916454263504f037452ac389e/posts/2015-04-22-people-will-forget.md#o-que-s%C3%A3o-estas-tal-soft-e-hard-skills)O que são estas tal soft e hard skills?

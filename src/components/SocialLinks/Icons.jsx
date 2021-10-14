@@ -13,7 +13,7 @@ const Icons = {
   Instagram,
   Gmail,
   Work,
-  Education
+  Education,
 }
 
 export default Icons

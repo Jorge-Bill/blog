@@ -1,7 +1,7 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 import media from "styled-media-query"
 
-import { StarFill } from '@styled-icons/bootstrap/StarFill'
+import { StarFill } from "@styled-icons/bootstrap/StarFill"
 
 export const SkillsWrapper = styled.div`
   display: flex;
@@ -14,7 +14,7 @@ export const SkillTitle = styled.h6`
   text-transform: Capitalize;
   color: var(--postColor);
   font-weight: 400;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   text-shadow: 2px 2px 0px var(--timelineColor);
   font-size: 1.5rem;
   margin-bottom: 1rem;

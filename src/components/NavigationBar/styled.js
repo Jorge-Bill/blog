@@ -2,13 +2,14 @@ import styled, { css } from "styled-components"
 import media from "styled-media-query"
 
 export const NavigationBarWrapper = styled.aside`
-${({ variant }) => css`
-  display: flex;
-  background: var(--mediumBackground);
-  position: fixed;
-  text-align: center;
+  ${({ variant }) => css`
+    display: flex;
+    background: var(--mediumBackground);
+    position: fixed;
+    text-align: center;
 
-  ${variant === 'sidebar' && `
+    ${variant === "sidebar" &&
+    `
     height: 100vh;
     width: 20rem;
     flex-direction: column;
@@ -16,7 +17,8 @@ ${({ variant }) => css`
     border-right: 1px solid var(--borders);
   `};
 
-  ${variant === 'navbar' && `
+    ${variant === "navbar" &&
+    `
     width: 100vw;
     height: auto;
     flex-direction: row;
@@ -26,7 +28,7 @@ ${({ variant }) => css`
     justify-content: space-between;
   `};
 
-  ${media.lessThan("large")`
+    ${media.lessThan("large")`
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -35,6 +37,5 @@ ${({ variant }) => css`
     padding: 1rem 2rem;
     width: 100%;
   `}
-
- `}
+  `}
 `

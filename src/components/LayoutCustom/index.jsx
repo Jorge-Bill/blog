@@ -1,7 +1,7 @@
 import React from "react"
 
 import PropTypes from "prop-types"
-import { NavigationBar, MenuBar } from '@components'
+import { NavigationBar, MenuBar } from "@components"
 import { TransitionPortal } from "gatsby-plugin-transition-link"
 
 import * as S from "./styled"

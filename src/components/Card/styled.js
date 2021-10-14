@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 import media from "styled-media-query"
 
 export const CardWrapper = styled.div`

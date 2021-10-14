@@ -7,6 +7,7 @@ thumbnail: assets/img/top-10-books-every-college-student-read-1024x640-1.jpeg
 category: Misc
 background: Aqua
 ---
+
 ## Ensinamentos
 
 ![books](assets/img/top-10-books-every-college-student-read-1024x640-1.jpeg "books")
@@ -23,7 +24,7 @@ As pessoas mudam, a vida trata de mudar a todos nós, as experiências que passa
 
 > A vida é uma rodovia que só podemos andar para frente. Por mais que seja lindo revisitar o passado as vezes na nossa memória, tudo muda, inclusive nós, e não podemos ficar presos ao passado.
 
-Não se pode viver achando que a vida vai ser sempre igual, tudo passa, as coisas boas e ruins, **tudo tem um inicio, meio e fim.** 
+Não se pode viver achando que a vida vai ser sempre igual, tudo passa, as coisas boas e ruins, **tudo tem um inicio, meio e fim.**
 
 Existe um poema que sempre me vêm a mente quando penso no assunto:
 
@@ -33,7 +34,7 @@ Existe um poema que sempre me vêm a mente quando penso no assunto:
 >
 > A vida é um curto passeio, é importante aproveitar a vista.
 
-Esta me mostra que basicamente, a vida passa muito rápido, então devemos parar de pensar em fazer as coisas e de fato começar a fazer, não estou dizendo para saltar de paraquedas todos os dias, mas nos permitir viver mesmo, e aproveitar cada segundo, pois cada segundo é único, então se você tem o costume de almoçar ou jantar com um ente querido, aproveite, não se sabe o quanto tempo isto vai durar. 
+Esta me mostra que basicamente, a vida passa muito rápido, então devemos parar de pensar em fazer as coisas e de fato começar a fazer, não estou dizendo para saltar de paraquedas todos os dias, mas nos permitir viver mesmo, e aproveitar cada segundo, pois cada segundo é único, então se você tem o costume de almoçar ou jantar com um ente querido, aproveite, não se sabe o quanto tempo isto vai durar.
 
 > É importante comemorar cada vitória, independente do tamanho.
 
@@ -43,17 +44,17 @@ Sempre que conseguimos algo, ou algo bom acontece, é importante que você se co
 
 Quantas e quanta vezes, meus amigos precisavam e desabafar com alguém e eu cumpri este papel, as vezes não precisamos de um conselho, dinheiro, ou qualquer coisa, apenas alguém em que possamos confiar para falar sobre algum assunto particular e ter alguém para desabafar é algo maravilhoso.
 
-> O peixe morre pela boca, 
+> O peixe morre pela boca,
 
 Esta frase pode ser muito bem resumida assim: muito cuidado com pessoas que falam das outras para você, pois elas irão falar de você para os outros.
 
 É muito importante observar quando conhecemos alguém, se esta pessoa só fala mal dos outros para você é bem provável que ela fale de você para os outros, e se ela é assim, é bem provável que não vá querer ver seu sucesso. Precisamos tomar cuidado principalmente para não ser esta pessoa. A pessoa que só reclama e não resolve os problemas. Nunca é bom ser esta pessoa.
 
-> Na vida, ou você ganha ou adquire conhecimento,  
+> Na vida, ou você ganha ou adquire conhecimento,
 
 Nem sempre conseguimos o que queremos, e acabamos frustrados, e tudo bem, a vida é assim mesmo, o que não podemos fazer é permitir sermos consumidos pela frustração, no lugar disto, podemos aprender com a falha, e tentar aprender com isto, tirar algo de bom desta experiência.
 
-> Toda verdade tem três faces, a que você conta, a que a outra pessoa conta e a verdade mesmo. 
+> Toda verdade tem três faces, a que você conta, a que a outra pessoa conta e a verdade mesmo.
 
 Uma vez fui surpreendido com esta frase, quando falava sobre um problema, e entendi, cada pessoa enxerga a mesma situação de um jeito, então no fim, não existe alguém que está 100% correto, existem várias versões e os fatos, no fim, vale mais a pena nos atentar aos fatos e tentar resolver o problema, do que saber quem tem razão.
 
@@ -63,7 +64,7 @@ Já se pegou em uma situação em que, você não encontra uma solução, ai voc
 
 Todos passamos por isso, vez ou outra, as vezes, tudo que você precisa para entender um problema e chegar a resolução é a situação como alguém de fora, ai tudo faz sentido, e você percebe que o problema em si não era tão grande e complexo como tinha achado, claro que fazer isto é mais fácil na teoria que na prática.
 
-> Evite discussões idiotas, 
+> Evite discussões idiotas,
 
 Uma vez eu ouvi uma história, um rapaz passou e viu dois conhecidos discutindo, após 3 vezes do seguinte diálogo:
 
@@ -81,7 +82,7 @@ Eu sempre penso nisso, e concluo, tem muitas coisas na vida que não valem a pen
 
 Esta frase é basicamente para nos lembrar de nunca cantar vitória antes do fim, e escolher muito bem para quem podemos contar nossas vitórias, pois nem todo mundo quer nos ver bem.
 
-> Você tem 2 ouvidos e 1 boca 
+> Você tem 2 ouvidos e 1 boca
 
 É importante saber ouvir, ao ouvir bem você evita desentendimentos, e aprende mais que só falando, até porque, quando você fala, você não está ouvindo.
 
@@ -89,6 +90,6 @@ Esta frase é basicamente para nos lembrar de nunca cantar vitória antes do fim
 
 Em nossa caminhada pela vida, devemos sempre admirar e ser gratos por tudo aquilo que já conseguimos, ao invés de apenas buscar cegamente aquilo que desejamos, ou nunca estaremos felizes, pois sempre vai parecer faltar algo. É aquele velho dito, o passado não importa, o futuro a Deus pertence, mas o presente é chamado assim porque é uma dádiva, então **viva sempre no presente.**
 
-> Mudar dói, mas o processo de mudança é necessário 
+> Mudar dói, mas o processo de mudança é necessário
 
 E por fim, esta frase que para mim resume a vida, é muito importante sempre observar o quanto a vida muda e o quanto estamos mudando, e estar disposto a encarar estas mudanças, pois tudo na vida é passageiro, e mudar é sair da zona de conforto, confrontar problemas e seus próprios " demônios", e isso as vezes pode doer, machucar, mas olhando em retrospecto, também nos fortalece

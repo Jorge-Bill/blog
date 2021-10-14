@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types"
 import getThemeColor from "@utils/getThemeColor"
 import Icons from "./Icons"
 
@@ -89,17 +89,17 @@ const MenuBar = ({ variant, ...props }) => {
           {isLightMode ? <Icons.LightOn /> : <Icons.LightOff />}
         </S.MenuBarItem>
 
-       {variant === 'right' &&
-        <S.MenuBarItem
-          title="change posts layout"
-          onClick={() => {
-            window.__setPreferredDisplay(isListMode ? "grid" : "list")
-          }}
-          className="display"
-        >
-          {isListMode ? <Icons.Grid /> : <Icons.List />}
-        </S.MenuBarItem>
-       }
+        {variant === "right" && (
+          <S.MenuBarItem
+            title="change posts layout"
+            onClick={() => {
+              window.__setPreferredDisplay(isListMode ? "grid" : "list")
+            }}
+            className="display"
+          >
+            {isListMode ? <Icons.Grid /> : <Icons.List />}
+          </S.MenuBarItem>
+        )}
 
         <S.MenuBarItem
           title="go to top"
@@ -115,11 +115,11 @@ const MenuBar = ({ variant, ...props }) => {
 }
 
 MenuBar.propTypes = {
-  variant: PropTypes.oneOf(['right', 'bottom']),
+  variant: PropTypes.oneOf(["right", "bottom"]),
 }
 
 MenuBar.defaultProps = {
-  variant: 'right',
+  variant: "right",
 }
 
 export default MenuBar

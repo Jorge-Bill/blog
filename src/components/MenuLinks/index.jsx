@@ -29,12 +29,12 @@ const MenuLinks = ({ className, variant, ...props }) => (
 
 MenuLinks.propTypes = {
   className: PropTypes.string,
-  variant: PropTypes.oneOf(['inline', 'column']),
+  variant: PropTypes.oneOf(["inline", "column"]),
 }
 
 MenuLinks.defaultProps = {
-  className: '',
-  variant: 'column',
+  className: "",
+  variant: "column",
 }
 
 export default MenuLinks

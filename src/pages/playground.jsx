@@ -2,52 +2,57 @@ import React, { useState } from "react"
 
 import { LayoutHero, Seo, KanbanBoard } from "@components"
 
-import {  boards } from '@utils/board_data'
+import { boards } from "@utils/board_data"
 
 import * as S from "@styles/default"
 
 const PlaygroundPage = () => {
   const [selectData, setSelectData] = useState({
-    lanes: []
-  });
+    lanes: [],
+  })
 
   function selectedBoard(selected) {
     let obj = {
-      lanes: selected.lanes
+      lanes: selected.lanes,
     }
 
     setSelectData(obj)
   }
 
   return (
-    <LayoutHero title='Playground' bannerTags='code, programming, computer'>
+    <LayoutHero title="Playground" bannerTags="code, programming, computer">
       <Seo title="Playground" />
       <S.DefaultHeader>
-        <S.DefaultDescription> Where ideas born and rise to the stars</S.DefaultDescription>
+        <S.DefaultDescription>
+          {" "}
+          Where ideas born and rise to the stars
+        </S.DefaultDescription>
       </S.DefaultHeader>
-      <S.MainContent style={{maxWidth:'100vw'}}>
+      <S.MainContent style={{ maxWidth: "100vw" }}>
         <center>
           <S.CustomParagraphy>
             After this point everything is experimental...
           </S.CustomParagraphy>
         </center>
         <S.CardsWrapper>
-        {boards.map((board, i) => (
-          <S.CustomCard
-            style={{marginRight:'1rem'}}
-            key={i}
-            onClick={() => selectedBoard(board)}>
-            <S.CustomParagraphy style={{textTransform:'capitalize'}}>
-              {board.name}
-            </S.CustomParagraphy>
-          </S.CustomCard>
-        ))}
+          {boards.map((board, i) => (
+            <S.CustomCard
+              style={{ marginRight: "1rem" }}
+              key={i}
+              onClick={() => selectedBoard(board)}
+            >
+              <S.CustomParagraphy style={{ textTransform: "capitalize" }}>
+                {board.name}
+              </S.CustomParagraphy>
+            </S.CustomCard>
+          ))}
         </S.CardsWrapper>
-        <br/>
+        <br />
         <KanbanBoard
           data={selectData}
           editable={true}
-          onChange={selectedBoard} />
+          onChange={selectedBoard}
+        />
       </S.MainContent>
     </LayoutHero>
   )

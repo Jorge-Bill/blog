@@ -7,6 +7,7 @@ category: code
 background: Red
 image: /assets/img/polacode.png
 ---
+
 ## Screenshot do código
 
 já se perguntaram o que as pessoas usam para tirar prints de código?
