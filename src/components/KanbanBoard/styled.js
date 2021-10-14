@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   .react-trello-board{
-    background-image: url('/public/assets/img/icon.png');
+    background-image: url('');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto;
