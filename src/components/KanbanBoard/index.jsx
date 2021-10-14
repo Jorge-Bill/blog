@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 
 import * as S from './styled'
 
-const TestBoard = ({ data, editable, canAddLanes, editLaneTitle, ...props }) => {
+const KanbanBoard = ({ data, editable, canAddLanes, editLaneTitle, ...props }) => {
   return (
     <S.Wrapper {...props}>
       <Board
@@ -19,14 +19,14 @@ const TestBoard = ({ data, editable, canAddLanes, editLaneTitle, ...props }) => 
   )
 }
 
-TestBoard.propTypes = {
+KanbanBoard.propTypes = {
   data: PropTypes.object,
   editable: PropTypes.bool.isRequired,
   canAddLanes: PropTypes.bool,
   editLaneTitle: PropTypes.bool,
 }
 
-TestBoard.defaultProps = {
+KanbanBoard.defaultProps = {
   data: {
     lanes: [],
     canAddLanes: false,
@@ -34,4 +34,4 @@ TestBoard.defaultProps = {
   }
 }
 
-export default TestBoard
+export default KanbanBoard

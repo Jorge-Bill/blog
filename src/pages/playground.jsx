@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-import { LayoutHero, Seo, TestBoard } from "@components"
+import { LayoutHero, Seo, KanbanBoard } from "@components"
 
 import {  boards } from '@utils/board_data'
 
@@ -44,7 +44,7 @@ const PlaygroundPage = () => {
         ))}
         </S.CardsWrapper>
         <br/>
-        <TestBoard
+        <KanbanBoard
           data={selectData}
           editable={true}
           onChange={selectedBoard} />
