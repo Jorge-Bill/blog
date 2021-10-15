@@ -4,6 +4,7 @@ import { LayoutHero, Timeline, Skills, Seo } from '@components'
 import { aboutMe } from '@utils/aboutMe'
 import { journeyEng } from '@utils/journey'
 import { hardSkills, softSkills } from '@utils/skills'
+import { random } from '@utils/random'
 
 import { useStaticQuery, graphql } from 'gatsby'
 import { GatsbyImage as Img } from 'gatsby-plugin-image'
@@ -39,8 +40,8 @@ const AboutPage = () => {
         <S.imgWrapper>
           <Img className="img-default" image={aboutImage.childImageSharp.gatsbyImageData} alt="jorge profile picture" />
         </S.imgWrapper>
-        {aboutMe.map((item, i) => (
-          <S.CustomParagraphy key={i}>{item}</S.CustomParagraphy>
+        {aboutMe.map((item) => (
+          <S.CustomParagraphy key={random()}>{item}</S.CustomParagraphy>
         ))}
         <S.SubTitle>My Skills</S.SubTitle>
         <S.SkillWrapper>

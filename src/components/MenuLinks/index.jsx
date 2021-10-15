@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { random } from '@utils/random'
 import getThemeColor from '@utils/getThemeColor'
 import PropTypes from 'prop-types'
 import links from './content'
@@ -9,8 +10,8 @@ import * as S from './styled'
 const MenuLinks = ({ className, variant, ...props }) => (
   <S.MenuLinksWrapper className={className} variant={variant} {...props}>
     <S.MenuLinksList variant={variant}>
-      {links.map((link, i) => (
-        <S.MenuLinksItem key={i} variant={variant}>
+      {links.map((link) => (
+        <S.MenuLinksItem key={random()} variant={variant}>
           <S.MenuLinksLink
             cover
             direction="left"

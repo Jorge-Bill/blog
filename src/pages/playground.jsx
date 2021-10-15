@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import { LayoutHero, Seo, KanbanBoard } from '@components'
+import { random } from '@utils/random'
 
 import { boards } from '@utils/boards'
 
@@ -31,8 +32,8 @@ const PlaygroundPage = () => {
         </center>
         <S.CustomParagraphy>Please select a board name to see the kanban board details</S.CustomParagraphy>
         <S.CardsWrapper>
-          {boards.map((board, i) => (
-            <S.CustomCard style={{ marginRight: '1rem' }} key={i} onClick={() => selectedBoard(board)}>
+          {boards.map((board) => (
+            <S.CustomCard style={{ marginRight: '1rem' }} key={random()} onClick={() => selectedBoard(board)}>
               <S.CustomParagraphy style={{ textTransform: 'capitalize' }}>{board.name}</S.CustomParagraphy>
             </S.CustomCard>
           ))}

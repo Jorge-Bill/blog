@@ -2,17 +2,18 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 import { Github } from '@styled-icons/boxicons-logos/Github'
+import { random } from '@utils/random'
 import Icons from '../SocialLinks/Icons'
 
 import * as S from './styled'
 
 const Timeline = ({ data }) => (
   <S.TimelineWrapper className="vertical-timeline.vertical-timeline-custom-line">
-    {data.map((item, i) => {
+    {data.map((item) => {
       const Icon = Icons[item.icon]
       return (
         <S.TimelineElement
-          key={i}
+          key={random()}
           className={`vertical-timeline-element--${item.icon.toLowerCase()}`}
           contentStyle={{
             background: 'var(--timelineColor)',
