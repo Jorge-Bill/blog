@@ -13,7 +13,7 @@ const KanbanBoard = ({ data, editable, canAddLanes, editLaneTitle, ...props }) =
 )
 
 KanbanBoard.propTypes = {
-  data: PropTypes.objectOf(PropTypes.object),
+  data: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   editable: PropTypes.bool.isRequired,
   canAddLanes: PropTypes.bool,
   editLaneTitle: PropTypes.bool
