@@ -14,6 +14,7 @@ module.exports = {
   plugins: ['react'],
   rules: {
     'react/jsx-props-no-spreading': 'off',
-    'import/no-unresolved': 'off'
+    'import/no-unresolved': 'off',
+    "import/prefer-default-export": "off",
   }
 }
