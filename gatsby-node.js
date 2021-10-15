@@ -2,7 +2,7 @@ const path = require('path')
 
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.sourceNodes = ({ actions, schema }) => {
+exports.sourceNodes = ({ actions }) => {
   const { createTypes } = actions
 
   createTypes(`
@@ -95,15 +95,15 @@ exports.createPages = ({ graphql, actions }) => {
     const PostsPerPage = 6
     const numPages = Math.ceil(posts.length / PostsPerPage)
 
-    Array.from({ length: numPages }).forEach((_, posts) => {
+    Array.from({ length: numPages }).forEach((_, page) => {
       createPage({
-        path: posts === 0 ? `/posts/` : `/page/${posts + 1}`,
+        path: page === 0 ? `/posts/` : `/page/${page + 1}`,
         component: path.resolve('./src/templates/blog-list.jsx'),
         context: {
           limit: PostsPerPage,
-          skip: posts * PostsPerPage,
+          skip: page * PostsPerPage,
           numPages,
-          currentPage: posts + 1
+          currentPage: page + 1
         }
       })
     })
