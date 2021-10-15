@@ -44,7 +44,7 @@ const Timeline = ({ data }) => (
 )
 
 Timeline.propTypes = {
-  data: PropTypes.oneOfType([PropTypes.object]).isRequired
+  data: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired
 }
 
 export default Timeline

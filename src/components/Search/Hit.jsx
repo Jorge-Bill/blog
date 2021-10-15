@@ -16,7 +16,7 @@ const Hit = ({ hit }) => (
 )
 
 Hit.propTypes = {
-  hit: PropTypes.oneOfType([PropTypes.object]).isRequired
+  hit: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired
 }
 
 export default Hit

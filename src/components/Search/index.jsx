@@ -33,7 +33,7 @@ const Search = ({ algolia }) => {
 }
 
 Search.propTypes = {
-  algolia: PropTypes.oneOfType([PropTypes.object]).isRequired
+  algolia: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired
 }
 
 export default Search

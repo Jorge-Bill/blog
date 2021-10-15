@@ -5,15 +5,16 @@ import PropTypes from 'prop-types'
 import * as S from './styled'
 
 const Skills = ({ title, data, ...props }) => {
-  const stars = level => [...Array(level)].map((i) => <S.SkillStar key={i} />)
+  const random = () => Math.random().toString(36).slice(2)
+  const stars = level => [...Array(level)].map(() => <S.SkillStar key={random()} />)
 
   return (
     <S.SkillsWrapper {...props}>
       <S.SkillTitle>{title}</S.SkillTitle>
-      {data.map((skill, i) => (
-        <S.SkillsContainer key={i}>
+      {data.map((skill) => (
+        <S.SkillsContainer key={skill.id}>
           <S.SkillName>{skill.name}</S.SkillName>
-          <S.SkillLevel>{stars(skill.level)}</S.SkillLevel>
+          <S.SkillLevel>{stars(skill.level, skill.id)}</S.SkillLevel>
         </S.SkillsContainer>
       ))}
     </S.SkillsWrapper>
@@ -21,7 +22,7 @@ const Skills = ({ title, data, ...props }) => {
 }
 
 Skills.propTypes = {
-  data: PropTypes.oneOfType([PropTypes.object]).isRequired,
+  data: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired,
   title: PropTypes.string
 }
 
