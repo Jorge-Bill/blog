@@ -53,4 +53,9 @@ RecomendedPosts.propTypes = {
   })
 }
 
+RecomendedPosts.defaultProps = {
+  next: '',
+  previous: '',
+}
+
 export default RecomendedPosts

@@ -33,4 +33,9 @@ Pagination.propTypes = {
   nextPage: propTypes.string
 }
 
+Pagination.defaultProps = {
+  prevPage: '',
+  nextPage: ''
+}
+
 export default Pagination

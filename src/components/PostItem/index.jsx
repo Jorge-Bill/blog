@@ -30,4 +30,8 @@ PostItem.propTypes = {
   description: PropTypes.string.isRequired
 }
 
+PostItem.defaultProps = {
+  background: '',
+}
+
 export default PostItem

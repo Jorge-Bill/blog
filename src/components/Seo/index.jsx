@@ -78,17 +78,19 @@ function Seo({ description, lang, meta, title, image }) {
   )
 }
 
-Seo.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``
-}
-
 Seo.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
+  image:  PropTypes.string,
+}
+
+Seo.defaultProps = {
+  lang: `en`,
+  meta: [],
+  description: ``,
+  image: '',
 }
 
 export default Seo

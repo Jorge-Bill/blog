@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import * as S from './styled'
 
 const Skills = ({ title, data, ...props }) => {
-  const stars = level => [...Array(level)].map((level, i) => <S.SkillStar key={i} />)
+  const stars = level => [...Array(level)].map((i) => <S.SkillStar key={i} />)
 
   return (
     <S.SkillsWrapper {...props}>
@@ -21,7 +21,7 @@ const Skills = ({ title, data, ...props }) => {
 }
 
 Skills.propTypes = {
-  data: PropTypes.array.isRequired,
+  data: PropTypes.oneOfType([PropTypes.object]).isRequired,
   title: PropTypes.string
 }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import PostItem from '../PostItem'
 
@@ -13,5 +14,9 @@ const Hit = ({ hit }) => (
     timeToRead={hit.timeToRead}
   />
 )
+
+Hit.propTypes = {
+  hit: PropTypes.oneOfType([PropTypes.object]).isRequired
+}
 
 export default Hit

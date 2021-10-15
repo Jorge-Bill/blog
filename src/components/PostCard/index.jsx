@@ -34,7 +34,7 @@ const PostCard = ({ data, ...props }) => (
 )
 
 PostCard.propTypes = {
-  data: PropTypes.array.isRequired
+  data: PropTypes.oneOfType([PropTypes.object]).isRequired
 }
 
 export default PostCard

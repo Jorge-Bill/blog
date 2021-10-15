@@ -1,5 +1,6 @@
 import React from 'react'
 
+import PropTypes from 'prop-types'
 import algoliasearch from 'algoliasearch/lite'
 import { InstantSearch, SearchBox, Hits, Stats } from 'react-instantsearch-dom'
 import Hit from './Hit'
@@ -29,6 +30,10 @@ const Search = ({ algolia }) => {
       </InstantSearch>
     </S.SearchWrapper>
   )
+}
+
+Search.propTypes = {
+  algolia: PropTypes.oneOfType([PropTypes.object]).isRequired
 }
 
 export default Search

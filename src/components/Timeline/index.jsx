@@ -1,6 +1,6 @@
 import React from 'react'
 
-import propTypes from 'prop-types'
+import PropTypes from 'prop-types'
 import { Github } from '@styled-icons/boxicons-logos/Github'
 import Icons from '../SocialLinks/Icons'
 
@@ -44,7 +44,7 @@ const Timeline = ({ data }) => (
 )
 
 Timeline.propTypes = {
-  data: propTypes.array.isRequired
+  data: PropTypes.oneOfType([PropTypes.object]).isRequired
 }
 
 export default Timeline
