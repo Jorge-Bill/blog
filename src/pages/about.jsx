@@ -64,7 +64,7 @@ const AboutPage = () => {
             >
               Github
             </a>{" "}
-            or profile.
+            profile.
           </S.CustomParagraphy>
         </center>
         <S.CardsWrapper>

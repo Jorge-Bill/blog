@@ -34,6 +34,9 @@ const PlaygroundPage = () => {
             After this point everything is experimental...
           </S.CustomParagraphy>
         </center>
+        <S.CustomParagraphy>
+          Please select a board name to see the kanban board details
+        </S.CustomParagraphy>
         <S.CardsWrapper>
           {boards.map((board, i) => (
             <S.CustomCard
