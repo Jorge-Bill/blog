@@ -1,5 +1,7 @@
 import React from 'react'
 
+import PropTypes from 'prop-types'
+
 import { graphql } from 'gatsby'
 import { LayoutCustom, RecomendedPosts, Comments, Seo } from '@components'
 
@@ -28,6 +30,12 @@ const BlogPost = ({ data, pageContext }) => {
     </LayoutCustom>
   )
 }
+
+BlogPost.propTypes = {
+  data: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired,
+  pageContext: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired,
+}
+
 
 export const query = graphql`
   query Post($slug: String!) {

@@ -1,9 +1,10 @@
 import React from 'react'
 
 import { graphql } from 'gatsby'
+import PropTypes from 'prop-types'
 import { LayoutCustom, PostCard, Pagination, Seo } from '@components'
 
-const BlogList = props => {
+const BlogList = ({ ...props }) => {
   const postList = props.data.allMarkdownRemark.edges
   const { currentPage, numPages } = props.pageContext
   const isFirst = currentPage === 1
@@ -26,6 +27,19 @@ const BlogList = props => {
     </LayoutCustom>
   )
 }
+
+BlogList.propTypes = {
+  allMarkdownRemark: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+  pageContext: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+  data: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+}
+
+BlogList.defaultProps = {
+  allMarkdownRemark: {},
+  pageContext: [],
+  data: {},
+}
+
 
 export const query = graphql`
   query PostList($skip: Int!, $limit: Int!) {
