@@ -1,4 +1,4 @@
-export const about_me = [
+export const aboutMe = [
   'I have had contact with T.I, since I was twelve years old, when in my first contact with a Semp Toshiba desktop computer with Pentium 4  processor, 256gb of RAM and HD of 80 gb.',
   'I was fascinated and since then, have not been able to distance myself from this stunning area. I took small courses, and in 2010 joined the technical course in computer science, which allowed me to advance in knowledge, with which I worked as a freelancer for about two years, always improving my skills.',
   'In the year of two thousand twelve, I started my career as public agent, allowing me develop a project with the teenagers of the institution, teaching Arduino, using the principles of a basic kit in primary applications allowing learning of concepts of physics and mathematics.',

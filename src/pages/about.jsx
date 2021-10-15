@@ -1,12 +1,13 @@
 import React from 'react'
 
 import { LayoutHero, Timeline, Skills, Seo } from '@components'
-import { about_me } from '@utils/about_me'
+import { aboutMe } from '@utils/aboutMe'
 import { journeyEng } from '@utils/journey'
 import { hardSkills, softSkills } from '@utils/skills'
 
 import { useStaticQuery, graphql } from 'gatsby'
 import { GatsbyImage as Img } from 'gatsby-plugin-image'
+
 import { Document } from '@styled-icons/fluentui-system-regular/Document'
 
 import resume from '/public/assets/docs/JORGE_MENDES_resume.pdf'
@@ -38,7 +39,7 @@ const AboutPage = () => {
         <S.imgWrapper>
           <Img className="img-default" image={aboutImage.childImageSharp.gatsbyImageData} alt="jorge profile picture" />
         </S.imgWrapper>
-        {about_me.map((item, i) => (
+        {aboutMe.map((item, i) => (
           <S.CustomParagraphy key={i}>{item}</S.CustomParagraphy>
         ))}
         <S.SubTitle>My Skills</S.SubTitle>

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import { LayoutHero, Seo, KanbanBoard } from '@components'
 
-import { boards } from '@utils/board_data'
+import { boards } from '@utils/boards'
 
 import * as S from '@styles/default'
 
