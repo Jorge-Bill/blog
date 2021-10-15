@@ -1,5 +1,5 @@
-import styled, { css } from "styled-components"
-import media from "styled-media-query"
+import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
 
 export const NavigationBarWrapper = styled.aside`
   ${({ variant }) => css`
@@ -8,7 +8,7 @@ export const NavigationBarWrapper = styled.aside`
     position: fixed;
     text-align: center;
 
-    ${variant === "sidebar" &&
+    ${variant === 'sidebar' &&
     `
     height: 100vh;
     width: 20rem;
@@ -17,7 +17,7 @@ export const NavigationBarWrapper = styled.aside`
     border-right: 1px solid var(--borders);
   `};
 
-    ${variant === "navbar" &&
+    ${variant === 'navbar' &&
     `
     width: 100vw;
     height: auto;
@@ -28,7 +28,7 @@ export const NavigationBarWrapper = styled.aside`
     justify-content: space-between;
   `};
 
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
     display: flex;
     align-items: center;
     flex-direction: column;

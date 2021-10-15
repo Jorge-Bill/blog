@@ -10,7 +10,7 @@ background: Aqua
 
 ## Ensinamentos
 
-![books](assets/img/top-10-books-every-college-student-read-1024x640-1.jpeg "books")
+![books](assets/img/top-10-books-every-college-student-read-1024x640-1.jpeg 'books')
 
 Hoje conversando com minha esposa na cozinha de casa percebi que existem muitos ensinamentos no dia a dia. Frases que expressam muito bem os ciclos da vida:
 

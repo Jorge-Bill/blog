@@ -9,7 +9,7 @@ background: Lightslategray
 
 #### **Este artigo só se aplica a programadores, pois é a experiência que disponho.**
 
-![entrevistas](assets/img/interview.png "entrevistas")
+![entrevistas](assets/img/interview.png 'entrevistas')
 
 Basicamente, todo processo de contratação muda de acordo com a empresa, então esse post não necessariamente vai ser via de regra, é só um compilado do que já vivi, nessa minha experiência trabalhando no mundo da tecnologia.
 

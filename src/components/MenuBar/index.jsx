@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect } from 'react'
 
-import PropTypes from "prop-types"
-import getThemeColor from "@utils/getThemeColor"
-import Icons from "./Icons"
+import PropTypes from 'prop-types'
+import getThemeColor from '@utils/getThemeColor'
+import Icons from './Icons'
 
-import * as S from "./styled"
+import * as S from './styled'
 
 const MenuBar = ({ variant, ...props }) => {
   const [theme, setTheme] = useState(null)
   const [display, setDisplay] = useState(null)
 
-  const isLightMode = theme === "light"
-  const isListMode = display === "list"
+  const isLightMode = theme === 'light'
+  const isListMode = display === 'list'
 
   useEffect(() => {
     setTheme(window.__theme)
@@ -82,18 +82,18 @@ const MenuBar = ({ variant, ...props }) => {
         <S.MenuBarItem
           title="change theme"
           onClick={() => {
-            window.__setPreferredTheme(isLightMode ? "dark" : "light")
+            window.__setPreferredTheme(isLightMode ? 'dark' : 'light')
           }}
           className={theme}
         >
           {isLightMode ? <Icons.LightOn /> : <Icons.LightOff />}
         </S.MenuBarItem>
 
-        {variant === "right" && (
+        {variant === 'right' && (
           <S.MenuBarItem
             title="change posts layout"
             onClick={() => {
-              window.__setPreferredDisplay(isListMode ? "grid" : "list")
+              window.__setPreferredDisplay(isListMode ? 'grid' : 'list')
             }}
             className="display"
           >
@@ -104,7 +104,7 @@ const MenuBar = ({ variant, ...props }) => {
         <S.MenuBarItem
           title="go to top"
           onClick={() => {
-            window.scroll({ top: 0, behavior: "smooth" })
+            window.scroll({ top: 0, behavior: 'smooth' })
           }}
         >
           <Icons.Arrow />
@@ -115,11 +115,11 @@ const MenuBar = ({ variant, ...props }) => {
 }
 
 MenuBar.propTypes = {
-  variant: PropTypes.oneOf(["right", "bottom"]),
+  variant: PropTypes.oneOf(['right', 'bottom'])
 }
 
 MenuBar.defaultProps = {
-  variant: "right",
+  variant: 'right'
 }
 
 export default MenuBar

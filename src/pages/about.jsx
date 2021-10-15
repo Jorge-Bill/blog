@@ -1,18 +1,18 @@
-import React from "react"
+import React from 'react'
 
-import { LayoutHero, Timeline, Skills, Seo } from "@components"
-import { about_me } from "@utils/about_me"
-import { journeyEng } from "@utils/journey"
-import { hardSkills, softSkills } from "@utils/skills"
+import { LayoutHero, Timeline, Skills, Seo } from '@components'
+import { about_me } from '@utils/about_me'
+import { journeyEng } from '@utils/journey'
+import { hardSkills, softSkills } from '@utils/skills'
 
-import { useStaticQuery, graphql } from "gatsby"
-import { GatsbyImage as Img } from "gatsby-plugin-image"
-import { Document } from "@styled-icons/fluentui-system-regular/Document"
+import { useStaticQuery, graphql } from 'gatsby'
+import { GatsbyImage as Img } from 'gatsby-plugin-image'
+import { Document } from '@styled-icons/fluentui-system-regular/Document'
 
-import resume from "/public/assets/docs/JORGE_MENDES_resume.pdf"
-import letter from "/public/assets/docs/JORGE_MENDES_cover_letter.pdf"
+import resume from '/public/assets/docs/JORGE_MENDES_resume.pdf'
+import letter from '/public/assets/docs/JORGE_MENDES_cover_letter.pdf'
 
-import * as S from "@styles/default"
+import * as S from '@styles/default'
 
 const AboutPage = () => {
   const { aboutImage } = useStaticQuery(
@@ -20,11 +20,7 @@ const AboutPage = () => {
       query {
         aboutImage: file(relativePath: { eq: "profile.jpeg" }) {
           childImageSharp {
-            gatsbyImageData(
-              width: 300
-              placeholder: BLURRED
-              layout: CONSTRAINED
-            )
+            gatsbyImageData(width: 300, placeholder: BLURRED, layout: CONSTRAINED)
           }
         }
       }
@@ -40,11 +36,7 @@ const AboutPage = () => {
       </S.DefaultHeader>
       <S.MainContent>
         <S.imgWrapper>
-          <Img
-            className="img-default"
-            image={aboutImage.childImageSharp.gatsbyImageData}
-            alt="jorge profile picture"
-          />
+          <Img className="img-default" image={aboutImage.childImageSharp.gatsbyImageData} alt="jorge profile picture" />
         </S.imgWrapper>
         {about_me.map((item, i) => (
           <S.CustomParagraphy key={i}>{item}</S.CustomParagraphy>
@@ -56,14 +48,10 @@ const AboutPage = () => {
         </S.SkillWrapper>
         <center>
           <S.CustomParagraphy>
-            To know more about my skills access my{" "}
-            <a
-              href="https://github.com/Jorge-Bill"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            To know more about my skills access my{' '}
+            <a href="https://github.com/Jorge-Bill" target="_blank" rel="noopener noreferrer">
               Github
-            </a>{" "}
+            </a>{' '}
             profile.
           </S.CustomParagraphy>
         </center>

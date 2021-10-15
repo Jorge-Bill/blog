@@ -17,7 +17,7 @@ ou
 
 > jorge mendes .com .br
 
-![primeiro lugar no Google](assets/img/screen-shot-2020-11-10-at-19.10.50.png "primeiro lugar no Google")
+![primeiro lugar no Google](assets/img/screen-shot-2020-11-10-at-19.10.50.png 'primeiro lugar no Google')
 
 Eu apareci em primeiro lugar no Google, com o perfil do [linkedin](linkedin.com/in/jorge-mendes-83a572a7/) e o [site](https://jorgemendes.com.br/).
 

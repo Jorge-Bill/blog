@@ -1,6 +1,6 @@
-import styled, { css } from "styled-components"
-import media from "styled-media-query"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 export const ProfileWrapper = styled.section`
   ${({ size }) => css`
@@ -8,12 +8,12 @@ export const ProfileWrapper = styled.section`
     display: flex;
     flex-direction: column;
 
-    ${size === "small" &&
+    ${size === 'small' &&
     `
     width: 20vw;
   `};
 
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
     display: flex;
     text-align: left;
     width: auto;
@@ -37,7 +37,7 @@ export const ProfileAuthor = styled.h1`
   text-transform: uppercase;
   margin: 0.5rem auto 0.5rem;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     font-size: 1.2rem;
     margin: 0 0 0 10px;
   `}
@@ -49,7 +49,7 @@ export const ProfilePosition = styled.small`
   font-weight: 300;
   text-transform: capitalize;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     font-size: 0.8rem;
     margin-top: 0.2rem;
   `}
@@ -60,7 +60,7 @@ export const ProfileDescription = styled.p`
   font-weight: 300;
   line-height: 1.4;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     display: none;
   `}
 `

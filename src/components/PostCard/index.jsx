@@ -1,42 +1,23 @@
-import React from "react"
+import React from 'react'
 
-import PropTypes from "prop-types"
-import getThemeColor from "@utils/getThemeColor"
+import PropTypes from 'prop-types'
+import getThemeColor from '@utils/getThemeColor'
 
-import * as S from "./styled"
+import * as S from './styled'
 
 const PostCard = ({ data, ...props }) => (
   <S.PostCardWrapper {...props}>
     {data.map(
       ({
         node: {
-          frontmatter: {
-            category,
-            thumbnail,
-            date,
-            description,
-            title,
-            background,
-          },
+          frontmatter: { category, thumbnail, date, description, title, background },
           timeToRead,
           id,
-          fields: { slug },
-        },
+          fields: { slug }
+        }
       }) => (
-        <S.PostCardItem
-          key={id}
-          to={slug}
-          title={title}
-          cover
-          direction="right"
-          bg={getThemeColor()}
-          duration={0.6}
-        >
-          <S.PostCardImage
-            src={`/${thumbnail}`}
-            alt={title}
-            background={background}
-          />
+        <S.PostCardItem key={id} to={slug} title={title} cover direction="right" bg={getThemeColor()} duration={0.6}>
+          <S.PostCardImage src={`/${thumbnail}`} alt={title} background={background} />
           <S.PostCardContent>
             <S.PostCardTitle>{title}</S.PostCardTitle>
             <S.PostCardDesc>{description}</S.PostCardDesc>
@@ -53,7 +34,7 @@ const PostCard = ({ data, ...props }) => (
 )
 
 PostCard.propTypes = {
-  data: PropTypes.array.isRequired,
+  data: PropTypes.array.isRequired
 }
 
 export default PostCard

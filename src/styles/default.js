@@ -1,13 +1,13 @@
-import styled from "styled-components"
-import media from "styled-media-query"
-import Card from "@components/Card"
+import styled from 'styled-components'
+import media from 'styled-media-query'
+import Card from '@components/Card'
 
 export const DefaultHeader = styled.header`
   text-align: center;
   margin: auto;
   max-width: 70rem;
   letter-spacing: 0.2rem;
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     max-width: 100%;
   `}
 `
@@ -19,7 +19,7 @@ export const DefaultTitle = styled.h1`
   font-weight: 700;
   padding: 0 1.4rem;
   margin: 1rem auto;
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     font-size: 2.8rem;
     line-height: 1.1;
     padding: 0 1rem;
@@ -31,7 +31,7 @@ export const DefaultDescription = styled.h2`
   color: var(--postColor);
   font-weight: 100;
   padding: 0 1.4rem;
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     font-size: 1.6rem;
     line-height: 1.3;
     padding: 0 1rem;
@@ -45,7 +45,7 @@ export const DefaultHighlight = styled.h6`
   font-weight: 400;
   padding: 0 1.4rem;
   margin: 1rem 0 1rem 0;
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     font-size: 1.3rem;
     line-height: 1.3;
     padding: 0 1rem;
@@ -73,10 +73,10 @@ export const MainContent = styled.section`
   font-weight: 300;
   line-height: 1.7;
   letter-spacing: 0.069rem;
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     word-break: break-word;
   `}
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     padding: 2rem 0;
     max-width: 100%;
   `}
@@ -120,7 +120,7 @@ export const MainContent = styled.section`
   iframe {
     padding: 0 1.6rem 1.6rem;
     width: 100%;
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       padding: 0 1rem;
     `}
   }
@@ -150,19 +150,19 @@ export const MainContent = styled.section`
   }
   h1 {
     font-size: 2.8rem;
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       font-size: 1.875rem;
     `}
   }
   h2 {
     font-size: 2.1rem;
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       font-size: 1.375rem;
     `}
   }
   h3 {
     font-size: 1.6rem;
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       font-size: 1.125rem;
     `}
   }
@@ -192,7 +192,7 @@ export const MainContent = styled.section`
   }
   .gatsby-highlight {
     padding: 0 1.6rem 1.6rem;
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       padding: 0;
     `}
   }
@@ -222,7 +222,7 @@ export const CardsWrapper = styled.div`
   justify-content: center;
   align-items: center;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     flex-direction: column;
   `}
 `
@@ -231,7 +231,7 @@ export const SkillWrapper = styled.div`
   display: flex;
   justify-content: space-evenly;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     flex-direction: column;
   `}
 `
@@ -268,7 +268,7 @@ export const CustomCard = styled(Card)`
     margin: 0 1rem 0 0;
   }
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     width: 80%;
     &:nth-child(1){
       margin: 0 0 1rem 0;

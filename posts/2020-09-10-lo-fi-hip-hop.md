@@ -11,7 +11,7 @@ Primeiramente, quando conheço alguma coisa, eu sempre me faço 2 perguntas:
 
 ## O que é?
 
-![girl studing](assets/img/lo-fi.jpg "girl studing")
+![girl studing](assets/img/lo-fi.jpg 'girl studing')
 
 Lo-fi Hip Hop começou como uma série de músicas com um beat nostálgico e sons de ambiente, como pessoas conversando, pokebola abrindo, crianças rindo etc..., e se tornou um gênero.
 

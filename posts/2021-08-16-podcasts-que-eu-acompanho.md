@@ -9,7 +9,7 @@ background: Lightslategray
 
 Podcasts são uma ótima maneira para se manter atualizado, principalmente enquanto executa tarefas simples, como lavar uma louça, ou varre a casa.
 
-![caveira ouvindo música](assets/img/brett-jordan-ybbrtuowhna-unsplash.jpg "caveira ouvindo música")
+![caveira ouvindo música](assets/img/brett-jordan-ybbrtuowhna-unsplash.jpg 'caveira ouvindo música')
 
 Imagem de [Brett Jordan](https://unsplash.com/@brett_jordan) disponível em: <https://unsplash.com/photos/yBBrTuOwhNA>
 

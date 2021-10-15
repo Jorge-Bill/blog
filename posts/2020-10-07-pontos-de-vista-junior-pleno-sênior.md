@@ -16,7 +16,7 @@ Este artigo, foi escrito para conversar sobre decisões e a importância de resp
 
 ## **Mas o que isso significa?**
 
-![Junior pleno e senior](assets/img/cientista-de-dados-junior-pleno-e-senior.png "Junior pleno e senior")
+![Junior pleno e senior](assets/img/cientista-de-dados-junior-pleno-e-senior.png 'Junior pleno e senior')
 
 Todo profissional quando se depara com uma situação problema e tem de desenvolver uma solução lógica para programar algo, ele internaliza o problema e desenvolve sua própria lógica, essa lógica é tão individual que pode ser explicada pela frase:
 

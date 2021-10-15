@@ -11,7 +11,7 @@ Antigamente eu usava o Google Chrome dev tools para testar o responsivo como qua
 
 Assim encontrei o Responsively App [Responsively App](https://responsively.app/), que nada mais é que um projeto open source.
 
-![ Responsively App](assets/img/screenshot.png "Responsively App")
+![ Responsively App](assets/img/screenshot.png 'Responsively App')
 
 ## **Detalhes**
 
@@ -29,7 +29,7 @@ Nele é possível:
 
 E caso um usuário se interesse pela app, ele pode contribuir via gitHub para o código.
 
-![ Responsively App logo](assets/img/teste.png " Responsively App logo")
+![ Responsively App logo](assets/img/teste.png ' Responsively App logo')
 
 - [Link do site](https://responsively.app/#Features)
 - [Link do repositório no gitHub](https://github.com/responsively-org/responsively-app)

@@ -1,7 +1,7 @@
-import styled from "styled-components"
-import media from "styled-media-query"
+import styled from 'styled-components'
+import media from 'styled-media-query'
 
-import { StarFill } from "@styled-icons/bootstrap/StarFill"
+import { StarFill } from '@styled-icons/bootstrap/StarFill'
 
 export const SkillsWrapper = styled.div`
   display: flex;
@@ -19,7 +19,7 @@ export const SkillTitle = styled.h6`
   font-size: 1.5rem;
   margin-bottom: 1rem;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     margin-top: 2rem;
   `};
 `
@@ -28,7 +28,7 @@ export const SkillsContainer = styled.div`
   display: flex;
   align-items: center;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     width: 100%;
     justify-content: space-around;
   `};

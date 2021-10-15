@@ -1,8 +1,8 @@
-import React, { useEffect } from "react"
+import React, { useEffect } from 'react'
 
-import PropTypes from "prop-types"
+import PropTypes from 'prop-types'
 
-import * as S from "./styled"
+import * as S from './styled'
 
 const Loader = ({ stopOutside, ...props }) => {
   const refLoader = React.useRef()
@@ -21,7 +21,7 @@ const Loader = ({ stopOutside, ...props }) => {
 }
 
 Loader.propTypes = {
-  stopOutside: PropTypes.bool.isRequired,
+  stopOutside: PropTypes.bool.isRequired
 }
 
 export default React.memo(Loader)

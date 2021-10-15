@@ -1,11 +1,11 @@
-import React from "react"
+import React from 'react'
 
-import PropTypes from "prop-types"
-import { NavigationBar, HeaderBanner, MenuBar } from "@components"
-import { TransitionPortal } from "gatsby-plugin-transition-link"
+import PropTypes from 'prop-types'
+import { NavigationBar, HeaderBanner, MenuBar } from '@components'
+import { TransitionPortal } from 'gatsby-plugin-transition-link'
 
-import * as S from "./styled"
-import GlobalStyles from "@styles/global"
+import GlobalStyles from '@styles/global'
+import * as S from './styled'
 
 const LayoutHero = ({ title, bannerTags, children, ...props }) => (
   <S.LayoutHeroWrapper {...props}>
@@ -17,7 +17,7 @@ const LayoutHero = ({ title, bannerTags, children, ...props }) => (
         profileAvatar={false}
         profileDescription={false}
         menuLinksDisplay="inline"
-        firstMenu={true}
+        firstMenu
         socialSize="small"
       />
     </TransitionPortal>
@@ -32,12 +32,12 @@ const LayoutHero = ({ title, bannerTags, children, ...props }) => (
 LayoutHero.propTypes = {
   children: PropTypes.node.isRequired,
   title: PropTypes.string,
-  bannerTags: PropTypes.string,
+  bannerTags: PropTypes.string
 }
 
 LayoutHero.defaultProps = {
-  title: "Jorge Mendes",
-  bannerTags: "",
+  title: 'Jorge Mendes',
+  bannerTags: ''
 }
 
 export default LayoutHero

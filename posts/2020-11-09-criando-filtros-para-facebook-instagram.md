@@ -9,7 +9,7 @@ background: Aqua
 
 ## Ja se perguntou como é criado um filtro para o instagram e ou facebook?
 
-![SPARK AR STUDIO](assets/img/spark.jpg "SPARK AR STUDIO")
+![SPARK AR STUDIO](assets/img/spark.jpg 'SPARK AR STUDIO')
 
 Então, eu descobri como é desenvolvido são desenvolvidos filtros, e inclusive criei um 2 exemplos muito comuns.
 
@@ -19,11 +19,11 @@ Primeiro você irá precisar instalar um software para criar os filtros, este so
 
 Ao instalar e abrir o software nos deparamos com a necessidade de logar em uma conta do facebook e depois a seguinte interface:
 
-![Interface Spark AR Studio](assets/img/screen-shot-2020-11-09-at-19.02.59.png "Interface Spark AR Studio")
+![Interface Spark AR Studio](assets/img/screen-shot-2020-11-09-at-19.02.59.png 'Interface Spark AR Studio')
 
 Você escolhe uma um tipo de projeto ou projeto em branco e segue para se deparar com a próxima tela, essa de fato a que você utiliza para construir o filtro:
 
-![Interface Spark AR Studio](assets/img/screen-shot-2020-11-09-at-19.14.17.png "Interface Spark AR Studio")
+![Interface Spark AR Studio](assets/img/screen-shot-2020-11-09-at-19.14.17.png 'Interface Spark AR Studio')
 
 ## Minha experiência usando o Spark AR Studio
 
@@ -33,7 +33,7 @@ Sinceramente, a interface parece uma mistura de adobe photoshop com android stud
 
 Para facilitar o desenvolvimento, é possível conectar seu próprio dispositivo e testar o funcionamento do seu mais novo filtro ali mesmo. Tudo isso apenas ao realizar o download do app [Spark AR Player](https://play.google.com/store/apps/details?id=com.facebook.arstudio.player&hl=pt), usado apenas para esse propósito _(muito parecido com o android studio hein)_
 
-![Spark AR Player](assets/img/screen-1.jpg "Spark AR Player")
+![Spark AR Player](assets/img/screen-1.jpg 'Spark AR Player')
 
 Para isso, basta habilitar o modo desenvolvedor no **Android**, e no **IOS** eu não sei os passos. Conectar seu dispositivo via USB clicar em **Test on device**, e usar no filtro. Isso facilita muito para ver o produto final. Caso essa opção não seja viável para você, sempre é possível usar o emulador do próprio **Spark AR Studio.**
 
@@ -43,15 +43,15 @@ Quando seu projeto estiver pronto, é possível publicar no Instagram e ou Faceb
 
 Mas caso se interesse em publicar seu projeto, ele passa por umas verificações e caso tudo esteja **OK**, te redireciona para o **SPARK AR Hub**, onde é possível de fato fazer a submissão do projeto.
 
-![Requisitos para enviar um filtro](assets/img/screen-shot-2020-11-09-at-19.42.13.png "Requisitos para enviar um filtro")
+![Requisitos para enviar um filtro](assets/img/screen-shot-2020-11-09-at-19.42.13.png 'Requisitos para enviar um filtro')
 
 Após passar na checagem de requisitos somos direcionados de fato para o **SPARK AR Hub,** e de fato, publicar o filtro para análise.
 
-![publicar filtro](assets/img/screen-shot-2020-11-09-at-19.47.33.png "publicar filtro")
+![publicar filtro](assets/img/screen-shot-2020-11-09-at-19.47.33.png 'publicar filtro')
 
 No **SPARK AR Hub** é possível ver métricas e outros dados dos filtros criados.
 
-![Dashboard SPARK AR Hub](assets/img/screen-shot-2020-11-09-at-19.48.27.png "Dashboard SPARK AR Hub")
+![Dashboard SPARK AR Hub](assets/img/screen-shot-2020-11-09-at-19.48.27.png 'Dashboard SPARK AR Hub')
 
 ## Onde buscar conhecimento
 
