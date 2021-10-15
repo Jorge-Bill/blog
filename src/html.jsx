@@ -1,23 +1,18 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
-export default function HTML(props) {
+export default function HTML({ ...props }) {
+  const { htmlAttributes, headComponents, bodyAttributes, preBodyComponents, body, postBodyComponents } = props
   return (
-    <html {...props.htmlAttributes}>
+    <html {...htmlAttributes} lang="pt-br">
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <meta
-          name="google-site-verification"
-          content="khzGXPM--SlAFG6V0_NIO4ITwpai3NBnCEtvgEMOlO8"
-        />
-        {props.headComponents}
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="google-site-verification" content="khzGXPM--SlAFG6V0_NIO4ITwpai3NBnCEtvgEMOlO8" />
+        {headComponents}
       </head>
-      <body {...props.bodyAttributes} className="dark">
+      <body {...bodyAttributes} className="dark">
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -61,26 +56,31 @@ export default function HTML(props) {
                 setDisplay(preferredDisplay || 'list');
 
               })();
-            `,
+            `
           }}
         />
-        {props.preBodyComponents}
-        <div
-          key={`body`}
-          id="___gatsby"
-          dangerouslySetInnerHTML={{ __html: props.body }}
-        />
-        {props.postBodyComponents}
+        {preBodyComponents}
+        <div key="body" id="___gatsby" dangerouslySetInnerHTML={{ __html: body }} />
+        {postBodyComponents}
       </body>
     </html>
   )
 }
 
 HTML.propTypes = {
-  htmlAttributes: PropTypes.object,
-  headComponents: PropTypes.array,
-  bodyAttributes: PropTypes.object,
-  preBodyComponents: PropTypes.array,
+  htmlAttributes: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+  headComponents: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+  bodyAttributes: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+  preBodyComponents: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   body: PropTypes.string,
-  postBodyComponents: PropTypes.array,
+  postBodyComponents: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+}
+
+HTML.defaultProps = {
+  htmlAttributes: {},
+  headComponents: [],
+  bodyAttributes: {},
+  preBodyComponents: [],
+  body: '',
+  postBodyComponents:  []
 }

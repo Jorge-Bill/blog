@@ -1,16 +1,17 @@
-import React from "react"
+import React from 'react'
 
-import getThemeColor from "@utils/getThemeColor"
-import links from "./content"
-import PropTypes from "prop-types"
+import { random } from '@utils/random'
+import getThemeColor from '@utils/getThemeColor'
+import PropTypes from 'prop-types'
+import links from './content'
 
-import * as S from "./styled"
+import * as S from './styled'
 
 const MenuLinks = ({ className, variant, ...props }) => (
   <S.MenuLinksWrapper className={className} variant={variant} {...props}>
     <S.MenuLinksList variant={variant}>
-      {links.map((link, i) => (
-        <S.MenuLinksItem key={i} variant={variant}>
+      {links.map((link) => (
+        <S.MenuLinksItem key={random()} variant={variant}>
           <S.MenuLinksLink
             cover
             direction="left"
@@ -29,12 +30,12 @@ const MenuLinks = ({ className, variant, ...props }) => (
 
 MenuLinks.propTypes = {
   className: PropTypes.string,
-  variant: PropTypes.oneOf(["inline", "column"]),
+  variant: PropTypes.oneOf(['inline', 'column'])
 }
 
 MenuLinks.defaultProps = {
-  className: "",
-  variant: "column",
+  className: '',
+  variant: 'column'
 }
 
 export default MenuLinks

@@ -1,6 +1,6 @@
-import styled from "styled-components"
-import media from "styled-media-query"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import styled from 'styled-components'
+import media from 'styled-media-query'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 export const PostItemLink = styled(AniLink)`
   color: var(--texts);
@@ -32,18 +32,14 @@ export const PostItemWrapper = styled.section`
     height: 354px;
   }
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     align-items: flex-start;
     flex-direction: column;
     padding: 2rem 1rem;
   `}
 
   &:hover {
-    background-image: linear-gradient(
-      to right,
-      var(--timelineColor) 0%,
-      var(--mediumBackground) 100%
-    );
+    background-image: linear-gradient(to right, var(--timelineColor) 0%, var(--mediumBackground) 100%);
   }
 `
 
@@ -54,8 +50,7 @@ export const PostItemTag = styled.div`
   min-height: 90px;
   min-width: 90px;
 
-  border: 2px solid
-    ${props => (props.background ? props.background : "var(--highlight)")};
+  border: 2px solid ${props => (props.background ? props.background : 'var(--highlight)')};
   border-radius: 50%;
   box-shadow: 0 1px 10px rgb(29 34 47 / 10%);
 
@@ -64,7 +59,7 @@ export const PostItemTag = styled.div`
   font-weight: 700;
   text-transform: uppercase;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     border-radius: 0;
     font-size: 1rem;
     min-height: auto;
@@ -88,7 +83,7 @@ export const PostItemInfo = styled.div`
     margin: 0.8rem 0;
   }
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     margin: 0;
   `}
 `

@@ -16,26 +16,26 @@ Significa, que você pode amar programar e se divertir no processo, mas não dev
 
 Um exemplo muito claro disto é este blog, resolvi criar um novo layout e para isto, alterei vários componentes, para torna-los mais customizáveis, mudei a estrutura dele inteiro e **546 linhas** de códigos alterados depois. Ficou do jeito que eu queria.
 
-![new header https://jorgemendes.com.br/](assets/img/captura-de-tela-2021-08-03-182728.png "new header https://jorgemendes.com.br/")
+![new header https://jorgemendes.com.br/](assets/img/captura-de-tela-2021-08-03-182728.png 'new header https://jorgemendes.com.br/')
 
 Até transformei um simples componente de **sidebar** em um componente de **navegação** completo, que só preciso passar a orientação para ele conseguir identificar se será um navbar no topo da tela ou sidebar.
 
 ### Navbar no topo do site
 
-![Navbar no topo do site](assets/img/topo.png "Navbar no topo do site")
+![Navbar no topo do site](assets/img/topo.png 'Navbar no topo do site')
 
 ### Sidebar
 
-![sidebar](assets/img/lateral.png "sidebar")
+![sidebar](assets/img/lateral.png 'sidebar')
 
 #### Segue o código atual do componente após as mudanças
 
 ```javascript
-import React from "react"
-import { Profile, SocialLinks, MenuLinks } from "../index"
-import PropTypes from "prop-types"
+import React from 'react'
+import { Profile, SocialLinks, MenuLinks } from '../index'
+import PropTypes from 'prop-types'
 
-import * as S from "./styled"
+import * as S from './styled'
 
 const NavigationBar = ({
   variant,
@@ -48,11 +48,7 @@ const NavigationBar = ({
   ...props
 }) => (
   <S.NavigationBarWrapper variant={variant} {...props}>
-    <Profile
-      size={profileSize}
-      showAvatar={profileAvatar}
-      showDescription={profileDescription}
-    />
+    <Profile size={profileSize} showAvatar={profileAvatar} showDescription={profileDescription} />
     {firstMenu ? (
       <>
         <MenuLinks variant={menuLinksDisplay} />
@@ -68,23 +64,23 @@ const NavigationBar = ({
 )
 
 NavigationBar.propTypes = {
-  variant: PropTypes.oneOf(["navbar", "sidebar"]),
+  variant: PropTypes.oneOf(['navbar', 'sidebar']),
   profileAvatar: PropTypes.bool,
   profileDescription: PropTypes.bool,
-  menuLinksDisplay: PropTypes.oneOf(["inline", "column"]),
+  menuLinksDisplay: PropTypes.oneOf(['inline', 'column']),
   firstMenu: PropTypes.bool,
-  profileSize: PropTypes.oneOf(["small", "auto"]),
-  socialSize: PropTypes.oneOf(["small", "auto"]),
+  profileSize: PropTypes.oneOf(['small', 'auto']),
+  socialSize: PropTypes.oneOf(['small', 'auto'])
 }
 
 NavigationBar.defaultProps = {
-  variant: "sidebar",
+  variant: 'sidebar',
   profileAvatar: false,
   profileDescription: true,
-  menuLinksDisplay: "column",
+  menuLinksDisplay: 'column',
   firstMenu: false,
-  profileSize: "auto",
-  socialSize: "auto",
+  profileSize: 'auto',
+  socialSize: 'auto'
 }
 
 export default NavigationBar
@@ -95,12 +91,12 @@ export default NavigationBar
 Depois resolvi melhorar o banner, e renderizar imagens de maneira randômica de acordo com as tags passadas, mas para fazer isto, fiz uma otimização no componente, usando o [React.Memo](https://pt-br.reactjs.org/docs/react-api.html#reactmemo) e [react-lazyload](https://www.npmjs.com/package/react-lazyload), e assim criando um loader antes do banner renderizar.
 
 ```javascript
-import React from "react"
+import React from 'react'
 
-import PropTypes from "prop-types"
-import LazyLoad from "react-lazyload"
+import PropTypes from 'prop-types'
+import LazyLoad from 'react-lazyload'
 
-import * as S from "./styles"
+import * as S from './styles'
 
 const HeaderBanner = ({ title, tags, ...props }) => {
   const refLoader = React.useRef()
@@ -124,12 +120,12 @@ const HeaderBanner = ({ title, tags, ...props }) => {
 
 HeaderBanner.propTypes = {
   title: PropTypes.string,
-  tags: PropTypes.string,
+  tags: PropTypes.string
 }
 
 HeaderBanner.defaultProps = {
-  title: "",
-  tags: "nature,star,galaxy,space",
+  title: '',
+  tags: 'nature,star,galaxy,space'
 }
 
 export default React.memo(HeaderBanner)
@@ -137,11 +133,11 @@ export default React.memo(HeaderBanner)
 
 #### Carregamento otimizado do banner
 
-![banner carregando](assets/img/loader.png "banner carregando")
+![banner carregando](assets/img/loader.png 'banner carregando')
 
 #### Carregamento completo do banner
 
-![banner ja carregado](assets/img/about.png "banner ja carregado")
+![banner ja carregado](assets/img/about.png 'banner ja carregado')
 
 Tudo bem mudar e melhorar, até porque programação é isto, a mudança precisa acontecer e é esperada.
 

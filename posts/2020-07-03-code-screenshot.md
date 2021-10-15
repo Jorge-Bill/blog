@@ -16,7 +16,7 @@ Hoje eu trago 2 ferramentas que podem ser usadas para esse propósito:
 
 # [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 
-![Polacode](assets/img/polacode.png "Polacode")
+![Polacode](assets/img/polacode.png 'Polacode')
 
 ## O que é?
 
@@ -24,7 +24,7 @@ Uma extensão para o [vscode](https://code.visualstudio.com/) que tira um print 
 
 # [Carbon](https://carbon.now.sh/)
 
-![Carbon](/assets/img/carbon.png "Carbon")
+![Carbon](/assets/img/carbon.png 'Carbon')
 
 ## O que é?
 

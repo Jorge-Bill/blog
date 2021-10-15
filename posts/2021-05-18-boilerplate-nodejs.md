@@ -9,7 +9,7 @@ background: Lightgreen
 
 Recentemente no meu trabalho me vi cuidando de uma aplicação em **nodejs com express**, então optei por ajustar o projeto de acordo com as melhores práticas de desenvolvimento de software que conheço.
 
-![node express](assets/img/6dnng3pre04xxdebia1g.png "node express")
+![node express](assets/img/6dnng3pre04xxdebia1g.png 'node express')
 
 Ali montei a seguinte estrutura de diretórios
 
@@ -80,7 +80,7 @@ Um framework muito usado por todo o mundo na criação de apis em node, ele é r
 
 ### plop
 
-![plop ](assets/img/plop.png "plop")
+![plop ](assets/img/plop.png 'plop')
 
 **[Link plop no github](https://github.com/plopjs/plop)**
 
@@ -92,7 +92,7 @@ só com o commitizen ao digitar **git cz** ele abre essa interface no terminal e
 
 Com o husky você pode criar um hook para sobrescrever o comando **git commit** e assim usar o commitizen por default, inclusive, isso também alimenta o changelog da aplicação.
 
-![commitizen](assets/img/add-commit.png "commitizen")
+![commitizen](assets/img/add-commit.png 'commitizen')
 
 **[Link husky](https://typicode.github.io/husky/#/)**
 

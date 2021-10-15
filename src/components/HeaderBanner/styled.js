@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import media from "styled-media-query"
+import styled from 'styled-components'
+import media from 'styled-media-query'
 
 export const BannerWrapper = styled.section`
   display: flex;
@@ -11,17 +11,13 @@ export const BannerWrapper = styled.section`
   min-height: 100vh;
   transition: 0.15s;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     display: none;
   `}
 `
 
 export const ImageBanner = styled.img`
-  background-image: linear-gradient(
-    to right,
-    var(--timelineColor) 0%,
-    var(--mediumBackground) 100%
-  );
+  background-image: linear-gradient(to right, var(--timelineColor) 0%, var(--mediumBackground) 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -45,7 +41,7 @@ export const BannerTitle = styled.h1`
   letter-spacing: 0.2rem;
   text-shadow: 6px 6px 0px var(--timelineColor);
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     font-size: 2.5rem;
   `}
 `

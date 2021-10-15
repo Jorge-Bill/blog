@@ -1,8 +1,8 @@
-import React from "react"
+import React from 'react'
 
-import { Refresh } from "@styled-icons/boxicons-regular/Refresh"
+import { Refresh } from '@styled-icons/boxicons-regular/Refresh'
 
-import * as S from "./styled"
+import * as S from './styled'
 
 const SwUpdater = () => (
   <S.NotificationWrapper>

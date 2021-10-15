@@ -34,7 +34,7 @@ Simplesmente, porque as soft skills que ele possuí o tornaram um perfil mais de
 
 Esse profissional é ótimo também, mas como sabemos, na maioria das vezes nunca vamos desenvolver algo sozinhos, e de que adianta ele saber mandar um foguete para lua e não saber trabalhar em equipe? ele nunca vai poder trabalhar sozinho mesmo. Ele pode na maioria das vezes conseguir uma posição de senior técnico, mas ainda sim, terá que aprender a se expressar direito na escrita, e a falar com pessoas técnicas e não técnicas, sendo assim não tem como fugir.
 
-![Icerberg do conhecimento](assets/img/hard-and-soft-skills.jpg "Icerberg do conhecimento")
+![Icerberg do conhecimento](assets/img/hard-and-soft-skills.jpg 'Icerberg do conhecimento')
 
 ## [](https://github.com/Jorge-Bill/blog/blob/df564df04821222916454263504f037452ac389e/posts/2015-04-22-people-will-forget.md#mas-ent%C3%A3o-o-que-fazer)Mas então o que fazer?
 

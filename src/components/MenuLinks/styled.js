@@ -1,15 +1,15 @@
-import styled, { css } from "styled-components"
-import media from "styled-media-query"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 export const MenuLinksWrapper = styled.nav`
   ${({ variant }) => css`
-    ${variant === "inline" &&
+    ${variant === 'inline' &&
     `
     display: flex;
   `};
 
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
     display: none;
   `};
   `}
@@ -20,7 +20,7 @@ export const MenuLinksList = styled.ul`
     font-size: 1.2rem;
     font-weight: 300;
 
-    ${variant === "inline" &&
+    ${variant === 'inline' &&
     `
     display: flex;
     align-items: center;
@@ -36,7 +36,7 @@ export const MenuLinksItem = styled.li`
       color: var(--highlight);
     }
 
-    ${variant === "inline" &&
+    ${variant === 'inline' &&
     `
     padding: 0 0.3rem;
 

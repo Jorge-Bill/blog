@@ -1,18 +1,20 @@
-import React from "react"
+import React from 'react'
 
-import { LayoutHero, Timeline, Skills, Seo } from "@components"
-import { about_me } from "@utils/about_me"
-import { journeyEng } from "@utils/journey"
-import { hardSkills, softSkills } from "@utils/skills"
+import { LayoutHero, Timeline, Skills, Seo } from '@components'
+import { aboutMe } from '@utils/aboutMe'
+import { journeyEng } from '@utils/journey'
+import { hardSkills, softSkills } from '@utils/skills'
+import { random } from '@utils/random'
 
-import { useStaticQuery, graphql } from "gatsby"
-import { GatsbyImage as Img } from "gatsby-plugin-image"
-import { Document } from "@styled-icons/fluentui-system-regular/Document"
+import { useStaticQuery, graphql } from 'gatsby'
+import { GatsbyImage as Img } from 'gatsby-plugin-image'
 
-import resume from "/public/assets/docs/JORGE_MENDES_resume.pdf"
-import letter from "/public/assets/docs/JORGE_MENDES_cover_letter.pdf"
+import { Document } from '@styled-icons/fluentui-system-regular/Document'
 
-import * as S from "@styles/default"
+import resume from '/public/assets/docs/JORGE_MENDES_resume.pdf'
+import letter from '/public/assets/docs/JORGE_MENDES_cover_letter.pdf'
+
+import * as S from '@styles/default'
 
 const AboutPage = () => {
   const { aboutImage } = useStaticQuery(
@@ -20,11 +22,7 @@ const AboutPage = () => {
       query {
         aboutImage: file(relativePath: { eq: "profile.jpeg" }) {
           childImageSharp {
-            gatsbyImageData(
-              width: 300
-              placeholder: BLURRED
-              layout: CONSTRAINED
-            )
+            gatsbyImageData(width: 300, placeholder: BLURRED, layout: CONSTRAINED)
           }
         }
       }
@@ -40,14 +38,10 @@ const AboutPage = () => {
       </S.DefaultHeader>
       <S.MainContent>
         <S.imgWrapper>
-          <Img
-            className="img-default"
-            image={aboutImage.childImageSharp.gatsbyImageData}
-            alt="jorge profile picture"
-          />
+          <Img className="img-default" image={aboutImage.childImageSharp.gatsbyImageData} alt="jorge profile picture" />
         </S.imgWrapper>
-        {about_me.map((item, i) => (
-          <S.CustomParagraphy key={i}>{item}</S.CustomParagraphy>
+        {aboutMe.map((item) => (
+          <S.CustomParagraphy key={random()}>{item}</S.CustomParagraphy>
         ))}
         <S.SubTitle>My Skills</S.SubTitle>
         <S.SkillWrapper>
@@ -56,14 +50,10 @@ const AboutPage = () => {
         </S.SkillWrapper>
         <center>
           <S.CustomParagraphy>
-            To know more about my skills access my{" "}
-            <a
-              href="https://github.com/Jorge-Bill"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            To know more about my skills access my{' '}
+            <a href="https://github.com/Jorge-Bill" target="_blank" rel="noopener noreferrer">
               Github
-            </a>{" "}
+            </a>{' '}
             profile.
           </S.CustomParagraphy>
         </center>

@@ -1,13 +1,13 @@
-import styled from "styled-components"
-import media from "styled-media-query"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import styled from 'styled-components'
+import media from 'styled-media-query'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 export const PostCardWrapper = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     flex-direction: column;
     padding: .8rem;
   `}
@@ -28,14 +28,10 @@ export const PostCardItem = styled(AniLink)`
 
   &:hover {
     border: 1px solid var(--highlight);
-    background-image: linear-gradient(
-      to right,
-      var(--timelineColor) 0%,
-      var(--mediumBackground) 100%
-    );
+    background-image: linear-gradient(to right, var(--timelineColor) 0%, var(--mediumBackground) 100%);
   }
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     max-width: 100%;
     margin-top: 0;
     margin-bottom: .8rem;
@@ -45,7 +41,7 @@ export const PostCardItem = styled(AniLink)`
     }
   `}
 
-  ${media.greaterThan("huge")`
+  ${media.greaterThan('huge')`
     width: 300px;
   `}
 `
@@ -58,11 +54,7 @@ export const PostCardImage = styled.img`
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom: 1px solid var(--mediumBackground);
-  background-image: linear-gradient(
-    -20deg,
-    ${props => props.background} 0%,
-    var(--highlight) 100%
-  );
+  background-image: linear-gradient(-20deg, ${props => props.background} 0%, var(--highlight) 100%);
 `
 
 export const PostCardContent = styled.div`

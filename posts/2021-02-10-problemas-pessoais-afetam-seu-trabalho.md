@@ -10,7 +10,7 @@ background: Aqua
 
 Recentemente um superior me chamou para conversar, e me perguntou porque o time que trabalho começou a decair em suas entregas.
 
-![problemas na vida pessoal](assets/img/problems.jpg "problemas na vida pessoal")
+![problemas na vida pessoal](assets/img/problems.jpg 'problemas na vida pessoal')
 
 Naturalmente, descrevi as razões e problemas que havíamos tido, e no fim ele me perguntou se eu não havia passado por algum problema recente.
 

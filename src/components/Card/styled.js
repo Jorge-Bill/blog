@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import media from "styled-media-query"
+import styled from 'styled-components'
+import media from 'styled-media-query'
 
 export const CardWrapper = styled.div`
   border 1px solid var(--borders);
@@ -7,7 +7,7 @@ export const CardWrapper = styled.div`
   box-shadow: 0 4px 8px 0 var(--background);
   transition: 0.3s;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     padding-top: 3rem;
   `}
 

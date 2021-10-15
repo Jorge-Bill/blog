@@ -9,7 +9,7 @@ background: Lightslategray
 
 # Esse é um post sobre carreira
 
-![hello world](assets/img/carbon.png "hello world")
+![hello world](assets/img/carbon.png 'hello world')
 
 Muitas vezes na minha vida de desenvolvedor web me deparei com o desafio de aprender algo novo, claro isso acontece sempre.
 
@@ -40,7 +40,7 @@ Existe um dito entre programadores que para-se começar a programar em alguma li
 - Escolha nomes concisos para variáveis, esqueça nomes absurdos e evite palavras de baixo calão
 
 ```javascript
-console.log("Hello World!_ ")
+console.log('Hello World!_ ')
 ```
 
 ## Resumindo

@@ -1,6 +1,6 @@
-import styled, { css } from "styled-components"
-import media from "styled-media-query"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 export const MenuBarWrapper = styled.aside`
   ${({ variant }) => css`
@@ -17,7 +17,7 @@ export const MenuBarWrapper = styled.aside`
     width: 3.75rem;
     transition: background 0.5s;
 
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       border-top: 1px solid var(--borders);
       bottom: 0;
       flex-direction: row;
@@ -25,7 +25,7 @@ export const MenuBarWrapper = styled.aside`
       width: 100vw;
     `};
 
-    ${variant === "bottom" &&
+    ${variant === 'bottom' &&
     `
       width: 100vw;
       height: 3.75rem;
@@ -42,11 +42,11 @@ export const MenuBarGroup = styled.div`
     display: flex;
     flex-direction: column;
 
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       flex-direction: row;
     `}
 
-    ${variant === "bottom" &&
+    ${variant === 'bottom' &&
     `
       flex-direction: row;
     `};
@@ -85,16 +85,16 @@ export const MenuBarItem = styled.span`
   }
 
   &.display {
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       display: none;
     `}
   }
-  ${media.greaterThan("large")`
+  ${media.greaterThan('large')`
     &:hover {
       color: var(--highlight);
     }
   `}
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     height: 3.2rem;
     padding: .9rem;
     position: relative;

@@ -1,11 +1,11 @@
-import React, { useState } from "react"
+import React, { useState } from 'react'
 
-import PropTypes from "prop-types"
-import LazyLoad from "react-lazyload"
+import PropTypes from 'prop-types'
+import LazyLoad from 'react-lazyload'
 
-import { Loader } from "@components"
+import { Loader } from '@components'
 
-import * as S from "./styled"
+import * as S from './styled'
 
 const HeaderBanner = ({ title, tags, ...props }) => {
   const [loader, setLoader] = useState(true)
@@ -29,12 +29,12 @@ const HeaderBanner = ({ title, tags, ...props }) => {
 
 HeaderBanner.propTypes = {
   title: PropTypes.string,
-  tags: PropTypes.string,
+  tags: PropTypes.string
 }
 
 HeaderBanner.defaultProps = {
-  title: "",
-  tags: "nature,star,galaxy,space",
+  title: '',
+  tags: 'nature,star,galaxy,space'
 }
 
 export default React.memo(HeaderBanner)

@@ -1,8 +1,8 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   .react-trello-board {
-    background-image: url("https://jorgemendes.com.br/static/37c462c46e4a5cb93631ec225343cb6c/416c3/icon.webp");
+    background-image: url('https://jorgemendes.com.br/static/37c462c46e4a5cb93631ec225343cb6c/416c3/icon.webp');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto;

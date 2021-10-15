@@ -1,7 +1,8 @@
-const path = require("path")
+const path = require('path')
+
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.sourceNodes = ({ actions, schema }) => {
+exports.sourceNodes = ({ actions }) => {
   const { createTypes } = actions
 
   createTypes(`
@@ -18,19 +19,19 @@ exports.sourceNodes = ({ actions, schema }) => {
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   // Ensures we are processing only markdown files
-  if (node.internal.type === "MarkdownRemark") {
+  if (node.internal.type === 'MarkdownRemark') {
     // Use `createFilePath` to turn markdown files in our `data/faqs` directory into `/faqs/slug`
     const slug = createFilePath({
       node,
       getNode,
-      basePath: "pages",
+      basePath: 'pages'
     })
 
     // Creates new query'able field with name of 'slug'
     createNodeField({
       node,
-      name: "slug",
-      value: `/${slug.slice(12)}`,
+      name: 'slug',
+      value: `/${slug.slice(12)}`
     })
   }
 }
@@ -82,28 +83,28 @@ exports.createPages = ({ graphql, actions }) => {
     posts.forEach(({ node, next, previous }) => {
       createPage({
         path: node.fields.slug,
-        component: path.resolve("./src/templates/blog-post.jsx"),
+        component: path.resolve('./src/templates/blog-post.jsx'),
         context: {
           slug: node.fields.slug,
           previousPost: next,
-          nextPost: previous,
-        },
+          nextPost: previous
+        }
       })
     })
 
     const PostsPerPage = 6
     const numPages = Math.ceil(posts.length / PostsPerPage)
 
-    Array.from({ length: numPages }).forEach((_, posts) => {
+    Array.from({ length: numPages }).forEach((_, page) => {
       createPage({
-        path: posts === 0 ? `/posts/` : `/page/${posts + 1}`,
-        component: path.resolve("./src/templates/blog-list.jsx"),
+        path: page === 0 ? `/posts/` : `/page/${page + 1}`,
+        component: path.resolve('./src/templates/blog-list.jsx'),
         context: {
           limit: PostsPerPage,
-          skip: posts * PostsPerPage,
+          skip: page * PostsPerPage,
           numPages,
-          currentPage: posts + 1,
-        },
+          currentPage: page + 1
+        }
       })
     })
   })
