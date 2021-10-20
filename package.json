@@ -41,7 +41,7 @@
     "react-lazyload": "^3.2.0",
     "react-trello": "^2.2.11",
     "react-vertical-timeline-component": "^3.3.3",
-    "styled-components": "^5.3.1",
+    "styled-components": "^5.3.3",
     "styled-icons": "^10.45.0",
     "styled-media-query": "^2.1.2"
   },
