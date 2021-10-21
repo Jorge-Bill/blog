@@ -6,7 +6,7 @@
   "license": "",
   "private": true,
   "dependencies": {
-    "algoliasearch": "^4.10.5",
+    "algoliasearch": "^4.11.0",
     "dotenv": "^10.0.0",
     "gatsby": "^3.14.3",
     "gatsby-plugin-algolia-search": "^0.5.7",
