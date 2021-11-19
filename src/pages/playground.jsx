@@ -39,7 +39,7 @@ const PlaygroundPage = () => {
           ))}
         </S.CardsWrapper>
         <br />
-        <KanbanBoard data={selectData} editable onChange={selectedBoard} />
+        <KanbanBoard data={selectData} editable />
       </S.MainContent>
     </LayoutHero>
   )
