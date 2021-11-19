@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://jorgemendes.com.br/">
-    <img src="https://raw.githubusercontent.com/Jorge-Bill/blog/master/src/images/jorge_banner.png">
+    <img src="https://github.com/Jorge-Bill/blog/blob/master/src/images/jorge_banner.png?raw=true">
   </a>
 </p>
 <h1 align="center">
@@ -42,12 +42,14 @@
 
 ## 🚀 What's inside?
 
-Stack used to create the blog.
+Stack and resources used on blog creation.
 
     .
     ├── Gatsby
     ├── React Hooks
     ├── prop-types
+    ├── Eslint + eslint-config-airbnb + prettier
+    ├── Plop component generator
     ├── Styled-components
     ├── Styled-icons
     ├── PWA
