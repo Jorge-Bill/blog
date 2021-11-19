@@ -69,7 +69,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "generate": "npm plop --plopfile generators/plopfile.js",
+    "generate": "yarn plop --plopfile generators/plopfile.js",
     "lint": "eslint src --max-warnings=0"
   },
   "repository": {
