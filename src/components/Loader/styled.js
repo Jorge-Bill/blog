@@ -11,7 +11,7 @@ const loadingAnimation = keyframes`
   }
 `
 
-export const Loader = styled.div`
+const LoaderWrapper = styled.div`
   margin: auto;
   position: absolute;
   top: 35vh;
@@ -30,3 +30,5 @@ export const Loader = styled.div`
   box-shadow: 0 4px 8px 0 var(--highlight);
   opacity 0.7;
 `
+
+export default LoaderWrapper

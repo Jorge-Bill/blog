@@ -1,10 +1,18 @@
 const getThemeColor = () => {
   const theme = typeof window !== 'undefined' && window.__theme
+  const dark = '#ff0000'
+  const light = '#f0f0f3'
 
-  if (theme === 'light') return '#f0f0f3'
-  if (theme === 'dark') return '#ff0000'
+  switch (theme) {
+    case 'light':
+      return light
 
-  return theme
+    case 'dark':
+      return dark
+
+    default:
+      return dark
+  }
 }
 
 export default getThemeColor

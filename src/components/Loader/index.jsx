@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 
 import PropTypes from 'prop-types'
 
-import * as S from './styled'
+import LoaderWrapper from './styled'
 
 const Loader = ({ stopOutside, ...props }) => {
   const refLoader = React.useRef()
@@ -17,7 +17,7 @@ const Loader = ({ stopOutside, ...props }) => {
     }
   })
 
-  return <S.Loader {...props} ref={refLoader} />
+  return <LoaderWrapper {...props} ref={refLoader} />
 }
 
 Loader.propTypes = {

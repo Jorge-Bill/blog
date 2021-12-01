@@ -2,9 +2,9 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import * as S from './styled'
+import CardWrapper  from './styled'
 
-const Card = ({ children, ...props }) => <S.CardWrapper {...props}>{children}</S.CardWrapper>
+const Card = ({ children, ...props }) => <CardWrapper {...props}>{children}</CardWrapper>
 
 Card.propTypes = {
   children: PropTypes.node

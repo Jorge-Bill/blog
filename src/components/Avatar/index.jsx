@@ -2,12 +2,12 @@ import React from 'react'
 
 import { StaticImage } from 'gatsby-plugin-image'
 
-import * as S from './styled'
+import AvatarWrapper from './styled'
 
 const Avatar = () => (
-  <S.AvatarWrapper>
+  <AvatarWrapper>
     <StaticImage src="../../images/profile.jpeg" alt="jorge profile picture" placeholder="blurred" />
-  </S.AvatarWrapper>
+  </AvatarWrapper>
 )
 
 export default Avatar

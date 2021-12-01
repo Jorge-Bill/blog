@@ -4,12 +4,12 @@ import Board from 'react-trello'
 
 import PropTypes from 'prop-types'
 
-import * as S from './styled'
+import Wrapper from './styled'
 
 const KanbanBoard = ({ data, editable, canAddLanes, editLaneTitle, ...props }) => (
-  <S.Wrapper {...props}>
+  <Wrapper {...props}>
     <Board data={data} editable={editable} canAddLanes={canAddLanes} editLaneTitle={editLaneTitle} />
-  </S.Wrapper>
+  </Wrapper>
 )
 
 KanbanBoard.propTypes = {
