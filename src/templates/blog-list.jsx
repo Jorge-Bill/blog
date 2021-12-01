@@ -31,15 +31,14 @@ const BlogList = ({ ...props }) => {
 BlogList.propTypes = {
   allMarkdownRemark: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   pageContext: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
-  data: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+  data: PropTypes.oneOfType([PropTypes.object, PropTypes.array])
 }
 
 BlogList.defaultProps = {
   allMarkdownRemark: {},
   pageContext: [],
-  data: {},
+  data: {}
 }
-
 
 export const query = graphql`
   query PostList($skip: Int!, $limit: Int!) {

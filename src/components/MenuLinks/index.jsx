@@ -10,7 +10,7 @@ import * as S from './styled'
 const MenuLinks = ({ className, variant, ...props }) => (
   <S.MenuLinksWrapper className={className} variant={variant} {...props}>
     <S.MenuLinksList variant={variant}>
-      {links.map((link) => (
+      {links.map(link => (
         <S.MenuLinksItem key={random()} variant={variant}>
           <S.MenuLinksLink
             cover

@@ -32,7 +32,7 @@ const PlaygroundPage = () => {
         </center>
         <S.CustomParagraphy>Please select a board name to see the kanban board details</S.CustomParagraphy>
         <S.CardsWrapper>
-          {boards.map((board) => (
+          {boards.map(board => (
             <S.CustomCard style={{ marginRight: '1rem' }} key={random()} onClick={() => selectedBoard(board)}>
               <S.CustomParagraphy style={{ textTransform: 'capitalize' }}>{board.name}</S.CustomParagraphy>
             </S.CustomCard>

@@ -9,7 +9,7 @@ import * as S from './styled'
 
 const Timeline = ({ data }) => (
   <S.TimelineWrapper className="vertical-timeline.vertical-timeline-custom-line">
-    {data.map((item) => {
+    {data.map(item => {
       const Icon = Icons[item.icon]
       return (
         <S.TimelineElement

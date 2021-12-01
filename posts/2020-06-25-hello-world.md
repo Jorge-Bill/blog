@@ -6,6 +6,7 @@ thumbnail: assets/img/carbon.png
 category: DEV
 background: Lightslategray
 ---
+
 # Esse é um post sobre carreira
 
 ![hello world](assets/img/carbon.png)
@@ -28,15 +29,15 @@ Porque eu digo isso, o profissional de T.I nunca para de estudar, e o programado
 
 Existe um dito entre programadores que para-se começar a programar em alguma linguagem sempre comece pelo **Hello World:**
 
-* Comece sempre olhando os conceitos básicos
-* Associe a linguagem que estiver aprendendo com uma que ja conhece
-* Faça um projeto prático para treinar, apenas ver video aulas não te ajuda
-* A documentação da linguagem é sua amiga consulte sempre para tirar dúvidas
-* Use um editor de código que você já domina
-* Comece com exemplos simples e vá complicando aos poucos, assim a curva é menor.
-* Não perca tempo configurando um projeto complexo para começar a aprender, isso irá aumentar o sofrimento no momento de aprender.
-* Crie o habito de programar em inglês, assim seu código pode ser entendido pelo mundo todo
-* Escolha nomes concisos para variáveis, esqueça nomes absurdos e evite palavras de baixo calão
+- Comece sempre olhando os conceitos básicos
+- Associe a linguagem que estiver aprendendo com uma que ja conhece
+- Faça um projeto prático para treinar, apenas ver video aulas não te ajuda
+- A documentação da linguagem é sua amiga consulte sempre para tirar dúvidas
+- Use um editor de código que você já domina
+- Comece com exemplos simples e vá complicando aos poucos, assim a curva é menor.
+- Não perca tempo configurando um projeto complexo para começar a aprender, isso irá aumentar o sofrimento no momento de aprender.
+- Crie o habito de programar em inglês, assim seu código pode ser entendido pelo mundo todo
+- Escolha nomes concisos para variáveis, esqueça nomes absurdos e evite palavras de baixo calão
 
 ```javascript
 console.log('Hello World!_ ')

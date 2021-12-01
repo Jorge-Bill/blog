@@ -40,7 +40,7 @@ const AboutPage = () => {
         <S.imgWrapper>
           <Img className="img-default" image={aboutImage.childImageSharp.gatsbyImageData} alt="jorge profile picture" />
         </S.imgWrapper>
-        {aboutMe.map((item) => (
+        {aboutMe.map(item => (
           <S.CustomParagraphy key={random()}>{item}</S.CustomParagraphy>
         ))}
         <S.SubTitle>My Skills</S.SubTitle>

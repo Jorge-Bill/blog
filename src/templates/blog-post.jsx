@@ -33,9 +33,8 @@ const BlogPost = ({ data, pageContext }) => {
 
 BlogPost.propTypes = {
   data: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired,
-  pageContext: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired,
+  pageContext: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired
 }
-
 
 export const query = graphql`
   query Post($slug: String!) {

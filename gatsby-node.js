@@ -1,6 +1,7 @@
 const path = require('path')
 
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const { fmImagesToRelative } = require('gatsby-remark-relative-images-v2')
 
 exports.sourceNodes = ({ actions }) => {
   const { createTypes } = actions
@@ -33,6 +34,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: 'slug',
       value: `/${slug.slice(12)}`
     })
+
+    fmImagesToRelative(node)
   }
 }
 

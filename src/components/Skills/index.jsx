@@ -12,7 +12,7 @@ const Skills = ({ title, data, ...props }) => {
   return (
     <S.SkillsWrapper {...props}>
       <S.SkillTitle>{title}</S.SkillTitle>
-      {data.map((skill) => (
+      {data.map(skill => (
         <S.SkillsContainer key={random()}>
           <S.SkillName>{skill.name}</S.SkillName>
           <S.SkillLevel>{stars(skill.level, skill.id)}</S.SkillLevel>

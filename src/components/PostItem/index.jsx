@@ -31,7 +31,7 @@ PostItem.propTypes = {
 }
 
 PostItem.defaultProps = {
-  background: '',
+  background: ''
 }
 
 export default PostItem

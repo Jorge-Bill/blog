@@ -12,7 +12,7 @@ const SocialLinks = ({ className, size, ...props }) => {
   return (
     <S.SocialLinksWrapper className={className} size={size} {...props}>
       <S.SocialLinksList>
-        {links.map((link) => {
+        {links.map(link => {
           const Icon = Icons[link.label]
 
           return (

@@ -83,14 +83,14 @@ Seo.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
-  image:  PropTypes.string,
+  image: PropTypes.string
 }
 
 Seo.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
-  image: '',
+  image: ''
 }
 
 export default Seo

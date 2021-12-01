@@ -73,7 +73,7 @@ HTML.propTypes = {
   bodyAttributes: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   preBodyComponents: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   body: PropTypes.string,
-  postBodyComponents: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+  postBodyComponents: PropTypes.oneOfType([PropTypes.object, PropTypes.array])
 }
 
 HTML.defaultProps = {
@@ -82,5 +82,5 @@ HTML.defaultProps = {
   bodyAttributes: {},
   preBodyComponents: [],
   body: '',
-  postBodyComponents:  []
+  postBodyComponents: []
 }
