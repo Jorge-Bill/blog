@@ -260,12 +260,17 @@ export const CustomCard = styled(Card)`
     line-height: 1.4rem;
   }
 
+
   &:hover {
     background-color: var(--highlight);
   }
 
   &:nth-child(1) {
     margin: 0 1rem 0 0;
+  }
+
+  .mg-r {
+      margin-right: 0.5rem;
   }
 
   ${media.lessThan('large')`
@@ -282,14 +287,9 @@ export const SubTitle = styled.h2`
   text-shadow: rgb(0 0 0 / 1%) 0 0 1px;
 `
 
-export const SliderWrapper = styled.div`
+export const SliderWrapper = styled.img`
   background-color: var(--mediumBackground);
   border-radius: 6px;
-  min-height: 900px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
   border: 1px solid var(--mediumBackground);
   box-shadow: 0 1px 10px rgb(29 34 47 / 10%);
 `

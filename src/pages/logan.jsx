@@ -4,9 +4,10 @@ import { graphql } from 'gatsby'
 import { LayoutHero, Seo } from '@components'
 import { random } from '@utils/random'
 
-import { Fade } from 'react-slideshow-image'
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Carousel } from 'react-responsive-carousel'
+import { Whatsapp } from '@styled-icons/bootstrap/Whatsapp'
 
-import 'react-slideshow-image/dist/styles.css'
 
 import * as S from '@styles/default'
 
@@ -21,15 +22,13 @@ const LoganPage = ({ ...props }) => {
         <S.DefaultDescription>Renault Logan 2011/2012</S.DefaultDescription>
       </S.DefaultHeader>
       <S.MainContent style={{ maxWidth: '100vw' }}>
-        <div className="slide-container">
-        <Fade>
+        <Carousel>
          {LoganImages.map((image)=> (
-            <div className="each-fade" key={random()}>
-              <S.SliderWrapper style={{backgroundImage: `url(${image.node.childImageSharp.fluid.src})`}} />
+            <div key={random()}>
+              <S.SliderWrapper src={image.node.childImageSharp.fluid.src} />
             </div>
           ))}
-        </Fade>
-      </div>
+        </Carousel>
       <S.SubTitle> - Renault LOGAN Expres./Exp. UP Hi-Flex 1.0 16V 4p - </S.SubTitle>
         <center>
         <S.DataTable>
@@ -68,6 +67,14 @@ const LoganPage = ({ ...props }) => {
         <blockquote>
           Valor Pedido: <strong>R$ 17.500</strong> (valor para quitar o financiamento) ou transferencia do financiamento.
         </blockquote>
+        <S.CardsWrapper>
+          <S.CustomCard>
+              <Whatsapp className="mg-r" />
+              <a href="https://api.whatsapp.com/send?phone=5511984224753&text=Jorge%20M." target="_blank" rel="noopener noreferrer">
+                Contato via WhattsApp
+              </a>
+          </S.CustomCard>
+        </S.CardsWrapper>
       </S.MainContent>
     </LayoutHero>
   )
@@ -79,7 +86,7 @@ export const query = graphql`
     edges {
       node {
         childImageSharp {
-          fluid(maxWidth: 1240, quality: 100) {
+          fluid(maxWidth: 1080, quality: 100) {
             originalName
             ...GatsbyImageSharpFluid
           }
