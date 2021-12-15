@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import { LayoutHero, Seo } from '@components'
 import { random } from '@utils/random'
 
-import { Slide } from 'react-slideshow-image'
+import { Fade } from 'react-slideshow-image'
 
 import 'react-slideshow-image/dist/styles.css'
 
@@ -22,15 +22,16 @@ const LoganPage = ({ ...props }) => {
       </S.DefaultHeader>
       <S.MainContent style={{ maxWidth: '100vw' }}>
         <div className="slide-container">
-        <Slide>
+        <Fade>
          {LoganImages.map((image)=> (
-            <div className="each-slide" key={random()}>
+            <div className="each-fade" key={random()}>
               <S.SliderWrapper style={{backgroundImage: `url(${image.node.childImageSharp.fluid.src})`}} />
             </div>
           ))}
-        </Slide>
+        </Fade>
       </div>
       <S.SubTitle> - Renault LOGAN Expres./Exp. UP Hi-Flex 1.0 16V 4p - </S.SubTitle>
+        <center>
         <S.DataTable>
           <tr>
             <th>Marca</th>
@@ -49,16 +50,20 @@ const LoganPage = ({ ...props }) => {
             <td>Dezembro 2021</td>
           </tr>
         </S.DataTable>
+        </center>
 
         <blockquote>
-          Valor atual em Dezembro de 2021: <strong>R$ 23.376,00</strong>
+          Valor atual em Dezembro de 2021: <strong>R$ 23.376,00</strong> - De acordo com a tabela FIPE.
         </blockquote>
 
         <S.CustomParagraphy>
           <a href='https://www.tabelafipebrasil.com/carros/RENAULT/LOGAN-EXPRES-EXP-UP-HI-FLEX-10-16V-4P/2011-Gasolina' target="_blank" rel="noreferrer">Detalhes no site da tabela Fipe</a>
         </S.CustomParagraphy>
 
-        <S.CustomParagraphy>Excelente veiculo, usado apenas para passeio, estou bunscando vender por questoes financeiras, atualmente todas as parcelas estao em dia, sem multas ou bloqueios. Peco apenas o valor que falta para quitar o veiculo ou alguem que queira trnaferir o financeamento para seu nome.</S.CustomParagraphy>
+        <S.SubTitle> - Informações Gerais - </S.SubTitle>
+
+        <S.CustomParagraphy>Excelente veículo, usado apenas para passeio, estou buscando vender por questões financeiras. Atualmente todas as parcelas estão em dia, sem multas ou bloqueios. </S.CustomParagraphy>
+        <S.CustomParagraphy>Peço apenas o valor que falta para quitar o veiculo ou alguém que queira transferir o financiamento para seu nome.</S.CustomParagraphy>
 
         <blockquote>
           Valor Pedido: <strong>R$ 17.500</strong> (valor para quitar o financiamento) ou transferencia do financiamento.

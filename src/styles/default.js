@@ -284,7 +284,7 @@ export const SubTitle = styled.h2`
 
 export const SliderWrapper = styled.div`
   background-color: var(--mediumBackground);
-  border-radius: 4px;
+  border-radius: 6px;
   min-height: 900px;
   background-repeat: no-repeat;
   background-position: center;
@@ -292,16 +292,25 @@ export const SliderWrapper = styled.div`
 
   border: 1px solid var(--mediumBackground);
   box-shadow: 0 1px 10px rgb(29 34 47 / 10%);
-
-  ${media.lessThan('large')`
-    max-width: 400px;
-    max-height: 400px;
-  `}
-
 `
 export const DataTable = styled.table`
   text-align: center;
   border: 1px solid var(--borders);
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+
+  ${media.lessThan('medium')`
+  font-size: 1rem;
+
+  th, tr, td {
+    display: block;
+  }
+
+`}
 
   th {
     background-color: var(--highlight);
