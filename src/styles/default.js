@@ -210,6 +210,14 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+
+  .carousel-root{
+    ul {
+      li {
+        padding: 0;
+      }
+    }
+  }
 `
 
 export const CustomParagraphy = styled.p`
@@ -260,12 +268,17 @@ export const CustomCard = styled(Card)`
     line-height: 1.4rem;
   }
 
+
   &:hover {
     background-color: var(--highlight);
   }
 
   &:nth-child(1) {
     margin: 0 1rem 0 0;
+  }
+
+  .mg-r {
+      margin-right: 0.5rem;
   }
 
   ${media.lessThan('large')`
@@ -280,4 +293,42 @@ export const SubTitle = styled.h2`
   text-align: center;
   text-transform: uppercase;
   text-shadow: rgb(0 0 0 / 1%) 0 0 1px;
+`
+
+export const SliderWrapper = styled.img`
+  background-color: var(--mediumBackground);
+  border-radius: 6px;
+  border: 1px solid var(--mediumBackground);
+  box-shadow: 0 1px 10px rgb(29 34 47 / 10%);
+`
+export const DataTable = styled.table`
+  text-align: center;
+  border: 1px solid var(--borders);
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+
+  ${media.lessThan('medium')`
+  font-size: 1rem;
+
+  th, tr, td {
+    display: block;
+  }
+
+`}
+
+  th {
+    background-color: var(--highlight);
+    color: var(--postColor);
+    font-weight: bold;
+  }
+
+  td, th {
+    border: 1px solid var(--mediumBackground);
+    padding: 10px;
+  }
+
 `
