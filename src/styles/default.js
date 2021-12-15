@@ -293,4 +293,25 @@ export const SliderWrapper = styled.div`
   border: 1px solid var(--mediumBackground);
   box-shadow: 0 1px 10px rgb(29 34 47 / 10%);
 
+  ${media.lessThan('large')`
+    max-width: 400px;
+    max-height: 400px;
+  `}
+
+`
+export const DataTable = styled.table`
+  text-align: center;
+  border: 1px solid var(--borders);
+
+  th {
+    background-color: var(--highlight);
+    color: var(--postColor);
+    font-weight: bold;
+  }
+
+  td, th {
+    border: 1px solid var(--mediumBackground);
+    padding: 10px;
+  }
+
 `
