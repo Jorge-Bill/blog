@@ -61,7 +61,7 @@ const LoganPage = ({ ...props }) => {
           </ul>
         </blockquote>
 
-        <S.CustomParagraphy>Características</S.CustomParagraphy>
+        <S.CustomParagraphy>Características Gerais</S.CustomParagraphy>
 
         <S.CardsWrapper className="grid">
           <S.CustomCard>
@@ -86,7 +86,7 @@ const LoganPage = ({ ...props }) => {
               <Speedometer className="mg-r" />
               Quilometragem
               <br />
-              153000
+              120000
           </S.CustomCard>
           <S.CustomCard>
               <Gas className="mg-r" />
@@ -134,6 +134,7 @@ const LoganPage = ({ ...props }) => {
               <th>Modelo</th>
               <th>Modelo Base</th>
               <th>Código Fipe</th>
+              <th>Valor Fipe</th>
               <th>Ano</th>
               <th>Referência FIPE</th>
             </tr>
@@ -142,18 +143,17 @@ const LoganPage = ({ ...props }) => {
               <td>Logan</td>
               <td>Logan</td>
               <td>025136-4</td>
+              <td> <strong>R$ 23.376,00</strong></td>
               <td>2011</td>
               <td>Dezembro 2021</td>
             </tr>
           </S.DataTable>
         </center>
 
-        <blockquote>
-          Valor atual em Dezembro de 2021: <strong>R$ 23.376,00</strong> - De acordo com a tabela FIPE.
-        </blockquote>
-
         <S.CustomParagraphy>
-          <a href='https://www.tabelafipebrasil.com/carros/RENAULT/LOGAN-EXPRES-EXP-UP-HI-FLEX-10-16V-4P/2011-Gasolina' target="_blank" rel="noreferrer">Detalhes no site da tabela Fipe</a>
+          <a href='https://www.tabelafipebrasil.com/carros/RENAULT/LOGAN-EXPRES-EXP-UP-HI-FLEX-10-16V-4P/2011-Gasolina' target="_blank" rel="noreferrer">
+            Link para o site da tabela Fipe
+          </a>
         </S.CustomParagraphy>
 
         <S.SubTitle> - Informações Financiamento - </S.SubTitle>
@@ -178,9 +178,8 @@ const LoganPage = ({ ...props }) => {
         </center>
 
         <blockquote>
-          Valor Pedido: <strong>R$ 18.000</strong> (valor para quitar o financiamento) ou transferencia do financiamento para seu nome.
+          Valor Pedido: <strong>R$ 18.000</strong> (valor para quitar o financiamento) ou transferência do financiamento para seu nome.
         </blockquote>
-
 
         <S.CardsWrapper>
           <S.CustomCard>
