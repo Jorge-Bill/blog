@@ -210,6 +210,14 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+
+  .carousel-root{
+    ul {
+      li {
+        padding: 0;
+      }
+    }
+  }
 `
 
 export const CustomParagraphy = styled.p`
