@@ -218,6 +218,11 @@ export const MainContent = styled.section`
       }
     }
   }
+
+  .grid {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 `
 
 export const CustomParagraphy = styled.p`
@@ -246,7 +251,7 @@ export const SkillWrapper = styled.div`
 
 export const CustomCard = styled(Card)`
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   padding: 1rem;
   width: 16rem;
@@ -273,9 +278,11 @@ export const CustomCard = styled(Card)`
     background-color: var(--highlight);
   }
 
-  &:nth-child(1) {
-    margin: 0 1rem 0 0;
-  }
+  // &:nth-child(1) {
+  //   margin: 0 1rem 0 0;
+  // }
+
+  margin: 1rem;
 
   .mg-r {
       margin-right: 0.5rem;
