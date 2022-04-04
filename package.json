@@ -61,6 +61,7 @@
   ],
   "scripts": {
     "build": "gatsby build",
+    "buildLegacy": "npm install --legacy-peer-deps && gatsby build",
     "develop": "gatsby develop",
     "develop:playground": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
